@@ -2808,6 +2808,429 @@ window.onload = function() {
                 options: ["were", "given", "after", "seminar", "No error."],
                 correct: 0
             },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "She <u>is</u> one of those people who <u>always</u> <u>arrives</u> <u>late</u> to meetings. No error.",
+                options: ["is", "always", "arrives", "late", "No error"],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "Between <u>you and I</u>, <u>there</u> <u>is</u> no <u>secret</u>. No error.",
+                options: ["you and I", "there", "is", "secret", "No error."],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "The committee <u>have<u> <u>reached</u> a unanimous <u>decision</u> <u>today</u>. No error.",
+                options: ["have", "reached", "decision", "today", "No error."],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "Either the teacher <u>or</u> the <u>students</u> <u>is</u> <u>responsible</u> for the event. No error.",
+                options: ["or", "students", "is", "responsible", "No error."],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "He <u>runs</u> <u>more faster</u> <u>than</u> his brother <u>does</u>. No error.",
+                options: ["runs", "more faster", "than", "does", "No error."],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "",
+                options: ["", "", "", "", ""],
+                correct: 0
+            },
             {
                 subject: "Filipino",
                 subtopic: "Wastong Gamit",
