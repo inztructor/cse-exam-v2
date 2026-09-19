@@ -3337,6 +3337,69 @@ window.onload = function() {
                 correct: 0
             },
 			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the third sentence?<ol type='A'><li>Setting realistic daily goals is one of the most effective ways to manage your time.</li><li>Although planning every single hour can feel a bit restrictive at first, it ultimately reduces stress and increases productivity.</li><li>By breaking large tasks into smaller steps, we show ourselves that progress is completely achievable.</li><li>We also show that we are committed to finishing what we started.</li><li>Through careful planning, we prove to ourselves that our personal projects matter.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the fourth sentence?<ol type='A'><li>Setting realistic daily goals is one of the most effective ways to manage your time.</li><li>Although planning every single hour can feel a bit restrictive at first, it ultimately reduces stress and increases productivity.</li><li>By breaking large tasks into smaller steps, we show ourselves that progress is completely achievable.</li><li>We also show that we are committed to finishing what we started.</li><li>Through careful planning, we prove to ourselves that our personal projects matter.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 3
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the second sentence?<ol type='A'><li>Consequently, shifting to renewable energy sources is no longer just an environmental goal, but an economic necessity.</li><li>Fossil fuels have long powered global industrialization, yet their heavy carbon footprint accelerates severe climate instability.</li><li>Furthermore, transitioning away from these exhaustible resources drastically cuts down hazardous air pollutants in urban centers.</li><li>In addition, modern green technologies like solar and wind power generate millions of sustainable job opportunities worldwide.</li><li>The global economy relies heavily on energy, but traditional power generation methods pose significant long-term threats to the planet.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the last sentence?<ol type='A'><li>Consequently, shifting to renewable energy sources is no longer just an environmental goal, but an economic necessity.</li><li>Fossil fuels have long powered global industrialization, yet their heavy carbon footprint accelerates severe climate instability.</li><li>Furthermore, transitioning away from these exhaustible resources drastically cuts down hazardous air pollutants in urban centers.</li><li>In addition, modern green technologies like solar and wind power generate millions of sustainable job opportunities worldwide.</li><li>The global economy relies heavily on energy, but traditional power generation methods pose significant long-term threats to the planet.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the second sentence?<ol type='A'><li>Consequently, the heavy reliance on digital infrastructure creates unprecedented vulnerabilities that cybercriminals can exploit.</li><li>Modern societies are increasingly digitized, transforming how people work, communicate, and manage critical data globally.</li><li>Furthermore, unauthorized data breaches can paralyze entire supply chains and compromise millions of personal records overnight.</li><li>To counter these pervasive threats, robust multi-layered cybersecurity protocols and stringent regulatory frameworks are essential.</li><li>In addition, corporations face mounting financial and reputational losses when their proprietary networks are compromised.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the fourth sentence?<ol type='A'><li>Consequently, the heavy reliance on digital infrastructure creates unprecedented vulnerabilities that cybercriminals can exploit.</li><li>Modern societies are increasingly digitized, transforming how people work, communicate, and manage critical data globally.</li><li>Furthermore, unauthorized data breaches can paralyze entire supply chains and compromise millions of personal records overnight.</li><li>To counter these pervasive threats, robust multi-layered cybersecurity protocols and stringent regulatory frameworks are essential.</li><li>In addition, corporations face mounting financial and reputational losses when their proprietary networks are compromised.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 4
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What is the appropriate title for the above paragraph?",
+                options: ["Digital Transformation", "Cybercriminal Networks", "Corporate Finance", "Digital Vulnerabilities and Cybersecurity", "Modern Workplaces"],
+                correct: 3
+            },
+			{
                 subject: "Filipino",
                 subtopic: "Wastong Gamit",
                 sidebarId: "side-fil-wast",
@@ -3344,7 +3407,7 @@ window.onload = function() {
                 question: "Maaari bang bigyan ng 10 taon na lisensya ang isang drayber kung ito ay mayroong huli o traffic violation?",
                 options: ["Hindi", "Oo", "Oo kung ang penalty ay nabayaran labinlimang taon bago mag-renew"],
                 correct: 0
-            },
+            }
         ];
 
         const analyticalPool = [
