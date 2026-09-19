@@ -2785,10 +2785,28 @@ window.onload = function() {
                 subject: "English",
                 subtopic: "Identifying Errors",
                 sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled <b>a</b>, <b>b</b>, <b>c</b>, or <b>d</b> which are NOT acceptable in formal written English. Choose <b>e</b> if there is no error.",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
                 question: "<u>Neither</u> <u>of the options</u> <u>seem</u> <u>viable</u> for the project. No error.",
                 options: ["Neither", "of the options", "seem", "viable", "No error."],
                 correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "The team <u>has</u> <u>completed</u> <u>their</u> assignment <u>ahead</u> of the deadline. No error.",
+                options: ["has", "completed", "their", "ahead", "No error."],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "Each of the participants <u>were</u> <u>given</u> a certificate <u>after</u> the <u>seminar</u>. No error.",
+                options: ["were", "given", "after", "seminar", "No error."],
+                correct: 0
             },
             {
                 subject: "Filipino",
