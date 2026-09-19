@@ -20,8 +20,8 @@ function shuffleArray(arr) {
 
 /**
  * Retrieves 'count' questions belonging strictly to 'subtopicName'.
- * Shuffles the selected questions AND their options internally, 
- * but preserves the block order when returned.
+ * Questions are randomly selected within the subtopic pool.
+ * Options are randomized EXCEPT for specified fixed-option subtopics.
  */
 function getSubtopicQuestions(pool, subtopicName, count) {
     // Exact match filter
@@ -34,17 +34,37 @@ function getSubtopicQuestions(pool, subtopicName, count) {
     // 1. Randomly sample 'count' questions from this sub-topic pool
     const selectedQuestions = shuffleArray(filtered).slice(0, count);
 
-    // 2. Shuffle options for each selected question without altering question order
-    return selectedQuestions.map(q => {
-        const correctAnswerText = q.options[q.correct];
-        const shuffledOptions = shuffleArray(q.options);
-        const newCorrectIndex = shuffledOptions.indexOf(correctAnswerText);
+    // List of subtopics where options MUST stay fixed in original order
+    const fixedOptionSubtopics = [
+        "Data Sufficiency",
+        "Identifying Errors",
+        "Paragraph Development",
+        "Pagkilala sa Mali"
+    ];
 
-        return {
-            ...q,
-            options: shuffledOptions,
-            correct: newCorrectIndex
-        };
+    const shouldKeepOptionsFixed = fixedOptionSubtopics.includes(subtopicName.trim());
+
+    // 2. Return selected questions with conditional option shuffling
+    return selectedQuestions.map(q => {
+        if (shouldKeepOptionsFixed) {
+            // Keep options in original order; index of correct answer remains unchanged
+            return {
+                ...q,
+                options: [...q.options],
+                correct: q.correct
+            };
+        } else {
+            // Shuffle options and calculate the new index of the correct answer
+            const correctAnswerText = q.options[q.correct];
+            const shuffledOptions = shuffleArray(q.options);
+            const newCorrectIndex = shuffledOptions.indexOf(correctAnswerText);
+
+            return {
+                ...q,
+                options: shuffledOptions,
+                correct: newCorrectIndex
+            };
+        }
     });
 }
 
@@ -55,7 +75,7 @@ function generate150QuestionExam() {
     // ---------------------------------------------------------
     // 1. NUMERICAL ABILITY (42 Items Total)
     // Items 1 to 25: Word Problems and Operations
-    // Items 26 to 42: Data Sufficiency
+    // Items 26 to 42: Data Sufficiency (FIXED OPTIONS)
     // ---------------------------------------------------------
     examPool.push(...getSubtopicQuestions(numericalPool, "Word Problems and Operations", 25));
     examPool.push(...getSubtopicQuestions(numericalPool, "Data Sufficiency", 17));
@@ -69,8 +89,8 @@ function generate150QuestionExam() {
     examPool.push(...getSubtopicQuestions(verbalPool, "Antonyms", 5));
     examPool.push(...getSubtopicQuestions(verbalPool, "Single-Word Analogy", 5));
     examPool.push(...getSubtopicQuestions(verbalPool, "Double-Word Analogy", 5));
-    examPool.push(...getSubtopicQuestions(verbalPool, "Identifying Errors", 5));
-    examPool.push(...getSubtopicQuestions(verbalPool, "Paragraph Development", 5));
+    examPool.push(...getSubtopicQuestions(verbalPool, "Identifying Errors", 5)); // FIXED OPTIONS
+    examPool.push(...getSubtopicQuestions(verbalPool, "Paragraph Development", 5)); // FIXED OPTIONS
     examPool.push(...getSubtopicQuestions(verbalPool, "Reading Comprehension", 5));
     
     // Filipino Sub-Topics
@@ -78,7 +98,7 @@ function generate150QuestionExam() {
     examPool.push(...getSubtopicQuestions(verbalPool, "Kasalungat", 3));
     examPool.push(...getSubtopicQuestions(verbalPool, "Mga Kawikaan", 3));
     examPool.push(...getSubtopicQuestions(verbalPool, "Wastong Gamit", 3));
-    examPool.push(...getSubtopicQuestions(verbalPool, "Pagkilala sa Mali", 3));
+    examPool.push(...getSubtopicQuestions(verbalPool, "Pagkilala sa Mali", 3)); // FIXED OPTIONS
 
     // ---------------------------------------------------------
     // 3. ANALYTICAL ABILITY (35 Items Total)
