@@ -3309,7 +3309,34 @@ window.onload = function() {
                 options: ["All of", "were", "spilled", "across", "No error."],
                 correct: 1
             },
-            {
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the first sentence?<ol type='A'><li>The process of recycling paper begins with the collection of used paper products from various sources.</li><li>Once sorted, these paper materials are mixed with water and chemicals to break them down into pulp.</li><li>After pulping, the mixture is cleaned and screened to remove any remaining contaminants or ink.</li><li>Next, the purified pulp is pressed and dried through large machinery to form giant rolls of new paper.</li><li>Finally, these rolls are cut into smaller sheets and distributed for everyday use.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the third sentence?<ol type='A'><li>The process of recycling paper begins with the collection of used paper products from various sources.</li><li>Once sorted, these paper materials are mixed with water and chemicals to break them down into pulp.</li><li>After pulping, the mixture is cleaned and screened to remove any remaining contaminants or ink.</li><li>Next, the purified pulp is pressed and dried through large machinery to form giant rolls of new paper.</li><li>Finally, these rolls are cut into smaller sheets and distributed for everyday use.</li></ol>",
+                options: ["B", "A", "C", "D", "E"],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "If sentence F is added, what would the new order of the sentences be?<ol type='A'><li>The process of recycling paper begins with the collection of used paper products from various sources.</li><li>Once sorted, these paper materials are mixed with water and chemicals to break them down into pulp.</li><li>After pulping, the mixture is cleaned and screened to remove any remaining contaminants or ink.</li><li>Next, the purified pulp is pressed and dried through large machinery to form giant rolls of new paper.</li><li>Finally, these rolls are cut into smaller sheets and distributed for everyday use.</li><li>Before collection even begins, households and offices are encouraged to sort their recyclable waste to ensure high material quality.</li></ol>",
+                options: ["F-A-B-C-D-E", "A-F-B-C-D-E", "F-B-A-C-D-E", "A-B-C-D-E-F", "F-A-C-B-D-E"],
+                correct: 0
+            },
+			{
                 subject: "Filipino",
                 subtopic: "Wastong Gamit",
                 sidebarId: "side-fil-wast",
@@ -3317,7 +3344,7 @@ window.onload = function() {
                 question: "Maaari bang bigyan ng 10 taon na lisensya ang isang drayber kung ito ay mayroong huli o traffic violation?",
                 options: ["Hindi", "Oo", "Oo kung ang penalty ay nabayaran labinlimang taon bago mag-renew"],
                 correct: 0
-            }
+            },
         ];
 
         const analyticalPool = [
