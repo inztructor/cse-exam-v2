@@ -20,8 +20,7 @@ function shuffleArray(arr) {
 
 /**
  * Retrieves 'count' questions belonging strictly to 'subtopicName'.
- * Questions are randomly selected within the subtopic pool.
- * Options are randomized EXCEPT for specified fixed-option subtopics.
+ * Questions and options are kept strictly fixed for passage/sequence-based subtopics.
  */
 function getSubtopicQuestions(pool, subtopicName, count) {
     // Exact match filter
@@ -31,20 +30,24 @@ function getSubtopicQuestions(pool, subtopicName, count) {
         console.warn(`[Warning] Subtopic "${subtopicName}" requested ${count} items, but only found ${filtered.length} in pool.`);
     }
 
-    // 1. Randomly sample 'count' questions from this sub-topic pool
-    const selectedQuestions = shuffleArray(filtered).slice(0, count);
-
-    // List of subtopics where options MUST stay fixed in original order
+    // List of subtopics where both question sequence and option order MUST stay fixed
     const fixedOptionSubtopics = [
         "Data Sufficiency",
         "Identifying Errors",
         "Paragraph Development",
-        "Pagkilala sa Mali"
+        "Pagkilala sa Mali",
+        "Pag-unawa sa Binasa",
+        "Pagtatalata"
     ];
 
     const shouldKeepOptionsFixed = fixedOptionSubtopics.includes(subtopicName.trim());
 
-    // 2. Return selected questions with conditional option shuffling
+    // Take questions sequentially if fixed, otherwise shuffle randomly
+    const selectedQuestions = shouldKeepOptionsFixed 
+        ? filtered.slice(0, count) 
+        : shuffleArray(filtered).slice(0, count);
+
+    // Return selected questions with conditional option shuffling
     return selectedQuestions.map(q => {
         if (shouldKeepOptionsFixed) {
             // Keep options in original order; index of correct answer remains unchanged
@@ -74,23 +77,21 @@ function generate150QuestionExam() {
 
     // ---------------------------------------------------------
     // 1. NUMERICAL ABILITY (42 Items Total)
-    // Items 1 to 25: Word Problems and Operations
-    // Items 26 to 42: Data Sufficiency (FIXED OPTIONS)
     // ---------------------------------------------------------
     examPool.push(...getSubtopicQuestions(numericalPool, "Word Problems and Operations", 25));
     examPool.push(...getSubtopicQuestions(numericalPool, "Data Sufficiency", 17));
 
     // ---------------------------------------------------------
     // 2. VERBAL ABILITY (55 Items Total)
-    // Items 43 to 97
     // ---------------------------------------------------------
     examPool.push(...getSubtopicQuestions(verbalPool, "Alphabetizing", 5));
     examPool.push(...getSubtopicQuestions(verbalPool, "Synonyms", 5));
     examPool.push(...getSubtopicQuestions(verbalPool, "Antonyms", 5));
     examPool.push(...getSubtopicQuestions(verbalPool, "Single-Word Analogy", 5));
     examPool.push(...getSubtopicQuestions(verbalPool, "Double-Word Analogy", 5));
-    examPool.push(...getSubtopicQuestions(verbalPool, "Identifying Errors", 5)); // FIXED OPTIONS
-    examPool.push(...getSubtopicQuestions(verbalPool, "Paragraph Development", 5)); // FIXED OPTIONS
+    examPool.push(...getSubtopicQuestions(verbalPool, "Identifying Errors", 5));
+    examPool.push(...getSubtopicQuestions(verbalPool, "Paragraph Development", 5));
+    examPool.push(...getSubtopicQuestions(verbalPool, "Correct Usage", 5));
     examPool.push(...getSubtopicQuestions(verbalPool, "Reading Comprehension", 5));
     
     // Filipino Sub-Topics
@@ -98,20 +99,7 @@ function generate150QuestionExam() {
     examPool.push(...getSubtopicQuestions(verbalPool, "Kasalungat", 3));
     examPool.push(...getSubtopicQuestions(verbalPool, "Mga Kawikaan", 3));
     examPool.push(...getSubtopicQuestions(verbalPool, "Wastong Gamit", 3));
-    examPool.push(...getSubtopicQuestions(verbalPool, "Pagkilala sa Mali", 3)); // FIXED OPTIONS
-
-    // ---------------------------------------------------------
-    // 3. ANALYTICAL ABILITY (35 Items Total)
-    // Items 98 to 132
-    // ---------------------------------------------------------
-    examPool.push(...getSubtopicQuestions(analyticalPool, "Inductive Reasoning", 20));
-    examPool.push(...getSubtopicQuestions(analyticalPool, "Abstract Reasoning", 15));
-
-    // ---------------------------------------------------------
-    // 4. GENERAL INFORMATION (18 Items Total)
-    // Items 133 to 150
-    // ---------------------------------------------------------
-    examPool.push(...getSubtopicQuestions(generalInfoPool, "Philippine Constitution", 18));
+    examPool.push(...getSubtopicQuestions(verbalPool, "Pagkilala sa Mali", 3));
 
     return examPool;
 }
