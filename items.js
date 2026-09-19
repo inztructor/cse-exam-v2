@@ -2781,6 +2781,15 @@ window.onload = function() {
                 options: ["earthquake : tremor", "hurricane : umbrella", "glacier : mountain", "thunder : lightning"],
                 correct: 0
             },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled <b>a</b>, <b>b</b>, <b>c</b>, or <b>d</b> which are NOT acceptable in formal written English. Choose <b>e</b> if there is no error.",
+                question: "<u>Neither</u> <u>of the options</u> <u>seem</u> <u>viable</u> for the project. No error.",
+                options: ["Neither", "of the options", "seem", "viable", "No error."],
+                correct: 2
+            },
             {
                 subject: "Filipino",
                 subtopic: "Wastong Gamit",
