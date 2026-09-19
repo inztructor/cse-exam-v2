@@ -2478,8 +2478,8 @@ window.onload = function() {
                 subtopic: "Double-Word Analogy",
                 sidebarId: "side-eng-danalogy",
                 directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
+                question: "Eiffel Tower : France :: ________",
+                options: ["Colosseum : Greece", "Taj Mahal : India", "Acropolis : Egypt", "Big Ben : Spain"],
                 correct: 1
             },
 			{
@@ -2487,8 +2487,8 @@ window.onload = function() {
                 subtopic: "Double-Word Analogy",
                 sidebarId: "side-eng-danalogy",
                 directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
+                question: "Shakespeare : Hamlet :: ________",
+                options: ["Dickens : Oliver Twist", "Austen : London", "Tolkien : England", "Homer : Greece"],
                 correct: 0
             },
 			{
@@ -2496,8 +2496,17 @@ window.onload = function() {
                 subtopic: "Double-Word Analogy",
                 sidebarId: "side-eng-danalogy",
                 directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
+                question: "Amazon : river :: ________",
+                options: ["Sahara : forest", "Everest : mountain", "Pacific : ocean", "Nile : desert"],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Double-Word Analogy",
+                sidebarId: "side-eng-danalogy",
+                directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
+                question: "bee : hive :: ________",
+                options: ["ant : colony", "wolf : den", "lion : jungle", "whale : sea"],
                 correct: 0
             },
 			{
@@ -2505,8 +2514,8 @@ window.onload = function() {
                 subtopic: "Double-Word Analogy",
                 sidebarId: "side-eng-danalogy",
                 directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
+                question: "teacher : student :: ________",
+                options: ["parent : child", "farmer : field", "author : publisher", "driver : vehicle"],
                 correct: 0
             },
 			{
@@ -2514,8 +2523,17 @@ window.onload = function() {
                 subtopic: "Double-Word Analogy",
                 sidebarId: "side-eng-danalogy",
                 directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
+                question: "knife : cut :: ________",
+                options: ["hammer : nail", "spoon : stir", "broom : sweep", "ladder : climb"],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Double-Word Analogy",
+                sidebarId: "side-eng-danalogy",
+                directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
+                question: "rain : umbrella :: ________",
+                options: ["sunlight : sunglasses", "wind : kite", "darkness : candle", "heat : refrigerator"],
                 correct: 0
             },
 			{
@@ -2523,8 +2541,17 @@ window.onload = function() {
                 subtopic: "Double-Word Analogy",
                 sidebarId: "side-eng-danalogy",
                 directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
+                question: "lion : roar :: ________",
+                options: ["horse : gallop", "snake : hiss", "rabbit : hop", "fish : swim"],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Double-Word Analogy",
+                sidebarId: "side-eng-danalogy",
+                directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
+                question: "seed : plant :: ________",
+                options: ["egg : bird", "fruit : tree", "soil : flower", "leaf : branch"],
                 correct: 0
             },
 			{
@@ -2532,8 +2559,17 @@ window.onload = function() {
                 subtopic: "Double-Word Analogy",
                 sidebarId: "side-eng-danalogy",
                 directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
+                question: "captain : ship :: ________",
+                options: ["conductor : orchestra", "pilot : aircraft", "engineer : bridge", "athlete : stadium"],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Double-Word Analogy",
+                sidebarId: "side-eng-danalogy",
+                directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
+                question: "government : citizens :: ________",
+                options: ["school : pupils", "market : products", "hospital : medicine", "theater : actors"],
                 correct: 0
             },
 			{
@@ -2541,8 +2577,8 @@ window.onload = function() {
                 subtopic: "Double-Word Analogy",
                 sidebarId: "side-eng-danalogy",
                 directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
+                question: "firefighter : fire :: ________",
+                options: ["detective : mystery", "gardener : flower", "mechanic : gasoline", "baker : oven"],
                 correct: 0
             },
 			{
@@ -2550,8 +2586,8 @@ window.onload = function() {
                 subtopic: "Double-Word Analogy",
                 sidebarId: "side-eng-danalogy",
                 directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
+                question: "moon : night :: ________",
+                options: ["sun : day", "star : galaxy", "cloud : sky", "rainbow : rain"],
                 correct: 0
             },
 			{
@@ -2559,8 +2595,8 @@ window.onload = function() {
                 subtopic: "Double-Word Analogy",
                 sidebarId: "side-eng-danalogy",
                 directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
+                question: "feather : bird :: ________",
+                options: ["fur : mammal", "shell : sand", "scale : river", "bark : forest"],
                 correct: 0
             },
 			{
@@ -2568,8 +2604,8 @@ window.onload = function() {
                 subtopic: "Double-Word Analogy",
                 sidebarId: "side-eng-danalogy",
                 directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
+                question: "carpenter : wood :: ________",
+                options: ["sculptor : marble", "farmer : wheat", "fisherman : boat", "tailor : clothing"],
                 correct: 0
             },
 			{
@@ -2577,8 +2613,17 @@ window.onload = function() {
                 subtopic: "Double-Word Analogy",
                 sidebarId: "side-eng-danalogy",
                 directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
+                question: "jury : verdict :: ________",
+                options: ["referee : whistle", "judge : sentence", "lawyer : courtroom", "witness : testimony"],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Double-Word Analogy",
+                sidebarId: "side-eng-danalogy",
+                directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
+                question: "compass : direction :: ________",
+                options: ["thermometer : temperature", "calendar : holiday", "telescope : planet", "ruler : classroom"],
                 correct: 0
             },
 			{
@@ -2586,8 +2631,8 @@ window.onload = function() {
                 subtopic: "Double-Word Analogy",
                 sidebarId: "side-eng-danalogy",
                 directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
+                question: "rose : flower :: ________",
+                options: ["oak : tree", "carrot : vegetable", "eagle : bird", "salmon : fish"],
                 correct: 0
             },
 			{
@@ -2595,8 +2640,8 @@ window.onload = function() {
                 subtopic: "Double-Word Analogy",
                 sidebarId: "side-eng-danalogy",
                 directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
+                question: "author : manuscript :: ________",
+                options: ["architect : blueprint", "musician : concert", "actor : audience", "athlete : trophy"],
                 correct: 0
             },
 			{
@@ -2604,8 +2649,8 @@ window.onload = function() {
                 subtopic: "Double-Word Analogy",
                 sidebarId: "side-eng-danalogy",
                 directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
+                question: "law : justice :: ________",
+                options: ["education : knowledge", "medicine : illness", "money : poverty", "exercise : fatigue"],
                 correct: 0
             },
 			{
@@ -2613,8 +2658,17 @@ window.onload = function() {
                 subtopic: "Double-Word Analogy",
                 sidebarId: "side-eng-danalogy",
                 directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
+                question: "Bureau of Fire Protection : firefighter :: ________",
+                options: ["school : teacher", "police station : officer", "hospital : patient", "library : reader"],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Double-Word Analogy",
+                sidebarId: "side-eng-danalogy",
+                directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
+                question: "NASA : space :: ________",
+                options: ["NOAA : weather", "embassy : diplomacy", "museum : history", "laboratory : experiment"],
                 correct: 0
             },
 			{
@@ -2622,8 +2676,8 @@ window.onload = function() {
                 subtopic: "Double-Word Analogy",
                 sidebarId: "side-eng-danalogy",
                 directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
+                question: "Mona Lisa : Leonardo da Vinci :: ________",
+                options: ["The Scream : Edvard Munch", "Guernica : Salvador Dalí", "David : Raphael", "Starry Night : Pablo Picasso"],
                 correct: 0
             },
 			{
@@ -2631,8 +2685,8 @@ window.onload = function() {
                 subtopic: "Double-Word Analogy",
                 sidebarId: "side-eng-danalogy",
                 directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
+                question: "Mount Everest : Nepal :: ________",
+                options: ["Kilimanjaro : Tanzania", "Fuji : China", "Andes : Brazil", "Alps : Portugal"],
                 correct: 0
             },
 			{
@@ -2640,8 +2694,17 @@ window.onload = function() {
                 subtopic: "Double-Word Analogy",
                 sidebarId: "side-eng-danalogy",
                 directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
+                question: "Rome : Italy :: ________",
+                options: ["Cairo : Morocco", "Madrid : Spain", "Berlin : Austria", "Lisbon : Greece"],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Double-Word Analogy",
+                sidebarId: "side-eng-danalogy",
+                directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
+                question: "peso : Philippines :: ________",
+                options: ["yen : Japan", "rupee : Thailand", "baht : India", "won : Indonesia"],
                 correct: 0
             },
 			{
@@ -2649,8 +2712,8 @@ window.onload = function() {
                 subtopic: "Double-Word Analogy",
                 sidebarId: "side-eng-danalogy",
                 directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
+                question: "caterpillar : butterfly :: ________",
+                options: ["tadpole : frog", "puppy : kitten", "acorn : flower", "seed : fruit"],
                 correct: 0
             },
 			{
@@ -2658,8 +2721,17 @@ window.onload = function() {
                 subtopic: "Double-Word Analogy",
                 sidebarId: "side-eng-danalogy",
                 directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
+                question: "democracy : election :: ________",
+                options: ["monarchy : crown", "classroom : examination", "republic : constitution", "court : evidence"],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Double-Word Analogy",
+                sidebarId: "side-eng-danalogy",
+                directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
+                question: "doctor : diagnosis :: ________",
+                options: ["detective : investigation", "farmer : irrigation", "teacher : graduation", "artist : exhibition"],
                 correct: 0
             },
 			{
@@ -2667,8 +2739,8 @@ window.onload = function() {
                 subtopic: "Double-Word Analogy",
                 sidebarId: "side-eng-danalogy",
                 directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
+                question: "ocean : whale :: ________",
+                options: ["desert : camel", "mountain : eagle", "forest : mushroom", "river : bridge"],
                 correct: 0
             },
 			{
@@ -2676,8 +2748,8 @@ window.onload = function() {
                 subtopic: "Double-Word Analogy",
                 sidebarId: "side-eng-danalogy",
                 directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
+                question: "library : books :: ________",
+                options: ["aquarium : fish", "stadium : tickets", "bakery : customers", "airport : luggage"],
                 correct: 0
             },
 			{
@@ -2685,80 +2757,8 @@ window.onload = function() {
                 subtopic: "Double-Word Analogy",
                 sidebarId: "side-eng-danalogy",
                 directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Double-Word Analogy",
-                sidebarId: "side-eng-danalogy",
-                directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Double-Word Analogy",
-                sidebarId: "side-eng-danalogy",
-                directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Double-Word Analogy",
-                sidebarId: "side-eng-danalogy",
-                directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Double-Word Analogy",
-                sidebarId: "side-eng-danalogy",
-                directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Double-Word Analogy",
-                sidebarId: "side-eng-danalogy",
-                directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Double-Word Analogy",
-                sidebarId: "side-eng-danalogy",
-                directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Double-Word Analogy",
-                sidebarId: "side-eng-danalogy",
-                directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Double-Word Analogy",
-                sidebarId: "side-eng-danalogy",
-                directions: "Choose the word that corresponds to the pair of words that is related in the same way as the given pair of words.",
-                question: "",
-                options: ["", "", "", ""],
+                question: "volcano : eruption :: ________",
+                options: ["earthquake : tremor", "hurricane : umbrella", "glacier : mountain", "thunder : lightning"],
                 correct: 0
             },
             {
