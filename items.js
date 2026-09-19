@@ -2041,6 +2041,366 @@ window.onload = function() {
                 options: ["wordy", "elaborate", "concise", "lengthy"],
                 correct: 2
             },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Moby-Dick : Herman Melville || The Old Man and the Sea : ________",
+                options: ["Ernest Hemingway", "John Steinbeck", "Mark Twain", "F. Scott Fitzgerald"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Confucius : China || Mahatma Gandhi : ________",
+                options: ["Nepal", "India", "Bhutan", "Sri Lanka"],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Pride and Prejudice : Jane Austen || Great Expectations : ________",
+                options: ["Charles Dickens", "George Eliot", "Thomas Hardy", "Oscar Wilde"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "The Odyssey : Homer || The Divine Comedy : ________",
+                options: ["Virgil", "Dante", "Sophocles", "Euripides"],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Romeo and Juliet : William Shakespeare || Les Misérables : ________",
+                options: ["Alexandre Dumas", "Victor Hugo", "Gustave Flaubert", "Marcel Proust"],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "The Great Gatsby : F. Scott Fitzgerald || To Kill a Mockingbird : ________",
+                options: ["Harper Lee", "Toni Morrison", "Maya Angelou", "Emily Brontë"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Don Quixote : Miguel de Cervantes || The Little Prince : ________",
+                options: ["Jules Verne", "Antoine de Saoint-Exupéry", "Albert Camus", "Adèle Foucher"],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Noli Me Tangere : José Rizal || Florante at Laura : ________",
+                options: ["Francisco Balagtas", "Nick Joaquin", "Lope K. Santos", "Amado V. Hernandez"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "The Hobbit : J.R.R. Tolkien || Harry Potter : ________",
+                options: ["Suzanne Collins", "J.K. Rowling", "C.S. Lewis", "Philip Pullman"],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "The Adventures of Tom Sawyer : Mark Twain || The Call of the Wild : _______",
+                options: ["Jack London", "Ernest Hemingway", "Herman Melville", "H.G. Wells"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Albert Einstein : Relativity || Isaac Newton : ________",
+                options: ["Evolution", "Gravity", "Psychoanalysis", "Electricity"],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Marie Curie : Radioactivity || Charles Darwin : ________",
+                options: ["Genetics", "Evolution", "Astronomy", "Anatomy"],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Alexander Graham Bell : Telephone || Thomas Edison : ________",
+                options: ["Airplane", "Lightbulb", "Telescope", "Microscope"],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Neil Armstrong : Moon || Edmund Hillary : ________",
+                options: ["K2", "Everest", "Kilimanjaro", "Elbrus"],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Florence Nightingale : Nursing || Louis Pasteur : ________",
+                options: ["Vaccination", "Painting", "Architecture", "Navigation"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Leonardo da Vinci : Mona Lisa || Michelangelo : ________",
+                options: ["The Thinker", "David", "The Sick Child", "Guernica"],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Vincent van Gogh : Starry Night || Edvard Munch : ________",
+                options: ["The Scream", "Water Lilies", "American Gothic", "The Persistence of Memory"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Pablo Picasso : Guernica || Salvador Dalí : ________",
+                options: ["The Kiss", "The Persistence of Memory", "Girl with a Pearl Earring", "Liberty Leading the People"],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Beethoven : Symphony No. 9 || Mozart : ________",
+                options: ["The Four Seasons", "Eine kleine Nachtmusik", "Swan Lake", "The Nutcracker"],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "William Shakespeare : Hamlet || Sophocles : ________",
+                options: ["Oedipus Rex", "Antigone", "Medea", "The Bacchae"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Japan : Tokyo || Australia : ________",
+                options: ["Melbourne", "Canberra", "Sydney", "Brisbane"],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "France : Paris || Italy : ________",
+                options: ["Venice", "Milan", "Rome", "Naples"],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Canada : Ottawa || Brazil : ________",
+                options: ["São Paulo", "Brasília", "Rio de Janeiro", "Salvador"],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Egypt : Cairo || Kenya : ________",
+                options: ["Nairobi", "Mombasa", "Kampala", "Kigali"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Thailand : Bangkok || Vietnam : ________",
+                options: ["Hanoi", "Manila", "Phnom Penh", "Vientiane"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Greece : Athens || Turkey : ________",
+                options: ["Istanbul", "Ankara", "Izmir", "Bursa"],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Mexico : Peso || United Kingdom : ________",
+                options: ["Euro", "Dollar", "Pound", "Franc"],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "South Korea : Won || India : ________",
+                options: ["Rupee", "Taka", "Ringgit", "Baht"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Philippines : Peso || Indonesia : ________",
+                options: ["Rupiah", "Dinar", "Riyal", "Dong"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Switzerland : Bern || Norway : ________",
+                options: ["Stockholm", "Copenhagen", "Oslo", "Helsinki"],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "United Nations : International Organization || WHO : ________",
+                options: ["Military Alliance", "Health Organization", "Financial Institution", "Trade Association"],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "NASA : Space || NOAA : ________",
+                options: ["Weather", "Banking", "Transportation", "Agriculture"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "FBI : United States || Scotland Yard : ________",
+                options: ["Canada", "Australia", "United Kingdom", "Ireland"],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Bureau of Internal Revenue : Taxes || Department of Education : ________",
+                options: ["Defense", "Education", "Transportation", "Tourism"],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Philippine National Police : Law Enforcement || Bureau of Fire Protection : ________",
+                options: ["Firefighting", "Banking", "Immigration", "Agriculture"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Great Wall of China : China || Machu Picchu : ________",
+                options: ["Chile", "Peru", "Bolivia", "Ecuador"],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Taj Mahal : India || Petra : ________",
+                options: ["Jordan", "Egypt", "Iran", "Lebanon"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Colosseum : Rome || Acropolis : ________",
+                options: ["Athens", "Sparta", "Delphi", "Corinth"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Mount Everest : Himalayas || Mount Kilimanjaro : ________",
+                options: ["Andes", "Alps", "East Africa", "Rockies"],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Single-Word Analogy",
+                sidebarId: "side-eng-sanalogy",
+                directions: "Choose the word that corresponds to the word that correctly completes each analogy.",
+                question: "Nile : Africa || Amazon : ________",
+                options: ["Europe", "South America", "Asia", "Australia"],
+                correct: 1
+            },
             {
                 subject: "Filipino",
                 subtopic: "Wastong Gamit",
