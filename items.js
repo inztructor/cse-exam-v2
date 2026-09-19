@@ -2858,8 +2858,8 @@ window.onload = function() {
                 subtopic: "Identifying Errors",
                 sidebarId: "side-eng-err",
                 directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
+                question: "<u>Whom</u> <u>do you think</u> <u>will win</u> the election <u>this year</u>? No error.",
+                options: ["Whom", "do you think", "will win", "this year", "No error."],
                 correct: 0
             },
 			{
@@ -2867,8 +2867,17 @@ window.onload = function() {
                 subtopic: "Identifying Errors",
                 sidebarId: "side-eng-err",
                 directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
+                question: "Neither the manager <u>nor</u> his <u>assistants</u> <u>was</u> <u>aware</u> of the policy change. No error.",
+                options: ["nor", "assistants", "was", "aware", "No error."],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "She <u>layed</u> her coat <u>on</u> the chair <u>before</u> <u>leaving</u>. No error.",
+                options: ["layed", "on", "before", "leaving", "Nor error."],
                 correct: 0
             },
 			{
@@ -2876,8 +2885,17 @@ window.onload = function() {
                 subtopic: "Identifying Errors",
                 sidebarId: "side-eng-err",
                 directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
+                question: "The data <u>shows</u> <u>that</u> sales <u>have increased</u> <u>significantly</u>. No error.",
+                options: ["shows", "that", "have increased", "significantly", "No error."],
+                correct: 4
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "Every man and woman <u>are</u> <u>required</u> to sign <u>the</u> <u>document</u>. No error.",
+                options: ["are", "required", "the", "document", "No error."],
                 correct: 0
             },
 			{
@@ -2885,8 +2903,8 @@ window.onload = function() {
                 subtopic: "Identifying Errors",
                 sidebarId: "side-eng-err",
                 directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
+                question: "<u>Its</u> <u>a</u> well-known fact <u>that</u> water <u>boils</u> at 100°C. No error.",
+                options: ["Its", "a", "that", "boils", "No error."],
                 correct: 0
             },
 			{
@@ -2894,8 +2912,26 @@ window.onload = function() {
                 subtopic: "Identifying Errors",
                 sidebarId: "side-eng-err",
                 directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
+                question: "The reason <u>he failed</u> is <u>because</u> he <u>did not</u> <u>study</u>. No error.",
+                options: ["he failed", "because", "did not", "study", "No error."],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "She <u>spoke</u> to <u>whoever</u> <u>was</u> standing <u>near</u> the entrance. No error.",
+                options: ["spoke", "whoever", "was", "near", "No error."],
+                correct: 4
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "The number of applicants <u>have</u> <u>increased</u> <u>dramatically</u> <u>this year</u>. No error.",
+                options: ["have", "increased", "dramatically", "this year", "No error."],
                 correct: 0
             },
 			{
@@ -2903,8 +2939,17 @@ window.onload = function() {
                 subtopic: "Identifying Errors",
                 sidebarId: "side-eng-err",
                 directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
+                question: "He <u>drove</u> <u>slow</u> down the <u>narrow</u> <u>winding</u> road. No error.",
+                options: ["drove", "slow", "narrow", "winding", "No error."],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "<u>Irregardless</u> <u>of</u> the weather, we <u>will</u> proceed with the <u>match</u>. No error.",
+                options: ["Irregardless", "of", "will", "match", "No error."],
                 correct: 0
             },
 			{
@@ -2912,8 +2957,8 @@ window.onload = function() {
                 subtopic: "Identifying Errors",
                 sidebarId: "side-eng-err",
                 directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
+                question: "The collection of rare coins <u>were</u> <u>sold</u> at <u>an</u> <u>auction</u>. No error.",
+                options: ["were", "sold", "an", "auction", "No error."],
                 correct: 0
             },
 			{
@@ -2921,8 +2966,71 @@ window.onload = function() {
                 subtopic: "Identifying Errors",
                 sidebarId: "side-eng-err",
                 directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
+                question: "<u>One of</u> the students <u>forgot</u> <u>their</u> textbook on the <u>bench</u>. No error.",
+                options: ["One of", "forgot", "their", "bench", "No error."],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "The <u>list</u> of items <u>are</u> <u>displayed</u> on the main bulletin <u>board</u>. No error.",
+                options: ["list", "are", "displayed", "board", "No error."],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "She is <u>taller</u> <u>than</u> <u>any</u> girl in her <u>class</u>. No error.",
+                options: ["taller", "than", "any", "class", "No error."],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "<u>Neither</u> of the answers <u>provided</u> by the speaker <u>were</u> <u>correct</u>. No error.",
+                options: ["Neither", "provided", "were", "correct", "No error."],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "The teacher, <u>as well as</u> the students, <u>were</u> <u>excited</u> <u>about</u> the field trip. No error.",
+                options: ["as well as", "were", "excited", "about", "No error."],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "<u>Having finished</u> the <u>assignment</u>, <u>the tv</u> was <u>turned off</u> by Mark. No error.",
+                options: ["Having finished", "assignment", "the tv", "turned off", "No error."],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "The <u>food</u> <u>smelled</u> <u>deliciously</u> when we <u>entered</u> the kitchen. No error.",
+                options: ["food", "smelled", "deliciously", "entered", "No error."],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "He <u>could</u> of <u>passed</u> the exam <u>if he had</u> <u>studied</u> harder. No error.",
+                options: ["could of", "passed", "if he had", "studied", "No error."],
                 correct: 0
             },
 			{
@@ -2930,8 +3038,71 @@ window.onload = function() {
                 subtopic: "Identifying Errors",
                 sidebarId: "side-eng-err",
                 directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
+                question: "<u>Three miles</u> <u>is</u> a <u>long distance</u> to run in the summer <u>heat</u>. No error.",
+                options: ["Three miles", "is", "long distance", "heat", "No error."],
+                correct: 4
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "She <u>preferred</u> <u>reading</u> books <u>more than</u> <u>watching</u> movies. No error.",
+                options: ["preferred", "reading", "more than", "watching", "No error."],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "<u>Each of</u> the cars <u>in the showroom</u> <u>have</u> a full <u>warranty</u>. No error.",
+                options: ["Each of", "in the showroom", "have", "warranty", "No error."],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "He <u>spoke</u> <u>quiet</u> <u>so that</u> he <u>wouldn't wake</u> the sleeping baby. No error.",
+                options: ["spoke", "quiet", "so that", "wouldn't wake", "No error."],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "The Mayor, <u>along with</u> his <u>security aides</u>, <u>are arriving</u> <u>shortly</u>. No error.",
+                options: ["along with", "security aides", "are arriving", "shortly", "No error."],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "This <u>chocolate</u> cake <u>tastes</u> much <u>more sweeter</u> than the <u>last one</u>. No error.",
+                options: ["chocolate", "tastes", "more sweeter", "last one", "No error."],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "The principal <u>presented</u> the <u>award</u> <u>to</u> Sarah and <u>I</u> during the assembly. No error.",
+                options: ["presented", "award", "to", "I", "No error."],
+                correct: 3
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "<u>Whose</u> <u>going to be</u> responsible <u>for organizing</u> the workshop <u>tomorrow</u>? No error.",
+                options: ["Whose", "going to be", "for organizing", "tomorrow", "No error."],
                 correct: 0
             },
 			{
@@ -2939,8 +3110,17 @@ window.onload = function() {
                 subtopic: "Identifying Errors",
                 sidebarId: "side-eng-err",
                 directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
+                question: "<u>Ten dollars</u> <u>are</u> <u>too much</u> to pay for a <u>single</u> cup of coffee. No error.",
+                options: ["Ten dollars", "are", "too much", "single", "No error."],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "She <u>had swam</u> <u>across</u> the river before <u>help</u> <u>finally arrived</u>. No error.",
+                options: ["had swam", "across", "help", "finally arrived", "No error."],
                 correct: 0
             },
 			{
@@ -2948,8 +3128,17 @@ window.onload = function() {
                 subtopic: "Identifying Errors",
                 sidebarId: "side-eng-err",
                 directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
+                question: "My dog, <u>who</u> has dark <u>spots</u>, <u>loves to chase</u> <u>it's</u> own tail. No error.",
+                options: ["who", "spots", "love to chase", "it's", "No error."],
+                correct: 3
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "<u>Less</u> people <u>attended</u> the <u>conference</u> this year <u>than</u> last year. No error.",
+                options: ["Less", "attended", "conference", "than", "No error."],
                 correct: 0
             },
 			{
@@ -2957,8 +3146,26 @@ window.onload = function() {
                 subtopic: "Identifying Errors",
                 sidebarId: "side-eng-err",
                 directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
+                question: "<u>Neither</u> the manager nor the <u>employees</u> <u>was</u> willing to <u>compromise</u>. No error.",
+                options: ["Neither", "employees", "was", "compromise", "No error."],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "<u>Walking</u> <u>down</u> the street, <u>a sudden loud noise</u> <u>startled</u> the crowd. No error.",
+                options: ["Walking", "down", "a sudden loud noise", "startled", "No error."],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "He is the <u>most unique</u> artist <u>working</u> in the <u>studio</u> <u>today</u>. No error.",
+                options: ["most unique", "working", "studio", "today", "No error."],
                 correct: 0
             },
 			{
@@ -2966,8 +3173,98 @@ window.onload = function() {
                 subtopic: "Identifying Errors",
                 sidebarId: "side-eng-err",
                 directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
+                question: "The student <u>asked</u> <u>who</u> the letter was <u>addressed</u> <u>to</u>. No error.",
+                options: ["asked", "who", "addressed", "to", "No error."],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "<u>Every</u> <u>member</u> of the choir <u>must practice</u> <u>their</u> routine daily. No error.",
+                options: ["Every", "member", "must practice", "their", "No error."],
+                correct: 3
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "<u>Neither</u> of the <u>two proposals</u> <u>seem</u> acceptable <u>to</u> the board members. No error.",
+                options: ["Neither", "two proposals", "seem", "to", "No error."],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "The <u>quality</u> of these <u>handcrafted</u> products <u>vary</u> <u>greatly</u>. No error.",
+                options: ["quality", "handcrafted", "vary", "greatly", "No error."],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "My <u>sister</u> and <u>myself</u> <u>completed</u> the entire puzzle <u>in</u> two hours. No error.",
+                options: ["sister", "myself", "completed", "in", "No error."],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "He <u>has</u> <u>lain</u> his books <u>on</u> the desk every <u>afternoon</u> this week. No error.",
+                options: ["has", "lain", "on", "every afternoon", "No error."],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "Either you <u>or</u> your <u>brother</u> <u>need to clear</u> the <u>dining</u> table. No error.",
+                options: ["or", "brother", "need to clear", "dining", "No error."],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "The manager, <u>together with</u> her <u>assistants</u>, <u>were present</u> <u>at the meeting</u>. No error.",
+                options: ["together with", "assistants", "were present", "at the meeting", "No error."],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "The new legislation <u>will affect</u> <u>everyone</u> <u>except</u> <u>you and I</u>. No error.",
+                options: ["will affect", "everyone", "except", "you and I", "No error."],
+                correct: 3
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "Neither the captain <u>nor</u> the <u>crew</u> <u>was prepared</u> for the <u>storm</u>. No error.",
+                options: ["nor", "crew", "was prepared", "storm", "No error."],
+                correct: 4
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "If I <u>was</u> you, I <u>would accept</u> the <u>job offer</u> <u>immediately</u>. No error.",
+                options: ["was", "would accept", "job offer", "immediately", "No error."],
                 correct: 0
             },
 			{
@@ -2975,8 +3272,26 @@ window.onload = function() {
                 subtopic: "Identifying Errors",
                 sidebarId: "side-eng-err",
                 directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
+                question: "The company <u>announced</u> <u>their</u> new <u>sales target</u> <u>yesterday morning</u>. No error.",
+                options: ["announced", "their", "sales target", "yesterday morning", "No error."],
+                correct: 1
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "Her performance in the play <u>was</u> <u>better than</u> <u>anyone</u> in her <u>class</u>. No error.",
+                options: ["was", "better than", "anyone", "class", "No error."],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Identifying Errors",
+                sidebarId: "side-eng-err",
+                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
+                question: "There <u>is</u> a pen, <u>two pencils</u>, and a <u>notebook</u> <u>on the desk</u>. No error.",
+                options: ["is", "two pencils", "notebook", "on the desk", "No error."],
                 correct: 0
             },
 			{
@@ -2984,252 +3299,27 @@ window.onload = function() {
                 subtopic: "Identifying Errors",
                 sidebarId: "side-eng-err",
                 directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
+                question: "The dog <u>wagged</u> <u>it's</u> tail <u>excitedly</u> when its owner <u>returned</u> home. No error.",
+                options: ["wagged", "it's", "excitedly", "returned", "No error."],
+                correct: 1
             },
 			{
                 subject: "English",
                 subtopic: "Identifying Errors",
                 sidebarId: "side-eng-err",
                 directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
+                question: "She had <u>scarcely</u> <u>started reading</u> <u>than</u> the <u>phone rang</u>. No error.",
+                options: ["scarcely", "started reading", "than", "phone rang", "No error."],
+                correct: 2
             },
 			{
                 subject: "English",
                 subtopic: "Identifying Errors",
                 sidebarId: "side-eng-err",
                 directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Identifying Errors",
-                sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Identifying Errors",
-                sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Identifying Errors",
-                sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Identifying Errors",
-                sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Identifying Errors",
-                sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Identifying Errors",
-                sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Identifying Errors",
-                sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Identifying Errors",
-                sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Identifying Errors",
-                sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Identifying Errors",
-                sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Identifying Errors",
-                sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Identifying Errors",
-                sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Identifying Errors",
-                sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Identifying Errors",
-                sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Identifying Errors",
-                sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Identifying Errors",
-                sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Identifying Errors",
-                sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Identifying Errors",
-                sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Identifying Errors",
-                sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Identifying Errors",
-                sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Identifying Errors",
-                sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Identifying Errors",
-                sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Identifying Errors",
-                sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Identifying Errors",
-                sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
-            },
-			{
-                subject: "English",
-                subtopic: "Identifying Errors",
-                sidebarId: "side-eng-err",
-                directions: "Choose the word or phrases labeled A, B, C, or D which are NOT acceptable in formal written English. Choose E if there is no error.",
-                question: "",
-                options: ["", "", "", "", ""],
-                correct: 0
+                question: "<u>All of</u> the soup <u>were</u> <u>spilled</u> <u>across</u> the kitchen counter. No error.",
+                options: ["All of", "were", "spilled", "across", "No error."],
+                correct: 1
             },
             {
                 subject: "Filipino",
