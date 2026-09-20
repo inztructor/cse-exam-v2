@@ -495,7 +495,7 @@ window.onload = function() {
                 question: "If 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55, then <br>21 + 22 + 23 + 24 + 25 + 26 + 27 + 28 + 29 + 30 = ?",
                 options: ["155", "230", "255", "355"],
                 correct: 2,
-				explanation: "Test explanation"
+				explanation: "<b>Step-by-Step Solution</b><ol type='1'><li>Identify the shift: Each term in the new sequence is 20 more than the original term (21=1+20, 22=2+20, ..., 30=10+20).</li><li>Count the terms: There are 10 terms in total.</li><li>Calculate the additional sum: Since each of the 10 terms is increased by 20, add 10×20=200 to the original sum.</li></ol>Find the total: <b>55+200=255</b>."
             },
 			{
                 subject: "Mathematics",
