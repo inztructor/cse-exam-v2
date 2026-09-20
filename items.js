@@ -3549,7 +3549,8 @@ window.onload = function() {
                 directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
                 question: "What should be the first sentence?<ol type='A'><li>Regular physical activity can also improve a person's mood and reduce stress.</li><li>Exercise is an important part of maintaining a healthy lifestyle.</li><li>For these reasons, people are encouraged to include exercise in their daily routines.</li><li>It helps strengthen the heart, muscles, and bones.</li><li>In addition, exercise can help people maintain a healthy weight and improve their sleep.</li></ol>",
                 options: ["A", "B", "C", "D", "E"],
-                correct: 1
+                correct: 1,
+				explanation: "Correct Sentence Order: B-D-A-E-C but B-D-E-A-C is also correct.<br>But B-D-A-E-C is often accepted because transition markers like <b>'also'</b> (A) typically appear earlier when introducing new angles, followed by additive phrases like <b>'In addition'</b> (E)."
             },
 			{
                 subject: "English",
@@ -3558,7 +3559,8 @@ window.onload = function() {
                 directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
                 question: "What is the appropriate title for the above paragraph?<ol type='A'><li> Regular physical activity can also improve a person's mood and reduce stress.</li><li> Exercise is an important part of maintaining a healthy lifestyle.</li><li> For these reasons, people are encouraged to include exercise in their daily routines.</li><li> It helps strengthen the heart, muscles, and bones.</li><li> In addition, exercise can help people maintain a healthy weight and improve their sleep.</li></ol>",
                 options: ["Different Types of Exercise", "The Benefits of Regular Exercise", "Problems Caused by Exercise", "Exercise for Professional Athletes", "The History of Physical Fitness"],
-                correct: 1
+                correct: 1,
+				explanation: "Correct Sentence Order: <b>B. The Benefits of Regular Exercise</b><br><i>The entire paragraph focuses on the positive impacts of physical activity, such as strengthening the heart, muscles, and bones, maintaining weight, improving sleep, and boosting mood while reducing stress. None of the other options reflect the content of the text.</i>"
             },
 			{
                 subject: "English",
@@ -3567,7 +3569,8 @@ window.onload = function() {
                 directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
                 question: "What should be the second sentence?<ol type='A'><li>The next step is to place the tree carefully into the hole.</li><li>Planting a tree requires several simple but important steps.</li><li>Finally, the tree should be watered regularly while it develops its roots.</li><li>First, a suitable location with enough sunlight should be selected.</li><li>After that, the soil around the tree should be firmly packed.</li></ol>",
                 options: ["A", "B", "C", "D", "E"],
-                correct: 3
+                correct: 3,
+				explanation: "Correct Sentence Order: B-D-A-E-C"
             },
 			{
                 subject: "English",
@@ -3576,7 +3579,8 @@ window.onload = function() {
                 directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
                 question: "What would be the new order of the sentences if sentence F is added?<ol type='A'><li>The next step is to place the tree carefully into the hole.</li><li>Planting a tree requires several simple but important steps.</li><li>Finally, the tree should be watered regularly while it develops its roots.</li><li>First, a suitable location with enough sunlight should be selected.</li><li>After that, the soil around the tree should be firmly packed.</li><li>This helps the roots settle into the soil and gives the young tree a stable foundation.</li></ol>",
                 options: ["B-D-A-F-E-C", "B-D-A-E-F-C", "B-A-D-E-F-C", "B-D-F-A-E-C", "B-D-A-E-C-F"],
-                correct: 1
+                correct: 1,
+				explanation: "Correct Sentence Order: <b>B-D-A-E-F-C</b><ol type='A'><li>B. Planting a tree requires several simple but important steps. (Introduction)</li><li>D. First, a suitable location with enough sunlight should be selected. (Step 1)</li><li>A. The next step is to place the tree carefully into the hole. (Step 2)</li><li>E. After that, the soil around the tree should be firmly packed. (Step 3)</li><li>F. This helps the roots settle into the soil and gives the young tree a stable foundation. (Explains the purpose of step E)</li><li>C. Finally, the tree should be watered regularly while it develops its roots. (Final Step)</li></ol>"
             },
 			{
                 subject: "English",
