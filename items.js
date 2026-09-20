@@ -3560,7 +3560,7 @@ window.onload = function() {
                 question: "What is the appropriate title for the above paragraph?<ol type='A'><li> Regular physical activity can also improve a person's mood and reduce stress.</li><li> Exercise is an important part of maintaining a healthy lifestyle.</li><li> For these reasons, people are encouraged to include exercise in their daily routines.</li><li> It helps strengthen the heart, muscles, and bones.</li><li> In addition, exercise can help people maintain a healthy weight and improve their sleep.</li></ol>",
                 options: ["Different Types of Exercise", "The Benefits of Regular Exercise", "Problems Caused by Exercise", "Exercise for Professional Athletes", "The History of Physical Fitness"],
                 correct: 1,
-				explanation: "Correct Answer: <b>B. The Benefits of Regular Exercise</b><br><br><i>The entire paragraph focuses on the positive impacts of physical activity, such as strengthening the heart, muscles, and bones, maintaining weight, improving sleep, and boosting mood while reducing stress. None of the other options reflect the content of the text.</i>"
+				explanation: "Correct Answer: <b>B. The Benefits of Regular Exercise</b><br><i>The entire paragraph focuses on the positive impacts of physical activity, such as strengthening the heart, muscles, and bones, maintaining weight, improving sleep, and boosting mood while reducing stress. None of the other options reflect the content of the text.</i>"
             },
 			{
                 subject: "English",
