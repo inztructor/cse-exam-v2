@@ -3550,7 +3550,7 @@ window.onload = function() {
                 question: "What should be the first sentence?<ol type='A'><li>Regular physical activity can also improve a person's mood and reduce stress.</li><li>Exercise is an important part of maintaining a healthy lifestyle.</li><li>For these reasons, people are encouraged to include exercise in their daily routines.</li><li>It helps strengthen the heart, muscles, and bones.</li><li>In addition, exercise can help people maintain a healthy weight and improve their sleep.</li></ol>",
                 options: ["A", "B", "C", "D", "E"],
                 correct: 1,
-				explanation: "Correct Sentence Order: B-D-A-E-C but B-D-E-A-C is also correct.<br>But B-D-A-E-C is often accepted because transition markers like <b>'also'</b> (A) typically appear earlier when introducing new angles, followed by additive phrases like <b>'In addition'</b> (E)."
+				explanation: "Correct Sentence Order: B-D-A-E-C."
             },
 			{
                 subject: "English",
