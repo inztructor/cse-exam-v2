@@ -3583,8 +3583,8 @@ window.onload = function() {
                 subtopic: "Paragraph Development",
                 sidebarId: "side-eng-para",
                 directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
+                question: "What should be the first sentence?<ol type='A'><li>Students can watch recorded lessons and review materials whenever they need them.</li><li>Online learning has become increasingly common in recent years.</li><li>However, successful online learning requires students to manage their time responsibly.</li><li>It allows learners to access educational materials without always being physically present in a classroom.</li><li>As a result, online education can provide greater flexibility for many students.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
                 correct: 1
             },
 			{
@@ -3592,8 +3592,17 @@ window.onload = function() {
                 subtopic: "Paragraph Development",
                 sidebarId: "side-eng-para",
                 directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
+                question: "What should be the third sentence?<ol type='A'><li>Students can watch recorded lessons and review materials whenever they need them.</li><li>Online learning has become increasingly common in recent years.</li><li>However, successful online learning requires students to manage their time responsibly.</li><li>It allows learners to access educational materials without always being physically present in a classroom.</li><li>As a result, online education can provide greater flexibility for many students.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the first sentence?<ol type='A'><li>Finally, the sandwich can be cut in half and served.</li><li>Making a sandwich is a simple task that requires only a few ingredients.</li><li>Next, the chosen fillings are placed evenly on one slice of bread.</li><li>First, two slices of bread are prepared on a clean plate.</li><li>The second slice of bread is then placed on top of the fillings.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
                 correct: 1
             },
 			{
@@ -3601,27 +3610,18 @@ window.onload = function() {
                 subtopic: "Paragraph Development",
                 sidebarId: "side-eng-para",
                 directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
+                question: "What should be the third sentence?<ol type='A'><li>Finally, the sandwich can be cut in half and served.</li><li>Making a sandwich is a simple task that requires only a few ingredients.</li><li>Next, the chosen fillings are placed evenly on one slice of bread.</li><li>First, two slices of bread are prepared on a clean plate.</li><li>The second slice of bread is then placed on top of the fillings.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 2
             },
 			{
                 subject: "English",
                 subtopic: "Paragraph Development",
                 sidebarId: "side-eng-para",
                 directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
+                question: "What is the appropriate title for the above paragraph?<ol type='A'><li>Finally, the sandwich can be cut in half and served.</li><li>Making a sandwich is a simple task that requires only a few ingredients.</li><li>Next, the chosen fillings are placed evenly on one slice of bread.</li><li>First, two slices of bread are prepared on a clean plate.</li><li>The second slice of bread is then placed on top of the fillings.</li></ol>",
+                options: ["Different Kinds of Sandwiches", "The History of Bread", "How to Make a Simple Sandwich", "Healthy Foods for Breakfast", "Popular Sandwich Restaurants"],
+                correct: 2
             },
 			{
                 subject: "English",
