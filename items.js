@@ -9,18 +9,6 @@ let userAnswers = {};
 let totalSeconds = 3 * 60 * 60;
 let timerInterval = null;
 
-function reopenModeModal() {
-  const modal = document.getElementById('examModeModal'); // Replace with your modal container ID
-  
-  if (modal) {
-    modal.style.display = 'flex'; // Shows the modal overlay
-    
-    // Optional: Pause running timer if the exam is currently active
-    if (typeof pauseTimer === 'function') {
-      pauseTimer();
-    }
-  }
-}
 
 // Fisher-Yates Shuffle
 function shuffleArray(arr) {
