@@ -3628,8 +3628,26 @@ window.onload = function() {
                 subtopic: "Paragraph Development",
                 sidebarId: "side-eng-para",
                 directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
+                question: "What should be the second sentence?<ol type='A'><li>Without enough sleep, people may have difficulty concentrating during the day.</li><li>Getting enough sleep is essential for good health.</li><li>Therefore, maintaining a regular sleeping schedule is an important healthy habit.</li><li>During sleep, the body and brain have time to recover from daily activities.</li><li>Lack of sleep can also affect a person's mood and energy level.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 3
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the fourth sentence?<ol type='A'><li>Without enough sleep, people may have difficulty concentrating during the day.</li><li>Getting enough sleep is essential for good health.</li><li>Therefore, maintaining a regular sleeping schedule is an important healthy habit.</li><li>During sleep, the body and brain have time to recover from daily activities.</li><li>Lack of sleep can also affect a person's mood and energy level.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the first sentence?<ol type='A'><li>Visitors can then spend time examining the exhibits that interest them most.</li><li>Visiting a museum can be an enjoyable way to learn about history and culture.</li><li>Before entering, visitors may want to read the museum guide or map.</li><li>Many museums contain collections that tell stories about different periods and societies.</li><li>After exploring the exhibits, visitors may reflect on what they have learned.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
                 correct: 1
             },
 			{
@@ -3637,8 +3655,44 @@ window.onload = function() {
                 subtopic: "Paragraph Development",
                 sidebarId: "side-eng-para",
                 directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
+                question: "What should be the fourth sentence?<ol type='A'><li>Visitors can then spend time examining the exhibits that interest them most.</li><li>Visiting a museum can be an enjoyable way to learn about history and culture.</li><li>Before entering, visitors may want to read the museum guide or map.</li><li>Many museums contain collections that tell stories about different periods and societies.</li><li>After exploring the exhibits, visitors may reflect on what they have learned.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the last sentence?<ol type='A'><li>Visitors can then spend time examining the exhibits that interest them most.</li><li>Visiting a museum can be an enjoyable way to learn about history and culture.</li><li>Before entering, visitors may want to read the museum guide or map.</li><li>Many museums contain collections that tell stories about different periods and societies.</li><li>After exploring the exhibits, visitors may reflect on what they have learned.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 4
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What would be the new order of the sentences if sentence F is added?<ol type='A'><li>Visitors can then spend time examining the exhibits that interest them most.</li><li>Visiting a museum can be an enjoyable way to learn about history and culture.</li><li>Before entering, visitors may want to read the museum guide or map.</li><li>Many museums contain collections that tell stories about different periods and societies.</li><li>After exploring the exhibits, visitors may reflect on what they have learned.</li><li>A map can help visitors locate the different sections of the museum more easily.</li></ol>",
+                options: ["B-D-C-F-A-E", "B-D-F-C-A-E", "B-C-D-A-F-E", "B-D-C-A-F-E", "B-C-F-D-A-E"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the second sentence?<ol type='A'><li>These materials can then be processed and used to make new products.</li><li>Recycling is one way people can reduce the amount of waste sent to landfills.</li><li>The collected materials are sorted according to their type.</li><li>People begin the process by placing recyclable materials in appropriate containers.</li><li>In this way, recycling helps conserve resources and reduce unnecessary waste.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What is the appropriate title for the above paragraph?<ol type='A'><li>These materials can then be processed and used to make new products.</li><li>Recycling is one way people can reduce the amount of waste sent to landfills.</li><li>The collected materials are sorted according to their type.</li><li>People begin the process by placing recyclable materials in appropriate containers.</li><li>In this way, recycling helps conserve resources and reduce unnecessary waste.</li></ol>",
+                options: ["The History of Landfills", "How Recycling Works", "Different Types of Waste", "Problems Caused by Factories", "The Production of Plastic"],
                 correct: 1
             },
 			{
@@ -3646,8 +3700,8 @@ window.onload = function() {
                 subtopic: "Paragraph Development",
                 sidebarId: "side-eng-para",
                 directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
+                question: "What should be the first sentence?<ol type='A'><li>After studying, the student should test his or her knowledge by answering practice questions.</li><li>Preparing for an examination is easier when students have a clear study plan.</li><li>The student can then review the topics that need more attention.</li><li>First, the student should identify the subjects and topics that will be included in the examination.</li><li>Finally, the student should get enough rest before the examination day.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
                 correct: 1
             },
 			{
@@ -3655,8 +3709,26 @@ window.onload = function() {
                 subtopic: "Paragraph Development",
                 sidebarId: "side-eng-para",
                 directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
+                question: "What should be the third sentence?<ol type='A'><li>After studying, the student should test his or her knowledge by answering practice questions.</li><li>Preparing for an examination is easier when students have a clear study plan.</li><li>The student can then review the topics that need more attention.</li><li>First, the student should identify the subjects and topics that will be included in the examination.</li><li>Finally, the student should get enough rest before the examination day.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the last sentence?<ol type='A'><li>After studying, the student should test his or her knowledge by answering practice questions.</li><li>Preparing for an examination is easier when students have a clear study plan.</li><li>The student can then review the topics that need more attention.</li><li>First, the student should identify the subjects and topics that will be included in the examination.</li><li>Finally, the student should get enough rest before the examination day.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 4
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the first sentence?<ol type='A'><li>Over time, these small savings can become a significant amount of money.</li><li>Saving money requires discipline and careful planning.</li><li>People can begin by setting aside a small amount from each paycheck or allowance.</li><li>They should also avoid unnecessary purchases whenever possible.</li><li>Developing this habit can help people prepare for future expenses.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
                 correct: 1
             },
 			{
@@ -3664,8 +3736,44 @@ window.onload = function() {
                 subtopic: "Paragraph Development",
                 sidebarId: "side-eng-para",
                 directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
+                question: "What should be the fourth sentence?<ol type='A'><li>Over time, these small savings can become a significant amount of money.</li><li>Saving money requires discipline and careful planning.</li><li>People can begin by setting aside a small amount from each paycheck or allowance.</li><li>They should also avoid unnecessary purchases whenever possible.</li><li>Developing this habit can help people prepare for future expenses.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 3
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What would be the new order of the sentences if sentence F is added?<ol type='A'><li>Over time, these small savings can become a significant amount of money.</li><li>Saving money requires discipline and careful planning.</li><li>People can begin by setting aside a small amount from each paycheck or allowance.</li><li>They should also avoid unnecessary purchases whenever possible.</li><li>Developing this habit can help people prepare for future expenses.</li><li>Keeping track of daily spending can help people identify unnecessary expenses.</li></ol>",
+                options: ["B-C-D-F-A-E", "B-C-F-D-A-E", "B-F-C-D-A-E", "B-C-D-A-F-E", "B-C-D-A-E-F"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What is the appropriate title for the above paragraph?<ol type='A'><li>When the water droplets become heavy enough, they fall to the ground as rain.</li><li>Clouds are formed when water vapor rises into the atmosphere and cools.</li><li>The tiny droplets join together and become larger.</li><li>This process is part of the water cycle.</li><li>The cooling causes the water vapor to condense into tiny droplets.</li></ol>",
+                options: ["The Importance of Clean Water", "Different Types of Clouds", "How Rain Forms", "The Dangers of Heavy Rain", "Weather Forecasting"],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the third sentence?<ol type='A'><li>When the water droplets become heavy enough, they fall to the ground as rain.</li><li>Clouds are formed when water vapor rises into the atmosphere and cools.</li><li>The tiny droplets join together and become larger.</li><li>This process is part of the water cycle.</li><li>The cooling causes the water vapor to condense into tiny droplets.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the first sentence?<ol type='A'><li>After eating, she prepares her bag and checks that she has everything she needs.</li><li>Maria begins each morning by getting out of bed at six o'clock.</li><li>She then eats a healthy breakfast before leaving the house.</li><li>She first washes her face and brushes her teeth.</li><li>Finally, she leaves home and travels to school.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
                 correct: 1
             },
 			{
@@ -3673,8 +3781,44 @@ window.onload = function() {
                 subtopic: "Paragraph Development",
                 sidebarId: "side-eng-para",
                 directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
+                question: "What should be the fourth sentence?<ol type='A'><li>After eating, she prepares her bag and checks that she has everything she needs.</li><li>Maria begins each morning by getting out of bed at six o'clock.</li><li>She then eats a healthy breakfast before leaving the house.</li><li>She first washes her face and brushes her teeth.</li><li>Finally, she leaves home and travels to school.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the second sentence?<ol type='A'><li>Buses and trains can carry many passengers at the same time.</li><li>Public transportation is an important part of many cities.</li><li>For this reason, public transportation can help reduce traffic congestion.</li><li>It provides people with a way to travel without using their own vehicles.</li><li>It can also reduce the number of cars on busy roads.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 3
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the third sentence?<ol type='A'><li>Buses and trains can carry many passengers at the same time.</li><li>Public transportation is an important part of many cities.</li><li>For this reason, public transportation can help reduce traffic congestion.</li><li>It provides people with a way to travel without using their own vehicles.</li><li>It can also reduce the number of cars on busy roads.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 4
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the last sentence?<ol type='A'><li>Buses and trains can carry many passengers at the same time.</li><li>Public transportation is an important part of many cities.</li><li>For this reason, public transportation can help reduce traffic congestion.</li><li>It provides people with a way to travel without using their own vehicles.</li><li>It can also reduce the number of cars on busy roads.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the first sentence?<ol type='A'><li>Regular visits to a veterinarian can also help detect health problems early.</li><li>Taking care of a pet is an important responsibility.</li><li>Pets need nutritious food, clean water, and a safe place to live.</li><li>Owners should also provide their pets with exercise and attention.</li><li>With proper care, pets can remain healthy and become valued members of a family.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
                 correct: 1
             },
 			{
@@ -3682,8 +3826,26 @@ window.onload = function() {
                 subtopic: "Paragraph Development",
                 sidebarId: "side-eng-para",
                 directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
+                question: "What is the appropriate title for the above paragraph?<ol type='A'><li>Regular visits to a veterinarian can also help detect health problems early.</li><li>Taking care of a pet is an important responsibility.</li><li>Pets need nutritious food, clean water, and a safe place to live.</li><li>Owners should also provide their pets with exercise and attention.</li><li>With proper care, pets can remain healthy and become valued members of a family.</li></ol>",
+                options: ["Different Kinds of Pets", "The Cost of Owning a Pet", "Caring for a Pet", "Animals in the Wild", "Choosing a Pet for Children"],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the fourth sentence?<ol type='A'><li>Regular visits to a veterinarian can also help detect health problems early.</li><li>Taking care of a pet is an important responsibility.</li><li>Pets need nutritious food, clean water, and a safe place to live.</li><li>Owners should also provide their pets with exercise and attention.</li><li>With proper care, pets can remain healthy and become valued members of a family.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 3
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the first sentence?<ol type='A'><li>Regular practice helps learners remember new words and expressions.</li><li>Learning a new language takes time and consistent effort.</li><li>Listening to native speakers can also improve pronunciation and understanding.</li><li>Students may begin by learning common words and basic expressions.</li><li>Eventually, these skills can help learners communicate more confidently.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
                 correct: 1
             },
 			{
@@ -3691,8 +3853,35 @@ window.onload = function() {
                 subtopic: "Paragraph Development",
                 sidebarId: "side-eng-para",
                 directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
+                question: "What would be the new order of the sentences if sentence F is added?<ol type='A'><li>Regular practice helps learners remember new words and expressions.</li><li>Learning a new language takes time and consistent effort.</li><li>Listening to native speakers can also improve pronunciation and understanding.</li><li>Students may begin by learning common words and basic expressions.</li><li>Eventually, these skills can help learners communicate more confidently.</li><li>Practicing conversations with other learners can give students opportunities to use the language in real situations.</li></ol>",
+                options: ["B-D-A-F-C-E", "B-D-F-A-C-E", "B-A-D-C-F-E", "B-D-A-C-F-E", "B-D-A-C-E-F"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the second sentence?<ol type='A'><li>The soil should then be loosened and cleared of weeds.</li><li>Preparing a garden begins with choosing a suitable location.</li><li>Once the soil is ready, seeds or young plants can be placed in it.</li><li>The plants should be watered regularly after they are planted.</li><li>The location should receive enough sunlight for the chosen plants.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 4
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the last sentence?<ol type='A'><li>The soil should then be loosened and cleared of weeds.</li><li>Preparing a garden begins with choosing a suitable location.</li><li>Once the soil is ready, seeds or young plants can be placed in it.</li><li>The plants should be watered regularly after they are planted.</li><li>The location should receive enough sunlight for the chosen plants.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 3
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the first sentence?<ol type='A'><li>After finding the book, the student can borrow it using the library's checkout system.</li><li>Libraries provide access to books and other sources of information.</li><li>The student may first search the library catalog for a particular book.</li><li>Once the book is borrowed, it should be returned by the due date.</li><li>This allows students to use valuable resources for their studies.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
                 correct: 1
             },
 			{
@@ -3700,8 +3889,71 @@ window.onload = function() {
                 subtopic: "Paragraph Development",
                 sidebarId: "side-eng-para",
                 directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
+                question: "What should be the third sentence?<ol type='A'><li>After finding the book, the student can borrow it using the library's checkout system.</li><li>Libraries provide access to books and other sources of information.</li><li>The student may first search the library catalog for a particular book.</li><li>Once the book is borrowed, it should be returned by the due date.</li><li>This allows students to use valuable resources for their studies.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What is the appropriate title for the above paragraph?<ol type='A'><li>After finding the book, the student can borrow it using the library's checkout system.</li><li>Libraries provide access to books and other sources of information.</li><li>The student may first search the library catalog for a particular book.</li><li>Once the book is borrowed, it should be returned by the due date.</li><li>This allows students to use valuable resources for their studies.</li></ol>",
+                options: ["How to Use a Library", "The History of Libraries", "Becoming a Librarian", "How Books Are Published", "Different Types of Books"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the first sentence?<ol type='A'><li>Clean water is necessary for drinking, cooking, and maintaining personal hygiene.</li><li>Communities must therefore take steps to protect their water sources.</li><li>Contaminated water can contain harmful substances and microorganisms.</li><li>Access to clean water is essential for human health.</li><li>These contaminants can cause serious illnesses if people consume the water.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 3
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the fourth sentence?<ol type='A'><li>Clean water is necessary for drinking, cooking, and maintaining personal hygiene.</li><li>Communities must therefore take steps to protect their water sources.</li><li>Contaminated water can contain harmful substances and microorganisms.</li><li>Access to clean water is essential for human health.</li><li>These contaminants can cause serious illnesses if people consume the water.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the second sentence?<ol type='A'><li>After deciding on a destination, travelers can research transportation and accommodations.</li><li>Planning a trip carefully can make traveling more organized and enjoyable.</li><li>They should also create a budget for food, transportation, activities, and other expenses.</li><li>Finally, travelers should prepare the necessary documents and belongings before leaving.</li><li>The first step is to decide where and when to travel.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the fourth sentence?<ol type='A'><li>After deciding on a destination, travelers can research transportation and accommodations.</li><li>Planning a trip carefully can make traveling more organized and enjoyable.</li><li>They should also create a budget for food, transportation, activities, and other expenses.</li><li>Finally, travelers should prepare the necessary documents and belongings before leaving.</li><li>The first step is to decide where and when to travel.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 2
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What would be the new order of the sentences if sentence F is added?<ol type='A'><li>After deciding on a destination, travelers can research transportation and accommodations.</li><li>Planning a trip carefully can make traveling more organized and enjoyable.</li><li>They should also create a budget for food, transportation, activities, and other expenses.</li><li>Finally, travelers should prepare the necessary documents and belongings before leaving.</li><li>The first step is to decide where and when to travel.</li><li>Making reservations early can help travelers secure their preferred transportation and accommodations.</li></ol>",
+                options: ["B-E-A-F-C-D", "B-E-F-A-C-D", "B-A-E-F-C-D", "B-E-A-C-F-D", "B-E-A-C-D-F"],
+                correct: 0
+            },
+			{
+                subject: "English",
+                subtopic: "Paragraph Development",
+                sidebarId: "side-eng-para",
+                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
+                question: "What should be the first sentence?<ol type='A'><li>The caterpillar eventually forms a chrysalis around itself.</li><li>A butterfly begins its life as a tiny egg.</li><li>Inside the chrysalis, the caterpillar undergoes major changes.</li><li>After the transformation is complete, an adult butterfly emerges.</li><li>The egg hatches into a caterpillar, which eats leaves and grows.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
                 correct: 1
             },
 			{
@@ -3709,288 +3961,36 @@ window.onload = function() {
                 subtopic: "Paragraph Development",
                 sidebarId: "side-eng-para",
                 directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
+                question: "What should be the third sentence?<ol type='A'><li>The caterpillar eventually forms a chrysalis around itself.</li><li>A butterfly begins its life as a tiny egg.</li><li>Inside the chrysalis, the caterpillar undergoes major changes.</li><li>After the transformation is complete, an adult butterfly emerges.</li><li>The egg hatches into a caterpillar, which eats leaves and grows.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 2
             },
 			{
                 subject: "English",
                 subtopic: "Paragraph Development",
                 sidebarId: "side-eng-para",
                 directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
+                question: "What would be the new order of the sentences if sentence F is added?<ol type='A'><li>The caterpillar eventually forms a chrysalis around itself.</li><li>A butterfly begins its life as a tiny egg.</li><li>Inside the chrysalis, the caterpillar undergoes major changes.</li><li>After the transformation is complete, an adult butterfly emerges.</li><li>The egg hatches into a caterpillar, which eats leaves and grows.</li><li>The adult butterfly can then begin the life cycle again by laying eggs.</li></ol>",
+                options: ["B-E-A-C-F-D", "B-A-E-C-D-F", "B-E-A-C-D-F", "B-E-C-A-D-F", "B-E-A-D-C-F"],
+                correct: 2
             },
 			{
                 subject: "English",
                 subtopic: "Paragraph Development",
                 sidebarId: "side-eng-para",
                 directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
+                question: "What should be the fourth sentence?<ol type='A'><li>One simple way to reduce plastic waste is to use reusable bags and containers.</li><li>Plastic waste has become a major environmental concern in many communities.</li><li>People can also choose products that use less plastic packaging.</li><li>These small changes can reduce the amount of plastic that ends up in landfills and waterways.</li><li>If many people adopt these habits, the overall amount of plastic waste can be reduced.</li></ol>",
+                options: ["A", "B", "C", "D", "E"],
+                correct: 3
             },
 			{
                 subject: "English",
                 subtopic: "Paragraph Development",
                 sidebarId: "side-eng-para",
                 directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
-            },
-			{
-                subject: "English",
-                subtopic: "Paragraph Development",
-                sidebarId: "side-eng-para",
-                directions: "Each sentence below, when put in the correct order would make a well organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
-                question: "XXX<ol type='A'><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li><li>XXX</li></ol>",
-                options: ["", "", "", "", ""],
-                correct: 1
+                question: "What is the appropriate title for the above paragraph?<ol type='A'><li>One simple way to reduce plastic waste is to use reusable bags and containers.</li><li>Plastic waste has become a major environmental concern in many communities.</li><li>People can also choose products that use less plastic packaging.</li><li>These small changes can reduce the amount of plastic that ends up in landfills and waterways.</li><li>If many people adopt these habits, the overall amount of plastic waste can be reduced.</li></ol>",
+                options: ["The History of Plastic", "How Plastic Is Manufactured", "Ways to Reduce Plastic Waste", "Different Types of Plastic Products", "The Advantages of Plastic Packaging"],
+                correct: 2
             },
 			{
                 subject: "Filipino",
