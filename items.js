@@ -494,7 +494,8 @@ window.onload = function() {
                 directions: "Directions: Analyze and solve each problem carefully. Choose the correct answer.",
                 question: "If 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55, then <br>21 + 22 + 23 + 24 + 25 + 26 + 27 + 28 + 29 + 30 = ?",
                 options: ["155", "230", "255", "355"],
-                correct: 2
+                correct: 2,
+				explanation: "Test explanation"
             },
 			{
                 subject: "Mathematics",
