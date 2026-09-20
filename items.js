@@ -3549,10 +3549,10 @@ window.onload = function() {
 			    directions: "Each sentence below, when put in the correct order, would make a well-organized paragraph. Decide what should be the correct order of the sentences, then answer the questions below.",
 			    question: "What should be the first sentence?<ol type='A'><li>Regular physical activity can also improve a person's mood and reduce stress.</li><li>Exercise is an important part of maintaining a healthy lifestyle.</li><li>For these reasons, people are encouraged to include exercise in their daily routines.</li><li>It helps strengthen the heart, muscles, and bones.</li><li>In addition, exercise can help people maintain a healthy weight and improve their sleep.</li></ol>",
 			    options: ["A", "B", "C", "D", "E"],
-			    correct: 1, // Points to "B" (index 1)
+			    correct: 1,
 			    explanation: "Correct Sentence Order: B-D-A-E-C."
-			  },
-			  {
+			},
+			{
 			    subject: "English",
 			    subtopic: "Paragraph Development",
 			    sidebarId: "side-eng-para",
@@ -3565,9 +3565,9 @@ window.onload = function() {
 			      "Exercise for Professional Athletes",
 			      "The History of Physical Fitness"
 			    ],
-			    correct: 1, // Points to "The Benefits of Regular Exercise" (index 1)
-			    explanation: "Correct Answer: <b>B. The Benefits of Regular Exercise</b><br><i>The entire paragraph focuses on the positive impacts of physical activity, such as strengthening the heart, muscles, and bones, maintaining weight, improving sleep, and boosting mood while reducing stress. None of the other options reflect the content of the text.</i>"
-			  },
+			    correct: 1,
+			    explanation: "Correct Answer: <b>B. The Benefits of Regular Exercise</b><br><br><i>The entire paragraph focuses on the positive impacts of physical activity, such as strengthening the heart, muscles, and bones, maintaining weight, improving sleep, and boosting mood while reducing stress. None of the other options reflect the content of the text.</i>"
+			},
 			{
                 subject: "English",
                 subtopic: "Paragraph Development",
