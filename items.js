@@ -3576,7 +3576,7 @@ window.onload = function() {
                 question: "What should be the second sentence?<ol type='A'><li>The next step is to place the tree carefully into the hole.</li><li>Planting a tree requires several simple but important steps.</li><li>Finally, the tree should be watered regularly while it develops its roots.</li><li>First, a suitable location with enough sunlight should be selected.</li><li>After that, the soil around the tree should be firmly packed.</li></ol>",
                 options: ["A", "B", "C", "D", "E"],
                 correct: 3,
-				explanation: "Correct Sentence Order: B-D-A-E-C"
+				explanation: "Correct Sentence Order: <b>B-D-A-E-C</b>. D. First, a suitable location with enough sunlight should be selected. The word <b>first</b> means it is the <b>Step 1</b>. And B. Planting a tree requires several simple but important steps. acts as the <b>Introduction</b>. That's why letter D is the second sentence."
             },
 			{
                 subject: "English",
