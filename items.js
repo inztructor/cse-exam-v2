@@ -30,19 +30,31 @@ const fixedOptionSubtopics = [
 ];
 
 /**
- * Retrieves questions belonging strictly to 'subtopicName'.
- * If 'count' is null or undefined, retrieves ALL questions for that subtopic.
+ * Retrieves questions matching 'subtopicName' by checking both q.subtopic and q.subject.
+ * If 'count' is null or undefined, retrieves ALL questions matching that category.
  */
 function getSubtopicQuestions(pool, subtopicName, count = null) {
-    if (!pool || !Array.isArray(pool)) return [];
+    if (!pool || !Array.isArray(pool) || !subtopicName) return [];
 
-    const filtered = pool.filter(q => q.subtopic && q.subtopic.trim() === subtopicName.trim());
+    const targetSub = subtopicName.trim().toLowerCase();
 
-    if (count !== null && filtered.length < count) {
-        console.warn(`[Warning] Subtopic "${subtopicName}" requested ${count} items, but only found ${filtered.length} in pool.`);
+    // Flexible Filter: Checks both subtopic and subject attributes safely
+    const filtered = pool.filter(q => {
+        const sub = (q.subtopic || "").trim().toLowerCase();
+        const subj = (q.subject || "").trim().toLowerCase();
+        return sub === targetSub || subj === targetSub;
+    });
+
+    if (filtered.length === 0) {
+        console.warn(`[Warning] No questions found for category: "${subtopicName}".`);
+        return [];
     }
 
-    const shouldKeepOptionsFixed = fixedOptionSubtopics.includes(subtopicName.trim());
+    if (count !== null && filtered.length < count) {
+        console.warn(`[Warning] Category "${subtopicName}" requested ${count} items, but found ${filtered.length}.`);
+    }
+
+    const shouldKeepOptionsFixed = fixedOptionSubtopics.map(s => s.toLowerCase()).includes(targetSub);
 
     // Take questions sequentially if fixed, otherwise shuffle randomly
     const targetCount = count !== null ? count : filtered.length;
@@ -144,23 +156,27 @@ function startExamMode(mode = 1, subtopicName = null, itemCount = null) {
     const quizBox = document.getElementById("quiz-card-box");
     if (quizBox) quizBox.style.display = "block";
 
-    const timerContainer = document.getElementById("timer-container") || document.getElementById("timer");
+    const timerBox = document.getElementById("timer-box");
 
     if (mode === 1) {
         // Mode 1: Full Timed Exam
         currentExam = generate150QuestionExam();
-        if (timerContainer) timerContainer.style.display = "block";
+        if (timerBox) timerBox.style.display = "block";
         startTimer();
     } else {
         // Modes 2 & 3: Untimed, Sub-topic selection
         if (timerInterval) clearInterval(timerInterval);
-        if (timerContainer) timerContainer.style.display = "none";
+        if (timerBox) timerBox.style.display = "none";
 
         const masterPool = getMasterPool();
         if (subtopicName) {
             currentExam = getSubtopicQuestions(masterPool, subtopicName, itemCount);
+            // Fallback if requested subtopic has no matches
+            if (currentExam.length === 0) {
+                console.warn(`Fallback triggered: loading all available questions for ${subtopicName}`);
+                currentExam = masterPool;
+            }
         } else {
-            // Default fallback if no subtopic specified: use whole master pool shuffled
             currentExam = itemCount ? shuffleArray(masterPool).slice(0, itemCount) : shuffleArray(masterPool);
         }
     }
@@ -174,13 +190,14 @@ function startExamMode(mode = 1, subtopicName = null, itemCount = null) {
 // =========================================================
 
 function renderCurrentQuestion() {
-    const q = currentExam[currentIndex];
     const total = currentExam.length;
 
-    if (!q) {
-        console.error("No questions found for the selected mode/subtopic.");
+    if (!currentExam || total === 0) {
+        document.getElementById("question-text").innerHTML = "No questions found for the selected mode/subtopic.";
         return;
     }
+
+    const q = currentExam[currentIndex];
 
     document.getElementById("q-counter-text").innerText = `Question ${currentIndex + 1} of ${total}`;
     const progressPercent = ((currentIndex + 1) / total) * 100;
@@ -364,7 +381,6 @@ function startTimer() {
 // 5. SUBMISSION, REVIEW & FINISH LOGIC
 // =========================================================
 
-// Used by Mode 1 and Mode 2
 function submitExam() {
     if (timerInterval) clearInterval(timerInterval);
     let score = 0;
@@ -405,10 +421,9 @@ function submitExam() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-// Used by Mode 3
 function finishTutorMode() {
     alert("Great job completing your study session!");
-    startExamMode(currentExamMode); // Restarts current session mode
+    startExamMode(currentExamMode);
 }
 
 function renderAnswerReview() {
@@ -461,9 +476,9 @@ function retakeExam() {
     startExamMode(currentExamMode);
 }
 
-// Automatically start Mode 1 (Full Exam) when window finishes loading
+// Default initialization (Modal will remain on screen until user submits mode)
 window.onload = function() {
-    startExamMode(1);
+    // Mode modal overlay handles starting chosen mode on launch
 };
 
 // ==========================================
