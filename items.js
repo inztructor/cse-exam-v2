@@ -1,7 +1,8 @@
 // =========================================================
-// 1. EXAM ENGINE & STATE MANAGEMENT (STRICT SEQUENTIAL)
+// 1. EXAM ENGINE & STATE MANAGEMENT (3 MODES SUPPORTED)
 // =========================================================
 
+let currentExamMode = 1; // 1 = Mock Exam (Timed), 2 = Subtopic Practice (Untimed), 3 = Interactive Tutor (Instant Feedback)
 let currentExam = [];
 let currentIndex = 0;
 let userAnswers = {};
@@ -18,46 +19,46 @@ function shuffleArray(arr) {
     return array;
 }
 
+// Subtopics where option order AND question sequence remain strictly fixed
+const fixedOptionSubtopics = [
+    "Data Sufficiency",
+    "Identifying Errors",
+    "Paragraph Development",
+    "Pagkilala sa Mali",
+    "Pag-unawa sa Binasa",
+    "Pagtatalata"
+];
+
 /**
- * Retrieves 'count' questions belonging strictly to 'subtopicName'.
- * Questions and options are kept strictly fixed for passage/sequence-based subtopics.
+ * Retrieves questions belonging strictly to 'subtopicName'.
+ * If 'count' is null or undefined, retrieves ALL questions for that subtopic.
  */
-function getSubtopicQuestions(pool, subtopicName, count) {
-    // Exact match filter
+function getSubtopicQuestions(pool, subtopicName, count = null) {
+    if (!pool || !Array.isArray(pool)) return [];
+
     const filtered = pool.filter(q => q.subtopic && q.subtopic.trim() === subtopicName.trim());
 
-    if (filtered.length < count) {
+    if (count !== null && filtered.length < count) {
         console.warn(`[Warning] Subtopic "${subtopicName}" requested ${count} items, but only found ${filtered.length} in pool.`);
     }
-
-    // List of subtopics where both question sequence and option order MUST stay fixed
-    const fixedOptionSubtopics = [
-        "Data Sufficiency",
-        "Identifying Errors",
-        "Paragraph Development",
-        "Pagkilala sa Mali",
-        "Pag-unawa sa Binasa",
-        "Pagtatalata"
-    ];
 
     const shouldKeepOptionsFixed = fixedOptionSubtopics.includes(subtopicName.trim());
 
     // Take questions sequentially if fixed, otherwise shuffle randomly
+    const targetCount = count !== null ? count : filtered.length;
     const selectedQuestions = shouldKeepOptionsFixed 
-        ? filtered.slice(0, count) 
-        : shuffleArray(filtered).slice(0, count);
+        ? filtered.slice(0, targetCount) 
+        : shuffleArray(filtered).slice(0, targetCount);
 
     // Return selected questions with conditional option shuffling
     return selectedQuestions.map(q => {
         if (shouldKeepOptionsFixed) {
-            // Keep options in original order; index of correct answer remains unchanged
             return {
                 ...q,
                 options: [...q.options],
                 correct: q.correct
             };
         } else {
-            // Shuffle options and calculate the new index of the correct answer
             const correctAnswerText = q.options[q.correct];
             const shuffledOptions = shuffleArray(q.options);
             const newCorrectIndex = shuffledOptions.indexOf(correctAnswerText);
@@ -71,37 +72,101 @@ function getSubtopicQuestions(pool, subtopicName, count) {
     });
 }
 
-// Generates the 150-question exam in EXACT sub-topic order
+// Helper: Aggregates all global pools into one array for Mode 2 & Mode 3 searching
+function getMasterPool() {
+    let combined = [];
+    if (typeof numericalPool !== 'undefined') combined.push(...numericalPool);
+    if (typeof verbalPool !== 'undefined') combined.push(...verbalPool);
+    if (typeof analyticalPool !== 'undefined') combined.push(...analyticalPool);
+    if (typeof generalInfoPool !== 'undefined') combined.push(...generalInfoPool);
+    return combined;
+}
+
+// Generates the Full 150-question exam in EXACT sub-topic order (Mode 1)
 function generate150QuestionExam() {
     let examPool = [];
 
-    // ---------------------------------------------------------
     // 1. NUMERICAL ABILITY (42 Items Total)
-    // ---------------------------------------------------------
-    examPool.push(...getSubtopicQuestions(numericalPool, "Word Problems and Operations", 25));
-    examPool.push(...getSubtopicQuestions(numericalPool, "Data Sufficiency", 17));
+    if (typeof numericalPool !== 'undefined') {
+        examPool.push(...getSubtopicQuestions(numericalPool, "Word Problems and Operations", 25));
+        examPool.push(...getSubtopicQuestions(numericalPool, "Data Sufficiency", 17));
+    }
 
-    // ---------------------------------------------------------
     // 2. VERBAL ABILITY (55 Items Total)
-    // ---------------------------------------------------------
-    examPool.push(...getSubtopicQuestions(verbalPool, "Alphabetizing", 5));
-    examPool.push(...getSubtopicQuestions(verbalPool, "Synonyms", 5));
-    examPool.push(...getSubtopicQuestions(verbalPool, "Antonyms", 5));
-    examPool.push(...getSubtopicQuestions(verbalPool, "Single-Word Analogy", 5));
-    examPool.push(...getSubtopicQuestions(verbalPool, "Double-Word Analogy", 5));
-    examPool.push(...getSubtopicQuestions(verbalPool, "Identifying Errors", 5));
-    examPool.push(...getSubtopicQuestions(verbalPool, "Paragraph Development", 5));
-    examPool.push(...getSubtopicQuestions(verbalPool, "Correct Usage", 5));
-    examPool.push(...getSubtopicQuestions(verbalPool, "Reading Comprehension", 5));
-    
-    // Filipino Sub-Topics
-    examPool.push(...getSubtopicQuestions(verbalPool, "Kasingkahulugan", 3));
-    examPool.push(...getSubtopicQuestions(verbalPool, "Kasalungat", 3));
-    examPool.push(...getSubtopicQuestions(verbalPool, "Mga Kawikaan", 3));
-    examPool.push(...getSubtopicQuestions(verbalPool, "Wastong Gamit", 3));
-    examPool.push(...getSubtopicQuestions(verbalPool, "Pagkilala sa Mali", 3));
+    if (typeof verbalPool !== 'undefined') {
+        examPool.push(...getSubtopicQuestions(verbalPool, "Alphabetizing", 5));
+        examPool.push(...getSubtopicQuestions(verbalPool, "Synonyms", 5));
+        examPool.push(...getSubtopicQuestions(verbalPool, "Antonyms", 5));
+        examPool.push(...getSubtopicQuestions(verbalPool, "Single-Word Analogy", 5));
+        examPool.push(...getSubtopicQuestions(verbalPool, "Double-Word Analogy", 5));
+        examPool.push(...getSubtopicQuestions(verbalPool, "Identifying Errors", 5));
+        examPool.push(...getSubtopicQuestions(verbalPool, "Paragraph Development", 5));
+        examPool.push(...getSubtopicQuestions(verbalPool, "Correct Usage", 5));
+        examPool.push(...getSubtopicQuestions(verbalPool, "Reading Comprehension", 5));
+        
+        // Filipino Sub-Topics
+        examPool.push(...getSubtopicQuestions(verbalPool, "Kasingkahulugan", 3));
+        examPool.push(...getSubtopicQuestions(verbalPool, "Kasalungat", 3));
+        examPool.push(...getSubtopicQuestions(verbalPool, "Mga Kawikaan", 3));
+        examPool.push(...getSubtopicQuestions(verbalPool, "Wastong Gamit", 3));
+        examPool.push(...getSubtopicQuestions(verbalPool, "Pagkilala sa Mali", 3));
+    }
+
+    // 3. ANALYTICAL ABILITY (35 Items Total)
+    if (typeof analyticalPool !== 'undefined') {
+        examPool.push(...getSubtopicQuestions(analyticalPool, "Inductive Reasoning", 20));
+        examPool.push(...getSubtopicQuestions(analyticalPool, "Abstract Reasoning", 15));
+    }
+
+    // 4. GENERAL INFORMATION (18 Items Total)
+    if (typeof generalInfoPool !== 'undefined') {
+        examPool.push(...getSubtopicQuestions(generalInfoPool, "Philippine Constitution", 18));
+    }
 
     return examPool;
+}
+
+/**
+ * Main Controller to start any exam mode.
+ * @param {number} mode - 1 (Mock Exam), 2 (Practice Test), 3 (Tutor Mode)
+ * @param {string|null} subtopicName - Specific subtopic for Mode 2 or 3
+ * @param {number|null} itemCount - Optional limit on number of items to load
+ */
+function startExamMode(mode = 1, subtopicName = null, itemCount = null) {
+    currentExamMode = mode;
+    currentIndex = 0;
+    userAnswers = {};
+
+    // Reset UI visibility
+    const resultBox = document.getElementById("result-box");
+    if (resultBox) resultBox.style.display = "none";
+    
+    const quizBox = document.getElementById("quiz-card-box");
+    if (quizBox) quizBox.style.display = "block";
+
+    const timerContainer = document.getElementById("timer-container") || document.getElementById("timer");
+
+    if (mode === 1) {
+        // Mode 1: Full Timed Exam
+        currentExam = generate150QuestionExam();
+        if (timerContainer) timerContainer.style.display = "block";
+        startTimer();
+    } else {
+        // Modes 2 & 3: Untimed, Sub-topic selection
+        if (timerInterval) clearInterval(timerInterval);
+        if (timerContainer) timerContainer.style.display = "none";
+
+        const masterPool = getMasterPool();
+        if (subtopicName) {
+            currentExam = getSubtopicQuestions(masterPool, subtopicName, itemCount);
+        } else {
+            // Default fallback if no subtopic specified: use whole master pool shuffled
+            currentExam = itemCount ? shuffleArray(masterPool).slice(0, itemCount) : shuffleArray(masterPool);
+        }
+    }
+
+    renderCurrentQuestion();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 // =========================================================
@@ -112,14 +177,17 @@ function renderCurrentQuestion() {
     const q = currentExam[currentIndex];
     const total = currentExam.length;
 
-    if (!q) return;
+    if (!q) {
+        console.error("No questions found for the selected mode/subtopic.");
+        return;
+    }
 
     document.getElementById("q-counter-text").innerText = `Question ${currentIndex + 1} of ${total}`;
     const progressPercent = ((currentIndex + 1) / total) * 100;
     document.getElementById("progress-bar").style.width = `${progressPercent}%`;
 
-    document.getElementById("topic-badge-text").innerText = `${q.subject} — ${q.subtopic}`;
-    document.getElementById("direction-text").innerText = q.directions;
+    document.getElementById("topic-badge-text").innerText = `${q.subject || 'Practice'} — ${q.subtopic || 'General'}`;
+    document.getElementById("direction-text").innerText = q.directions || "";
     
     let questionContent = `${currentIndex + 1}. ${q.question}`;
     if (q.image) {
@@ -134,46 +202,101 @@ function renderCurrentQuestion() {
     const optionsContainer = document.getElementById("options-container");
     optionsContainer.innerHTML = "";
 
+    const hasAnswered = userAnswers[currentIndex] !== undefined;
+
     q.options.forEach((optText, oIdx) => {
         const isSelected = userAnswers[currentIndex] === oIdx;
         const letterPrefix = String.fromCharCode(65 + oIdx);
         const optionLabel = document.createElement("label");
-        optionLabel.className = `option-card ${isSelected ? 'selected' : ''}`;
+
+        let customClass = "option-card";
+        if (isSelected) customClass += " selected";
+
+        // Mode 3 Immediate Highlighting
+        if (currentExamMode === 3 && hasAnswered) {
+            if (oIdx === q.correct) {
+                customClass += " correct-choice";
+            } else if (isSelected && oIdx !== q.correct) {
+                customClass += " incorrect-choice";
+            }
+        }
+
+        optionLabel.className = customClass;
+        const disabledAttr = (currentExamMode === 3 && hasAnswered) ? "disabled" : "";
         
         optionLabel.innerHTML = `
-            <input type="radio" name="option_choice" value="${oIdx}" ${isSelected ? 'checked' : ''} onchange="selectOption(${oIdx})">
+            <input type="radio" name="option_choice" value="${oIdx}" ${isSelected ? 'checked' : ''} ${disabledAttr} onchange="selectOption(${oIdx})">
             <span class="option-text"><strong>${letterPrefix}.</strong> ${optText}</span>
         `;
         optionsContainer.appendChild(optionLabel);
     });
 
+    // Handle Mode 3 Instant Feedback Banner
+    let feedbackBox = document.getElementById("instant-feedback-box");
+    if (!feedbackBox) {
+        feedbackBox = document.createElement("div");
+        feedbackBox.id = "instant-feedback-box";
+        optionsContainer.parentNode.insertBefore(feedbackBox, optionsContainer.nextSibling);
+    }
+
+    if (currentExamMode === 3 && hasAnswered) {
+        const userChoice = userAnswers[currentIndex];
+        const isCorrect = userChoice === q.correct;
+        const explanationText = q.explanation || "No specific explanation provided for this question.";
+
+        feedbackBox.style.display = "block";
+        feedbackBox.className = `instant-feedback ${isCorrect ? 'feedback-correct' : 'feedback-incorrect'}`;
+        feedbackBox.innerHTML = `
+            <div style="font-weight: bold; font-size: 1.05rem; margin-bottom: 6px;">
+                ${isCorrect ? '🎉 Excellent! Correct Answer!' : '❌ That\'s Incorrect.'}
+            </div>
+            <div>${explanationText}</div>
+        `;
+    } else {
+        feedbackBox.style.display = "none";
+    }
+
     document.getElementById("prev-btn").style.visibility = currentIndex === 0 ? "hidden" : "visible";
     
     const nextBtn = document.getElementById("next-btn");
     if (currentIndex === total - 1) {
-        nextBtn.innerText = "Submit Exam";
-        nextBtn.className = "btn btn-submit";
-        nextBtn.onclick = submitExam;
+        if (currentExamMode === 3) {
+            nextBtn.innerText = "Finish Practice Session";
+            nextBtn.className = "btn btn-submit";
+            nextBtn.onclick = finishTutorMode;
+        } else {
+            nextBtn.innerText = "Submit Exam";
+            nextBtn.className = "btn btn-submit";
+            nextBtn.onclick = submitExam;
+        }
     } else {
         nextBtn.innerText = "Next →";
         nextBtn.className = "btn btn-next";
         nextBtn.onclick = () => navigateQuestion(1);
     }
 
-    highlightSidebar(q.sidebarId);
+    if (q.sidebarId) highlightSidebar(q.sidebarId);
 }
 
 function selectOption(optionIndex) {
+    // Mode 3 locks answer after selection
+    if (currentExamMode === 3 && userAnswers[currentIndex] !== undefined) return;
+
     userAnswers[currentIndex] = optionIndex;
     
-    const cards = document.querySelectorAll(".option-card");
-    cards.forEach((card, idx) => {
-        if (idx === optionIndex) {
-            card.classList.add("selected");
-        } else {
-            card.classList.remove("selected");
-        }
-    });
+    if (currentExamMode === 3) {
+        // Re-render instantly to show feedback and explanations
+        renderCurrentQuestion();
+    } else {
+        const cards = document.querySelectorAll(".option-card");
+        cards.forEach((card, idx) => {
+            if (idx === optionIndex) {
+                card.classList.add("selected");
+            } else {
+                card.classList.remove("selected");
+            }
+        });
+    }
 }
 
 function navigateQuestion(direction) {
@@ -196,8 +319,8 @@ function highlightSidebar(sidebarId) {
 function toggleMobileSidebar() {
     const sidebar = document.getElementById("sidebar-drawer");
     const overlay = document.getElementById("sidebar-overlay");
-    sidebar.classList.toggle("open");
-    overlay.classList.toggle("active");
+    if (sidebar) sidebar.classList.toggle("open");
+    if (overlay) overlay.classList.toggle("active");
 }
 
 function closeSidebarOnMobile() {
@@ -207,7 +330,7 @@ function closeSidebarOnMobile() {
 }
 
 // =========================================================
-// 4. TIMER LOGIC
+// 4. TIMER LOGIC (MODE 1 ONLY)
 // =========================================================
 
 function startTimer() {
@@ -218,7 +341,7 @@ function startTimer() {
     timerInterval = setInterval(() => {
         if (totalSeconds <= 0) {
             clearInterval(timerInterval);
-            timerElement.textContent = "00:00:00";
+            if (timerElement) timerElement.textContent = "00:00:00";
             alert("TIME IS UP");
             submitExam();
             return;
@@ -228,19 +351,22 @@ function startTimer() {
         let minutes = Math.floor((totalSeconds % 3600) / 60);
         let seconds = totalSeconds % 60;
 
-        timerElement.textContent = 
-            `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+        if (timerElement) {
+            timerElement.textContent = 
+                `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+        }
 
         totalSeconds--;
     }, 1000);
 }
 
 // =========================================================
-// 5. SUBMISSION & ANSWER REVIEW GENERATOR
+// 5. SUBMISSION, REVIEW & FINISH LOGIC
 // =========================================================
 
+// Used by Mode 1 and Mode 2
 function submitExam() {
-    clearInterval(timerInterval);
+    if (timerInterval) clearInterval(timerInterval);
     let score = 0;
 
     currentExam.forEach((q, idx) => {
@@ -250,11 +376,11 @@ function submitExam() {
     });
 
     const total = currentExam.length;
-    const percentage = (score / total) * 100;
+    const percentage = total > 0 ? (score / total) * 100 : 0;
 
     document.getElementById("quiz-card-box").style.display = "none";
     const resultBox = document.getElementById("result-box");
-    resultBox.style.display = "block";
+    if (resultBox) resultBox.style.display = "block";
 
     document.getElementById("score-text").innerText = `${score} / ${total}`;
     document.getElementById("percentage-text").innerText = `Percentage: ${percentage.toFixed(2)}%`;
@@ -263,13 +389,13 @@ function submitExam() {
 
     if (percentage >= 95) {
         greetingEl.style.color = "#276749";
-        greetingEl.innerHTML = "<strong>Outstanding Performance! 🎉</strong><br>Excellent mastery! You demonstrate complete preparedness for the official Civil Service Examination.";
+        greetingEl.innerHTML = "<strong>Outstanding Performance! 🎉</strong><br>Excellent mastery! You demonstrate complete preparedness for this section.";
     } else if (percentage >= 80) {
         greetingEl.style.color = "#2b6cb0";
         greetingEl.innerHTML = "<strong>Congratulations! You Passed! 👏</strong><br>Great job! You reached the required passing score of 80%. Keep reviewing to maintain your edge.";
     } else if (percentage >= 70) {
         greetingEl.style.color = "#dd6b20";
-        greetingEl.innerHTML = "<strong>So Close! Almost Passed! ⚠️</strong><br>You are near the 80% mark. Focus on reviewing your weaker topics and try taking the practice exam again.";
+        greetingEl.innerHTML = "<strong>So Close! Almost Passed! ⚠️</strong><br>You are near the 80% mark. Focus on reviewing your weaker topics and try again.";
     } else {
         greetingEl.style.color = "#c53030";
         greetingEl.innerHTML = "<strong>Needs Improvement. 📚</strong><br>Do not give up! Review the subject materials carefully and re-attempt the test to build speed and accuracy.";
@@ -279,8 +405,15 @@ function submitExam() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+// Used by Mode 3
+function finishTutorMode() {
+    alert("Great job completing your study session!");
+    startExamMode(currentExamMode); // Restarts current session mode
+}
+
 function renderAnswerReview() {
     const reviewContainer = document.getElementById("review-list-container");
+    if (!reviewContainer) return;
     reviewContainer.innerHTML = "";
 
     currentExam.forEach((q, idx) => {
@@ -313,6 +446,11 @@ function renderAnswerReview() {
                     <strong>Correct Answer:</strong> ${correctAnsText}
                 </div>
             ` : ''}
+            ${q.explanation ? `
+                <div class="review-explanation" style="margin-top: 8px; font-size: 0.9em; color: #4a5568;">
+                    <strong>Explanation:</strong> ${q.explanation}
+                </div>
+            ` : ''}
         `;
 
         reviewContainer.appendChild(cardDiv);
@@ -320,24 +458,12 @@ function renderAnswerReview() {
 }
 
 function retakeExam() {
-    currentIndex = 0;
-    userAnswers = {};
-    
-    document.getElementById("result-box").style.display = "none";
-    document.getElementById("quiz-card-box").style.display = "block";
-
-    currentExam = generate150QuestionExam();
-    renderCurrentQuestion();
-    startTimer();
-
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    startExamMode(currentExamMode);
 }
 
-// Automatically start exam when window finishes loading
+// Automatically start Mode 1 (Full Exam) when window finishes loading
 window.onload = function() {
-    currentExam = generate150QuestionExam();
-    renderCurrentQuestion();
-    startTimer();
+    startExamMode(1);
 };
 
 // ==========================================
