@@ -6005,6 +6005,506 @@ window.onload = function() {
 			    explanation: "Ang <b>matatag</b> ay hindi madaling matinag, mabuwag, o sumuko. Ang <b>marupok</b> ay madaling masira o matinag."
 			},
 			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Nagbibilang ng poste</i> ang binata mula nang mawalan ng trabaho.",
+			    options: ["naghahanap ng mapapasukang bahay", "walang pinagkakaabalahan", "naglalakad sa lansangan", "nagbabantay ng ari-arian"],
+			    correct: 1,
+			    explanation: "Ang <b>nagbibilang ng poste</b> ay nangangahulugang walang trabaho o walang pinagkakaabalahan. Hindi ito literal na pagbibilang ng mga poste."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "Dahil sa kaniyang kasalanan, <i>nagbabaon ng mukha sa kahihiyan</i> ang binata.",
+			    options: ["nagtatago sa isang lugar", "lubhang nahihiya", "natatakot sa kapwa", "nagsisisi sa kaniyang ginawa"],
+			    correct: 1,
+			    explanation: "Ang <b>nagbabaon ng mukha sa kahihiyan</b> ay nangangahulugang labis na nahihiya dahil sa isang pagkakamali o kahiya-hiyang pangyayari."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Mababaw ang luha</i> ni Ana kaya madaling maantig ang kaniyang damdamin.",
+			    options: ["madaling matuwa", "madaling magalit", "madaling maiyak", "madaling makalimot"],
+			    correct: 2,
+			    explanation: "Ang <b>mababaw ang luha</b> ay tumutukoy sa taong madaling maiyak o maantig ang damdamin."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Nagsusunog ng kilay</i> si Marco bago ang pagsusulit.",
+			    options: ["masikap na nag-aaral", "nagbabasa nang walang pahinga", "nagpupuyat dahil sa trabaho", "nagsusulat ng maraming tala"],
+			    correct: 0,
+			    explanation: "Ang <b>nagsusunog ng kilay</b> ay nangangahulugang masigasig o masikap na nag-aaral."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "Huwag kang <i>magbilang ng sisiw habang hindi pa napipisa ang itlog</i>.",
+			    options: ["huwag mag-alaga ng manok", "huwag gumawa ng desisyon", "huwag umasa sa bagay na hindi pa tiyak", "huwag maghintay ng matagal"],
+			    correct: 2,
+			    explanation: "Ang kawikaang ito ay nagbababala laban sa pag-aakalang tiyak na ang isang bagay bago pa ito mangyari."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Itaga mo sa bato</i> ang sinabi kong tutuparin ko ang aking pangako.",
+			    options: ["isulat ito sa isang bato", "makatitiyak ka sa sinabi ko", "huwag mong kalimutan ang pangyayari", "ipaalam mo ito sa iba"],
+			    correct: 1,
+			    explanation: "Ang <b>itaga sa bato</b> ay nangangahulugang makatitiyak o lubos na mapagkakatiwalaan ang sinabi."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Namuti na ang kaniyang mga mata</i> sa kakahintay sa anak.",
+			    options: ["matagal nang nagdurusa", "matagal nang naghihintay", "hindi na makakita nang mabuti", "nawalan na ng pag-asa"],
+			    correct: 1,
+			    explanation: "Ang <b>namuti na ang mga mata</b> ay nangangahulugang napakatagal nang naghihintay."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "Huwag mong <i>bilugin ang ulo</i> ng bata sa dami ng iyong sinasabi.",
+			    options: ["pagalitan siya", "lituhin siya sa pag-aaral", "lituhin o linlangin siya", "turuan siya nang mabuti"],
+			    correct: 2,
+			    explanation: "Ang <b>bilugin ang ulo</b> ay nangangahulugang lituhin, lokohin, o impluwensiyahan ang isang tao."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Mabigat ang kamay</i> ng ama sa kaniyang mga anak.",
+			    options: ["malakas siyang gumawa", "madaling manakit o mamalo", "masipag siyang magtrabaho", "mahigpit siyang magdisiplina"],
+			    correct: 1,
+			    explanation: "Ang <b>mabigat ang kamay</b> ay karaniwang tumutukoy sa taong madaling manakit o mamalo."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Matalas ang dila</i> ng matandang babae.",
+			    options: ["mahusay magsalita", "maraming alam na salita", "masakit o mapanakit magsalita", "mabilis sumagot sa tanong"],
+			    correct: 2,
+			    explanation: "Ang <b>matalas ang dila</b> ay tumutukoy sa taong mapanakit, matalas, o masakit magsalita."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Makapal ang mukha</i> niya dahil hindi siya nahiya sa kaniyang ginawa.",
+			    options: ["matapang", "walang hiya", "matigas ang ulo", "walang pakialam"],
+			    correct: 1,
+			    explanation: "Ang <b>makapal ang mukha</b> ay nangangahulugang walang hiya o hindi madaling mahiya."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Mataas ang lipad</i> ng bagong empleyado.",
+			    options: ["mataas ang ambisyon", "mahusay lumipad", "mataas ang katayuan", "maraming pangarap sa buhay"],
+			    correct: 0,
+			    explanation: "Ang <b>mataas ang lipad</b> ay nangangahulugang mataas ang ambisyon o pangarap ng isang tao."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "Huwag kang <i>magtaingang-kawali</i> kapag pinapayuhan ka ng iyong mga magulang.",
+			    options: ["magkunwaring hindi nakikita", "magkunwaring hindi naririnig", "sumagot nang pabalang", "umiwas sa pakikipag-usap"],
+			    correct: 1,
+			    explanation: "Ang <b>magtaingang-kawali</b> ay sadyang hindi pakikinig o pagkukunwaring hindi naririnig ang sinasabi."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Maitim ang budhi</i> ng taong iyon.",
+			    options: ["malungkot ang kalooban", "maraming suliranin", "masama ang kalooban", "mahirap kausapin"],
+			    correct: 2,
+			    explanation: "Ang <b>maitim ang budhi</b> ay tumutukoy sa taong may masamang kalooban o masamang hangarin."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Mababa ang loob</i> ni Teresa kaya hindi siya nagyayabang.",
+			    options: ["mahina ang loob", "mapagkumbaba", "madaling matakot", "tahimik magsalita"],
+			    correct: 1,
+			    explanation: "Ang <b>mababa ang loob</b> ay nangangahulugang mapagkumbaba at hindi palalo."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Mataas ang noo</i> niyang humarap sa mga tao matapos ang tagumpay.",
+			    options: ["may dangal at tiwala sa sarili", "mayabang sa kapwa", "hindi natatakot sa tao", "masaya sa kaniyang tagumpay"],
+			    correct: 0,
+			    explanation: "Ang <b>mataas ang noo</b> ay maaaring mangahulugang may dangal, marangal, o walang dapat ikahiya."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Nasa alanganin ang buhay</i> ng maysakit.",
+			    options: ["mahirap ang kalagayan", "nasa panganib", "mahina ang katawan", "malubha ang karamdaman"],
+			    correct: 1,
+			    explanation: "Ang <b>nasa alanganin</b> ay nasa hindi tiyak o mapanganib na kalagayan."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Kapit sa patalim</i> ang pamilya upang makaraos sa kanilang suliranin.",
+			    options: ["gumagawa ng mapanganib na gawain", "gumagawa ng anumang paraan dahil sa matinding pangangailangan", "humihingi ng tulong sa mayaman", "nagsasakripisyo para sa pamilya"],
+			    correct: 1,
+			    explanation: "Ang <b>kapit sa patalim</b> ay paggamit ng kahit mapanganib o hindi kanais-nais na paraan dahil sa matinding pangangailangan."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Naglubid ng buhangin</i> ang mga tauhan upang matupad ang imposibleng utos.",
+			    options: ["gumawa nang mabagal", "gumawa ng bagay na halos imposibleng maisagawa", "gumawa ng bagay na walang halaga", "nagsayang ng materyales"],
+			    correct: 1,
+			    explanation: "Ang <b>naglubid ng buhangin</b> ay matalinghagang pahayag para sa paggawa ng isang bagay na napakahirap o halos imposible."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Nagtanim ng sama ng loob</i> si Rosa sa kaniyang kapatid.",
+			    options: ["nagtago ng galit", "nagkimkim ng hinanakit", "nagalit nang sandali", "hindi nakipag-usap"],
+			    correct: 1,
+			    explanation: "Ang <b>nagtanim ng sama ng loob</b> ay nagkimkim o nag-ipon ng hinanakit laban sa isang tao."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "Huwag mong <i>sunugin ang tulay</i> na maaaring kailanganin mo balang araw.",
+			    options: ["sirain ang isang bagay na mahalaga", "putulin ang ugnayang maaaring kailanganin pa", "iwasan ang dating kaibigan", "kalimutan ang nakaraan"],
+			    correct: 1,
+			    explanation: "Ang <b>sunugin ang tulay</b> ay nangangahulugang tuluyang putulin ang ugnayan o posibilidad na makabalik sa dating kalagayan."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Nasa dulo ng dila</i> ko ang pangalan niya ngunit hindi ko maalala.",
+			    options: ["malapit nang sabihin", "halos maalala o mabigkas", "gustong-gustong sabihin", "ayaw banggitin"],
+			    correct: 1,
+			    explanation: "Ang <b>nasa dulo ng dila</b> ay tumutukoy sa bagay na halos maalala o mabigkas ngunit hindi pa maibigay nang wasto."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Bukas ang palad</i> ng alkalde sa mga nangangailangan.",
+			    options: ["mahusay mamuno", "mapagbigay", "palakaibigan", "matulungin sa trabaho"],
+			    correct: 1,
+			    explanation: "Ang <b>bukas ang palad</b> ay nangangahulugang mapagbigay o handang magbahagi."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Isang kahig, isang tuka</i> ang kanilang pamumuhay.",
+			    options: ["payak ang kanilang pamumuhay", "sapat lamang ang kinikita para sa pang-araw-araw na pangangailangan", "marami silang gastusin", "wala silang pinagkakakitaan"],
+			    correct: 1,
+			    explanation: "Ang <b>isang kahig, isang tuka</b> ay tumutukoy sa pamumuhay na sapat lamang ang kinikita para sa araw-araw na pangangailangan."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Nagbukas ng dibdib</i> si Ana sa kaniyang matalik na kaibigan.",
+			    options: ["nagsabi ng kaniyang problema", "nagsiwalat ng niloloob o saloobin", "humingi ng payo", "nagsabi ng kaniyang sikreto"],
+			    correct: 1,
+			    explanation: "Ang <b>nagbukas ng dibdib</b> ay nagsiwalat ng malalim na saloobin, damdamin, o iniisip."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Nagbukas ng bibig</i> ang saksi tungkol sa matagal niyang nalalaman.",
+			    options: ["nagsalita nang malakas", "nagsiwalat ng nalalaman", "sumagot sa tanong", "nagbigay ng opinyon"],
+			    correct: 1,
+			    explanation: "Sa ganitong gamit, ang <b>nagbukas ng bibig</b> ay nangangahulugang nagsalita o nagsiwalat ng impormasyong dati ay itinatago."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Naglaba ng maruming damit</i> sa harap ng maraming tao ang dalawang magkaibigan.",
+			    options: ["naglinis ng kanilang damit", "naglantad ng kanilang lihim o away", "nagkuwentuhan tungkol sa kanilang buhay", "nagsumbatan nang tahimik"],
+			    correct: 1,
+			    explanation: "Ang <b>paglalaba ng maruming damit</b> ay paglalantad ng pribadong problema, lihim, o alitan sa publiko."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Nagbuhat ng sariling bangko</i> ang kandidato sa kaniyang talumpati.",
+			    options: ["nagpakitang-gilas", "pinuri ang sarili", "nagsalita nang matapang", "ipinagtanggol ang sarili"],
+			    correct: 1,
+			    explanation: "Ang <b>nagbuhat ng sariling bangko</b> ay nangangahulugang labis na pinupuri o ipinagmamalaki ang sarili."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Nag-ihaw ng sariling baboy</i> ang taong palaging nagmamataas.",
+			    options: ["nagdiwang nang mag-isa", "sariling kapakanan lamang ang iniisip", "gumawa ng sariling desisyon", "nagtrabaho nang walang tulong"],
+			    correct: 1,
+			    explanation: "Ang pahayag ay ginagamit upang ilarawan ang taong inuuna o pinakikinabangan ang sariling kapakanan."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Naglalaro sa apoy</i> ang taong paulit-ulit na lumalabag sa batas.",
+			    options: ["gumagawa ng mapanganib na laro", "sinusubok ang isang mapanganib na sitwasyon", "hindi natatakot sa panganib", "gumagawa ng ilegal na gawain"],
+			    correct: 1,
+			    explanation: "Ang <b>naglalaro sa apoy</b> ay sadyang pagpasok o paggawa ng bagay na maaaring humantong sa panganib o kapahamakan."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "Huwag mong <i>hukayin ang nakaraan</i> kung nais mong magkaroon ng kapayapaan.",
+			    options: ["alalahanin ang mga dating pangyayari", "balikan o ungkatin ang dating problema", "alamin ang kasaysayan", "pag-aralan ang mga pagkakamali"],
+			    correct: 1,
+			    explanation: "Ang <b>hukayin ang nakaraan</b> ay nangangahulugang muling ungkatin ang mga dating problema o pangyayaring nais nang kalimutan."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Nagbibilang ng araw</i> ang matanda bago siya magretiro.",
+			    options: ["sinusukat ang kaniyang edad", "hinihintay ang nalalapit na pangyayari", "nag-aalala sa kaniyang kinabukasan", "nagbabalak ng paglalakbay"],
+			    correct: 1,
+			    explanation: "Ang <b>nagbibilang ng araw</b> ay naghihintay sa pagdating ng isang tiyak o mahalagang pangyayari."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Nasa kamay niya ang kapalaran</i> ng buong samahan.",
+			    options: ["siya ang namamahala", "nakasalalay sa kaniya ang magiging resulta", "siya ang may pinakamalaking kapangyarihan", "siya ang gumagawa ng lahat ng desisyon"],
+			    correct: 1,
+			    explanation: "Ang <b>nasa kamay niya ang kapalaran</b> ay nangangahulugang nakasalalay sa kaniyang kilos o pasya ang magiging resulta."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>May gatas pa sa labi</i> ang bagong empleyado.",
+			    options: ["bata pa siya", "kulang pa sa karanasan", "hindi pa siya marunong", "bagong salta siya sa trabaho"],
+			    correct: 1,
+			    explanation: "Ang <b>may gatas pa sa labi</b> ay tumutukoy sa taong bata pa o kulang pa sa karanasan."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>May bahid ng pagdududa</i> ang kaniyang pahayag.",
+			    options: ["may mali sa kaniyang sinabi", "may kaunting pag-aalinlangan", "hindi siya nagsasabi ng totoo", "may itinatago siyang impormasyon"],
+			    correct: 1,
+			    explanation: "Ang <b>bahid ng pagdududa</b> ay nangangahulugang may kaunting pag-aalinlangan o kawalan ng katiyakan."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>May pakpak ang balita</i> kaya mabilis itong kumalat.",
+			    options: ["madaling mapatunayan ang balita", "mabilis kumalat ang balita", "maraming taong nakarinig nito", "mahirap pigilan ang mga tao"],
+			    correct: 1,
+			    explanation: "Ang <b>may pakpak ang balita</b> ay nangangahulugang napakabilis kumalat ng isang balita."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>May ahas sa dibdib</i> ang taong pinagkakatiwalaan nila.",
+			    options: ["may kinatatakutang tao", "may lihim na pagtataksil o masamang hangarin", "mapanganib na tao", "maraming kaaway"],
+			    correct: 1,
+			    explanation: "Ang <b>may ahas sa dibdib</b> ay tumutukoy sa taong itinuturing na kaibigan ngunit may pagtataksil o masamang hangarin."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>May dalawang mukha</i> ang taong iyon.",
+			    options: ["hindi mapagkakatiwalaan", "magkaiba ang ipinakikita at tunay na asal", "mahusay makitungo sa lahat", "nagbabago ng kaniyang opinyon"],
+			    correct: 1,
+			    explanation: "Ang <b>may dalawang mukha</b> ay taong nagpapakita ng magkaibang asal o pakikitungo depende sa kaniyang kaharap."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>May itim na tupa</i> sa kanilang pamilya.",
+			    options: ["may miyembrong mahirap turuan", "may miyembrong naiiba o masama ang reputasyon", "may taong ayaw makisama", "may miyembrong palaging nag-iisa"],
+			    correct: 1,
+			    explanation: "Ang <b>itim na tupa</b> ay taong naiiba sa kaniyang pangkat o pamilya, kadalasan ay dahil sa hindi kanais-nais na asal o reputasyon."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>May gulong ang dila</i> ng kanilang kapitbahay.",
+			    options: ["mabilis magsalita", "madaldal at mahilig magkuwento", "hindi marunong mag-ingat sa salita", "mahilig makipagtalo"],
+			    correct: 1,
+			    explanation: "Ang <b>may gulong ang dila</b> ay tumutukoy sa taong mabilis at tuluy-tuloy magsalita o labis na madaldal."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Nasa ulap ang isip</i> ng estudyante habang nagtuturo ang guro.",
+			    options: ["malalim mag-isip", "hindi nakapagtutuon ng pansin", "maraming iniisip na problema", "malikhain mag-isip"],
+			    correct: 1,
+			    explanation: "Ang <b>nasa ulap ang isip</b> ay nangangahulugang hindi nakatuon ang isip sa kasalukuyang ginagawa."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Nasa bingit ng kapahamakan</i> ang mga manlalakbay.",
+			    options: ["malapit sa isang bangin", "malapit nang mapahamak", "nasa mapanganib na lugar", "hindi alam ang pupuntahan"],
+			    correct: 1,
+			    explanation: "Ang <b>nasa bingit ng kapahamakan</b> ay nasa kalagayang napakalapit sa panganib o kapahamakan."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Nasa sukdulan ang kaniyang galit</i> sa nangyari.",
+			    options: ["napipigilan ang galit", "pinakamataas ang antas ng galit", "matagal nang nagagalit", "ayaw nang makipag-usap"],
+			    correct: 1,
+			    explanation: "Ang <b>sukdulan</b> ay pinakamataas o pinakamatinding antas. Kaya ang pahayag ay nangangahulugang napakatindi ng kaniyang galit."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Kumakain ng alikabok</i> ang ibang mananakbo sa karera.",
+			    options: ["natatalo sa karera", "nahuhuli o napag-iiwanan", "pagod na pagod", "tumatakbo nang mabagal"],
+			    correct: 1,
+			    explanation: "Ang <b>kumakain ng alikabok</b> ay idyomatikong nangangahulugang napag-iiwanan o natatalo sa isang paligsahan."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Kumakain sa malaking hapag</i> ang mga taong may mataas na katayuan sa lipunan.",
+			    options: ["maraming pagkain ang kinakain", "mayaman at makapangyarihan", "masaganang namumuhay", "maraming kaibigan"],
+			    correct: 1,
+			    explanation: "Ang <b>kumakain sa malaking hapag</b> ay maaaring gamitin sa matalinghagang diwa para sa mga taong nakikinabang sa yaman, kapangyarihan, o mataas na katayuan."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Nalaglag ang panga</i> ng mga manonood nang makita ang resulta.",
+			    options: ["nagulat", "labis na namangha", "natakot", "hindi makapaniwala sa sarili"],
+			    correct: 1,
+			    explanation: "Ang <b>nalaglag ang panga</b> ay nangangahulugang labis na namangha o nagulat sa isang hindi inaasahang bagay."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Nalaglag sa kandungan</i> ng kalaban ang tagumpay.",
+			    options: ["biglang nawala ang pagkakataon", "madaling napunta sa iba ang isang bagay", "natalo nang hindi lumaban", "hindi inaasahang nagtagumpay"],
+			    correct: 1,
+			    explanation: "Ang <b>nalaglag sa kandungan</b> ay tumutukoy sa bagay na madaling napunta sa isang tao nang hindi niya gaanong pinaghirapan."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Nagbuhol ang dila</i> ng saksi nang tanungin siya ng hukom.",
+			    options: ["hindi makapagsalita nang malinaw", "nahirapang magsalita dahil sa kaba", "nakalimutan ang kaniyang sasabihin", "tumangging sumagot"],
+			    correct: 1,
+			    explanation: "Ang <b>nagbuhol ang dila</b> ay nangangahulugang nahirapang magsalita nang maayos, kadalasan dahil sa kaba, takot, o pagkalito."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "<i>Nagtago sa likod ng palda</i> ang binata nang dumating ang mga maniningil.",
+			    options: ["nagtago sa kaniyang ina", "umiwas sa pananagutan o panganib", "natakot sa mga tao", "ayaw makipag-usap sa iba"],
+			    correct: 1,
+			    explanation: "Ang <b>nagtago sa likod ng palda</b> ay matalinghagang tumutukoy sa taong umaasa o nagkukubli sa ilalim ng proteksiyon ng iba upang makaiwas sa pananagutan."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Mga Kawikaan",
+			    sidebarId: "side-fil-kawi",
+			    directions: "Piliin ang salitang kasing-kahulugan ng salitang nakapahilig.",
+			    question: "Sa kabila ng mga problema, <i>hawak sa leeg ang pagkakataon</i> ng koponan upang makamit ang kampeonato.",
+			    options: ["malapit nang matalo", "malaki pa ang posibilidad na magtagumpay", "kontrolado ang kalaban", "nakasalalay sa swerte ang tagumpay"],
+			    correct: 1,
+			    explanation: "Ang pahayag ay nagpapahiwatig na nasa kritikal ngunit paborableng kalagayan pa ang isang panig at may mahalagang pagkakataon pa itong makamit ang layunin."
+			},
+			{
                 subject: "Filipino",
                 subtopic: "Wastong Gamit",
                 sidebarId: "side-fil-wast",
