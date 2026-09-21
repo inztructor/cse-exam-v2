@@ -6540,7 +6540,7 @@ window.onload = function() {
 		        sidebarId: "side-fil-wast",
 		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
 		        question: "Sinabi ______ hindi na raw siya makadadalo sa pagpupulong.",
-		        options: ["niya", "kaniya", "niyang", "kanyang"],
+		        options: ["niya na", "sa kaniya", "niyang", "sa kanyang"],
 		        correct: 2,
 		        explanation: "<b>Niyang</b> (niya + -ng) ang wastong anyo dahil nag-uugnay ito sa sugnay na nagsasaad ng kaniyang sinabi."
 		    },
@@ -6570,7 +6570,7 @@ window.onload = function() {
 		        sidebarId: "side-fil-wast",
 		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
 		        question: "______ dumating ang punong-guro, agad na tumahimik ang mga mag-aaral.",
-		        options: ["Ng", "Nang", "Na", "Kung"],
+		        options: ["Ng", "Nang", "Pag", "Kung"],
 		        correct: 1,
 		        explanation: "<b>Nang</b> ang ginagamit bilang kasingkahulugan ng 'noong' o upang ipakita ang tiyak na sandali ng pagkakaganap ng kilos."
 		    },
@@ -6629,8 +6629,8 @@ window.onload = function() {
 		        subtopic: "Wastong Gamit",
 		        sidebarId: "side-fil-wast",
 		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
-		        question: "______ sa ulat ng komite, natapos na ang imbestigasyon.",
-		        options: ["Ayon kay", "Ayon kina", "Ayon sa", "Ayun kay"],
+		        question: "______ ulat ng komite, natapos na ang imbestigasyon.",
+		        options: ["Ayon kay", "Ayon kina", "Ayon sa", "Para sa"],
 		        correct: 2,
 		        explanation: "<b>Ayon sa</b> ang ginagamit kapag ang kasunod ay pambalana (bagay, ulat, dokumento, batas)."
 		    },
@@ -6661,8 +6661,8 @@ window.onload = function() {
 		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
 		        question: "______ akong kailangang tapusin bago matapos ang araw.",
 		        options: ["Mayroon", "Magkaroon", "May", "Nagkaroon"],
-		        correct: 2,
-		        explanation: "<b>May</b> ang ginagamit kapag sinusundan ng pandiwa, pang-uri, pangngalan, o pang-abay (may kailangang...)."
+		        correct: 0,
+		        explanation: "Ginagamit ang <b>mayroon</b> kapag ang kasunod na salita ay isang panghalip na panao (ako, ka, siya, kami, tayo, kayo, sila) o isang kataga/pang-abay (ba, din, rin, pa, na)."
 		    },
 		    {
 		        subject: "Filipino",
@@ -6690,7 +6690,7 @@ window.onload = function() {
 		        sidebarId: "side-fil-wast",
 		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
 		        question: "______ niya ang kaniyang pagkakamali matapos suriin ang mga ebidensiya.",
-		        options: ["Umamin", "Inamin", "Umaminan", "Umaamin"],
+		        options: ["Umamin", "Inamin", "Inaamin", "Umaamin"],
 		        correct: 1,
 		        explanation: "<b>Inamin</b> (pokus sa layon) ang ginagamit dahil may tuwirang layon ang pangungusap (ang kaniyang pagkakamali)."
 		    },
@@ -6750,7 +6750,7 @@ window.onload = function() {
 		        sidebarId: "side-fil-wast",
 		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
 		        question: "______ mo ang luha sa kaniyang mga mata.",
-		        options: ["Pahiran", "Pahirin", "Pahiranin", "Pumahid"],
+		        options: ["Pahiran", "Pahirin", "Alisin", "Tanggalin"],
 		        correct: 0,
 		        explanation: "<b>Pahiran</b> ang wastong gamit kapag nag-aalis ng bagay (luha/pawis) sa isang tao o bahagi ng katawan."
 		    },
@@ -6810,7 +6810,7 @@ window.onload = function() {
 		        sidebarId: "side-fil-wast",
 		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
 		        question: "______ mo ang kaniyang mungkahi bago ito tuluyang tanggihan.",
-		        options: ["Pag-isipan", "Pag-isipin", "Mag-isip", "Pinag-isipan"],
+		        options: ["Pag-isipan", "Pag-isipin", "Pag-iisipan", "Pinag-isipan"],
 		        correct: 0,
 		        explanation: "<b>Pag-isipan</b> ang ginagamit kapag may partikular na paksa o mungkahi na tututuunan ng pag-iisip."
 		    },
@@ -6830,7 +6830,7 @@ window.onload = function() {
 		        sidebarId: "side-fil-wast",
 		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
 		        question: "______ sa bagong patakaran, kailangang magsumite ng ulat bago Biyernes.",
-		        options: ["Ayon kay", "Alinsunod", "Dahil kay", "Tungkol kay"],
+		        options: ["Ayon", "Alinsunod", "Dahil", "Tungkol"],
 		        correct: 1,
 		        explanation: "<b>Alinsunod</b> ang pampanitikang gamit para sa pagtalima sa patakaran o alituntunin."
 		    },
@@ -6850,7 +6850,7 @@ window.onload = function() {
 		        sidebarId: "side-fil-wast",
 		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
 		        question: "Hindi siya pumasok ______ kaniyang karamdaman.",
-		        options: ["dahil kay", "dahil", "dahil sa", "dahil kina"],
+		        options: ["ayon sa", "dahil", "dahil sa", "para sa"],
 		        correct: 2,
 		        explanation: "<b>Dahil sa</b> ang ginagamit kapag pambalana o pangngalang di-tao ang sanhi (karamdaman)."
 		    },
@@ -6861,8 +6861,8 @@ window.onload = function() {
 		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
 		        question: "Hindi siya nakadalo ______ kaniyang ina.",
 		        options: ["dahil sa", "dahil kay", "dahil kina", "dahil"],
-		        correct: 1,
-		        explanation: "<b>Dahil kay</b> ang ginagamit kapag tanging tao ang dahilan."
+		        correct: 0,
+		        explanation: "Ginagamit ang <b>dahil sa</b> kapag ang salita o pariralang agad na kasunod ay bagay, pangyayari, o pangngalang pambalana."
 		    },
 		    {
 		        subject: "Filipino",
@@ -6890,7 +6890,7 @@ window.onload = function() {
 		        sidebarId: "side-fil-wast",
 		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
 		        question: "Ang desisyon ay ginawa ______ kapakanan ng mga mag-aaral.",
-		        options: ["tungkol sa", "dahil sa", "para sa", "ayon kay"],
+		        options: ["tungkol sa", "dahil sa", "para sa", "ayon sa"],
 		        correct: 2,
 		        explanation: "<b>Para sa</b> ang ginagamit sa pagsasaad ng pinag-uukulan o layunin."
 		    },
@@ -6901,8 +6901,8 @@ window.onload = function() {
 		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
 		        question: "Ang liham ay ipinadala ______ punong-guro.",
 		        options: ["para sa", "para kay", "para kina", "tungkol sa"],
-		        correct: 1,
-		        explanation: "<b>Para kay</b> ang ginagamit kapag tiyak na iisang tao ang pinag-uukulan."
+		        correct: 0,
+		        explanation: "Ginagamit ang <b>para sa</b> kapag pambalana (pangkat, katungkulan, bagay, o kategorya) ang kasunod."
 		    },
 		    {
 		        subject: "Filipino",
@@ -6910,7 +6910,7 @@ window.onload = function() {
 		        sidebarId: "side-fil-wast",
 		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
 		        question: "Ang mga sertipiko ay inihanda ______ Ana at Ben.",
-		        options: ["para kay", "tungkol kina", "para kina", "ayon sa"],
+		        options: ["para kayna", "tungkol kina", "para kina", "para kena"],
 		        correct: 2,
 		        explanation: "<b>Para kina</b> ang ginagamit kapag higit sa isang tao ang pinag-uukulan."
 		    },
@@ -6930,7 +6930,7 @@ window.onload = function() {
 		        sidebarId: "side-fil-wast",
 		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
 		        question: "______ Ana at Ben, nagsimula ang insidente bandang alas-diyes.",
-		        options: ["Ayon sa", "Ayon kay", "Ayon kina", "Ayun kina"],
+		        options: ["Para kina", "Ayon kena", "Ayon kina", "Ayun kina"],
 		        correct: 2,
 		        explanation: "<b>Ayon kina</b> ang ginagamit kapag tinutukoy ang dalawa o higit pang tiyak na pangalan ng tao."
 		    },
@@ -6950,7 +6950,7 @@ window.onload = function() {
 		        sidebarId: "side-fil-wast",
 		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
 		        question: "______ Ana at Ben ang mga dokumentong ito.",
-		        options: ["Kay", "Sina", "Kina", "Sila"],
+		        options: ["Kayna", "Kena", "Kina", "Sila"],
 		        correct: 2,
 		        explanation: "<b>Kina</b> ang nagpapakita ng pagmamay-ari para sa dalawa o higit pang tao."
 		    },
@@ -7000,19 +7000,10 @@ window.onload = function() {
 		        sidebarId: "side-fil-wast",
 		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
 		        question: "______ magsisikap kang mabuti, malaki ang posibilidad na makamit mo ang iyong layunin.",
-		        options: ["Dahil", "Nang", "Kung", "Sapagkat"],
+		        options: ["Dahil", "Kong", "Kung", "Sapagkat"],
 		        correct: 2,
 		        explanation: "<b>Kung</b> ang pangatnig na ginagamit sa pagpapahayag ng kondisyon o syarat."
-		    },
-			{
-                subject: "Filipino",
-                subtopic: "Wastong Gamit",
-                sidebarId: "side-fil-wast",
-                directions: "Mga Panuto: Piliin ang pinakawastong sagot para sa bawat patlang.",
-                question: "Maaari bang bigyan ng 10 taon na lisensya ang isang drayber kung ito ay mayroong huli o traffic violation?",
-                options: ["Hindi", "Oo", "Oo kung ang penalty ay nabayaran labinlimang taon bago mag-renew"],
-                correct: 0
-            }
+		    }
         ];
 
         const analyticalPool = [
