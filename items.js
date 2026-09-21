@@ -4097,369 +4097,411 @@ window.onload = function() {
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The newly appointed officer has a strong ______ in public administration.",
+                options: ["background", "backdrop", "back ground", "back-ground"],
+                correct: 0,
+				explanation: "Correct answer is <b>background</b>.<ul><li><b>Background</b> is the standard one-word form referring to a person's education, experience, or history.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The employees were instructed to ______ the documents according to their respective categories.",
+                options: ["classification", "classified", "classify", "classifying"],
+                correct: 2,
+				explanation: "Correct answer is <b>classify</b>.<ul><li>After the infinitive <b>to</b>, the base form of the verb is required: <i>to classify</i>.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "Neither the department head nor the employees ______ willing to disclose the contents of the report.",
+                options: ["was", "were", "is", "has"],
+                correct: 1,
+				explanation: "Correct answer is <b>were</b>.<ul><li>With <i>neither...nor</i>, the verb generally agrees with the nearer subject. The nearer subject is plural, employees, so <b>were</b> is appropriate.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "Each of the applicants ______ required to present two valid identification cards.",
+                options: ["are", "were", "have", "is"],
+                correct: 3,
+				explanation: "Correct answer is <b>is</b>.<ul><li><b>Each</b> is singular and requires a <i>singular verb</i>. Therefore, <b>each ... is required is correct</b>.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The records officer carefully examined the files to determine ______ documents were missing.",
+                options: ["weather", "whether", "rather", "where"],
+                correct: 1,
+				explanation: "Correct answer is <b>whether</b>.<ul><li><b>Whether</b> introduces alternatives or uncertainty. <b>Weather</b> refers to atmospheric conditions.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The applicant was disqualified because he failed to ______ the required documents before the deadline.",
+                options: ["submitted", "submitting", "submit", "submission"],
+                correct: 2,
+				explanation: "Correct answer is <b>submit</b>.<ul><li>After <b>failed to</b>, the base form of the verb is required: <i>failed to submit</i>.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The officer was asked to ______ the public that the agency would investigate the complaint.",
+                options: ["ensure", "insure", "assurance", "assure"],
+                correct: 3,
+				explanation: "Correct answer is <b>assure</b>.<ul><li><b>Assure</b> is used when giving confidence to a person. The officer assures the public.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The government intends to ______ the old regulation with a more comprehensive policy.",
+                options: ["adapt", "adopt", "adept", "adoption"],
+                correct: 1,
+				explanation: "Correct answer is <b>adopt</b>.<ul><li><b>Adopt</b> means to accept, implement, or take something as one's own. <b>Adapt</b> means to modify something for a particular purpose.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The office had to ______ the scheduled inspection because of the typhoon.",
+                options: ["preposition", "propose", "position", "postpone"],
+                correct: 3,
+				explanation: "Correct answer is <b>postpone</b>.<ul><li><b>Postpone</b> means to delay an event or activity until a later time.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The agency will ______ the applicants of any changes in the examination schedule.",
+                options: ["advice", "advise", "advising", "advisory"],
+                correct: 1,
+				explanation: "Correct answer is <b>advise</b>.<ul><li><b>Advise</b> is the verb meaning to inform or counsel. The construction <i>will advise</i> requires the base verb.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The new employee was praised for her ______ approach to handling confidential records.",
+                options: ["conscientious", "conscious", "conscience", "conscientiously"],
+                correct: 0,
+				explanation: "Correct answer is <b>advise</b>.<ul><li><b>Conscientious</b> means careful, responsible, and diligent in one's work. <b>Conscious</b> means aware or awake.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The mayor's office requested that the report be submitted ______ the end of the month.",
+                options: ["at", "by", "on", "into"],
+                correct: 1,
+				explanation: "Correct answer is <b>by</b>.<ul><li><b>By</b> indicates a deadline or latest time. The report must be submitted no later than the end of the month.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The supervisor reminded the staff that everyone is accountable for ______ actions.",
+                options: ["his or her", "their", "there", "they're"],
+                correct: 0,
+				explanation: "Correct answer is <b>his or her</b>.<ul><li>In traditional formal usage, the singular pronoun <i>his or her</i> agrees with the singular indefinite pronoun <i>everyone</i>. <i>Their</i> is widely accepted in modern English as singular gender-neutral usage, but this item follows the formal agreement convention often tested in examinations.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The committee members arrived at a decision ______ after reviewing all the evidence.",
+                options: ["altogether", "all together", "all-together", "altogetherly"],
+                correct: 0,
+				explanation: "Correct answer is <b>altogether</b>.<ul><li><b>Altogether</b> means completely or on the whole. <b>All together</b> means everyone or everything collectively.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The applicants were asked to remain ______ until their names were called.",
+                options: ["quiet", "quite", "quit", "quietly"],
+                correct: 0,
+				explanation: "Correct answer is <b>quiet</b>.<ul><li><b>Quiet</b> means making little or no noise. <b>Quite</b> is an adverb meaning completely or fairly, while <b>quit</b> means to stop or leave.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The officer's explanation was ______ convincing to the members of the committee.",
+                options: ["quiet", "quite", "quit", "quietly"],
+                correct: 1,
+				explanation: "Correct answer is <b>quite</b>.<ul><li><b>Quite</b> is an adverb modifying convincing. It means fairly or completely, depending on context.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The agency needs to ______ the value of the equipment before disposing of it.",
+                options: ["appraise", "apprise", "praise", "appraised"],
+                correct: 0,
+				explanation: "Correct answer is <b>appraise</b>.<ul><li><b>Appraise</b> means to assess or determine the value of something. <b>Apprise</b> means to inform someone.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The director instructed her secretary to ______ him of any developments concerning the investigation.",
+                options: ["appraise", "apprise", "appraisal", "praise"],
+                correct: 1,
+				explanation: "Correct answer is <b>apprise</b>.<ul><li><b>Apprise</b> means to inform or notify someone. The phrase apprise someone of something is standard usage.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The committee will ______ the results of the survey before recommending any changes.",
+                options: ["analyze", "analysis", "analytical", "analyzing"],
+                correct: 0,
+				explanation: "Correct answer is <b>analyze</b>.<ul><li><b>After <i>will</i>, the base form of the verb is required: <i>will analyze</i>.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The employee was commended for her ______ handling of the sensitive complaint.",
+                options: ["judicious", "judicial", "judiciary", "judgment"],
+                correct: 0,
+				explanation: "Correct answer is <b>judicious</b>.<ul><li><b>Judicious</b> means showing good judgment and careful consideration. <b>Judicial</b> relates to courts or the administration of justice.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The court issued an ______ order prohibiting the demolition of the structure.",
+                options: ["eminent", "imminent", "imminent", "eminently"],
+                correct: 1,
+				explanation: "Correct answer is <b>imminent</b>.<ul><li><b>Imminent</b> means about to happen. <b>Eminent</b> means distinguished or famous.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The government official was considered an ______ authority on local governance.",
+                options: ["imminent", "eminent", "immanent", "imminently"],
+                correct: 1,
+				explanation: "Correct answer is <b>eminent</b>.<ul><li><b>Eminent</b> means highly respected, distinguished, or prominent.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The employee's personal beliefs should not ______ her official duties.",
+                options: ["affect", "effect", "effects", "affectedly"],
+                correct: 0,
+				explanation: "Correct answer is <b>affect</b>.<ul><li>Here, <b>affect</b> is a verb meaning <i>influence</i>. The sentence means personal beliefs should not influence official duties.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The new regulation is expected to have a significant ______ on the processing time of applications.",
+                options: ["affect", "effect", "affects", "affecting"],
+                correct: 1,
+				explanation: "Correct answer is <b>effect</b>.<ul><li><b>Effect</b> is a noun meaning result or consequence. The phrase <i>have an effect</i> on is standard.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The manager asked the staff to ______ the problem before implementing a solution.",
+                options: ["identify", "identity", "identification", "identifiable"],
+                correct: 0,
+				explanation: "Correct answer is <b>identify</b>.<ul><li><b>Identify</b> is the verb meaning to recognize or establish what something is. <b>Identity</b> is primarily a noun.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The applicant was asked to present proof of her ______ before the records could be released.",
+                options: ["identity", "identify", "identification", "identifiable"],
+                correct: 0,
+				explanation: "Correct answer is <b>identity</b>.<ul><li><b>Identity</b> is the noun referring to who or what a person is.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The committee decided to ______ the proposal until additional information became available.",
+                options: ["defer", "differ", "infer", "refer"],
+                correct: 0,
+				explanation: "Correct answer is <b>defer</b>.<ul><li><b>Defer</b> means to postpone or delay. <b>Differ</b> means to be unlike or disagree.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The two applicants ______ significantly in their interpretation of the regulation.",
+                options: ["defer", "differ", "deferment", "difference"],
+                correct: 1,
+				explanation: "Correct answer is <b>differ</b>.<ul><li><b>Differ</b> means to be unlike or to disagree. The plural subject applicants takes differ.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The auditor found ______ errors in the revised report than in the original.",
+                options: ["less", "lesser", "fewer", "fewest"],
+                correct: 2,
+				explanation: "Correct answer is <b>fewer</b>.<ul><li><b>Fewer</b> is traditionally used with countable plural nouns such as errors. <b>Less</b> is generally used with uncountable nouns such as money or time.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The office has ______ information about the incident than it initially reported.",
+                options: ["fewer", "less", "few", "lesser"],
+                correct: 1,
+				explanation: "Correct answer is <b>less</b>.<ul><li><b>Information</b> is an uncountable noun, so less information is correct.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The director divided the responsibilities ______ the five members of the committee.",
+                options: ["between", "among", "beside", "besides"],
+                correct: 1,
+				correct: 1,
+				explanation: "Correct answer is <b>among</b>.<ul><li><b>Among</b> is traditionally used when referring to three or more persons or things. <b>Between</b> is commonly associated with two.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The memorandum was prepared ______ accordance with existing civil service regulations.",
+                options: ["by", "at", "in", "on"],
+                correct: 2,
+				explanation: "Correct answer is <b>in</b>.<ul><li>The standard expression is <b>in accordance with</b>, meaning consistent with or following something.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The employee was absent ______ illness.",
+                options: ["because", "because of", "due", "since of"],
+                correct: 1,
+				explanation: "Correct answer is <b>because of</b>.<ul><li><b>Because of</b> is a prepositional phrase and can be followed by a noun such as illness. <b>Because</b> is normally followed by a clause.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The decision was made ______ the recommendation of the technical committee.",
+                options: ["pursuant to", "pursuant with", "pursuant at", "pursuant on"],
+                correct: 0,
+				explanation: "Correct answer is <b>pursuant to</b>.<ul><li><b>Pursuant to</b> is a formal expression meaning <i>in accordance with</i> or <i>following</i>. It is common in legal and government documents.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The employees were reminded to comply ______ the agency's security protocols.",
+                options: ["to", "with", "on", "at"],
+                correct: 1,
+				explanation: "Correct answer is <b>with</b>.<ul><li>Explanation: The correct collocation is <b>comply with</b>, meaning to act according to a rule, request, or requirement.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The officer is responsible ______ ensuring that all records are properly filed.",
+                options: ["of", "to", "for", "with"],
+                correct: 2,
+				explanation: "Correct answer is <b>for</b>.<ul><li>The standard construction is <b>responsible for + gerund/noun:</b> <i>responsible for ensuring</i>.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The applicant, together with her supporting documents, ______ submitted to the evaluation committee.",
+                options: ["were", "have been", "was", "are"],
+                correct: 2,
+				explanation: "Correct answer is <b>was</b>.<ul><li>The main subject is <i>applicant</i>, which is singular. The phrase <i>together with her supporting documents</i> does not change the number of the subject.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The list of qualified candidates ______ posted on the agency's official bulletin board.",
+                options: ["were", "have", "was", "are"],
+                correct: 2,
+				explanation: "Correct answer is <b>was</b>.<ul><li>The subject is <b>list</b>, not <b>candidates</b>. Since <i>ist</i> is singular, the correct verb is <b>was</b>.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The supervisor asked the employee ______ the report had already been submitted.",
+                options: ["weather", "whether", "where", "rather"],
+                correct: 1,
+				explanation: "Correct answer is <b>whether</b>.<ul><li><b>Whether</b> introduces an indirect question involving uncertainty or alternatives: <i>asked whether the report had been submitted</i>.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The committee's decision was based ______ the documents submitted by the applicants.",
+                options: ["in", "at", "on", "with"],
+                correct: 2,
+				explanation: "Correct answer is <b>on</b>.<ul><li>The standard expression is <b>based on</b>, meaning founded upon or determined from something.</li></ul>"
             },
 			{
                 subject: "English",
                 subtopic: "Correct Usage",
                 sidebarId: "side-eng-cor",
                 directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
-                question: "",
-                options: ["", "", "", ""],
-                correct: 0
+                question: "The officer explained that the new procedure would ______ the processing of applications and reduce unnecessary delays.",
+                options: ["facilitate", "facilitation", "facility", "facilitated"],
+                correct: 0,
+				explanation: "Correct answer is <b>facilitate</b>.<ul><li><b>Facilitate</b> is a verb meaning to make a process easier or more efficient. Because it follows <i>would</i>, the base form <i>facilitate</i> is required.</li></ul>"
             },
 			{
                 subject: "Filipino",
