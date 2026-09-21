@@ -4505,6 +4505,16 @@ window.onload = function() {
 				explanation: "Correct answer is <b>facilitate</b>.<ul><li><b>Facilitate</b> is a verb meaning to make a process easier or more efficient. Because it follows <i>would</i>, the base form <i>facilitate</i> is required.</li></ul>"
             },
 			{
+                subject: "English",
+                subtopic: "Reading Comprehension",
+                sidebarId: "side-eng-read",
+                directions: "Read each selection then answer the questions. Choose the letter that corresponds to the correct answer based on the given selections.",
+                question: "What distinction does the author primarily make between silence and peace?<br><br><i>We often mistake the absence of noise for the presence of peace. A quiet room may conceal resentment, just as a crowded marketplace may contain people who are perfectly at ease. Peace is not simply the removal of conflict; it is the condition in which disagreements can exist without destroying the bonds between those who disagree. Thus, a society may appear peaceful while its people remain divided by fear, distrust, or injustice.<br>— Adapted philosophical passage</i>",
+                options: ["Silence is always temporary, while peace is permanent.", "Peace requires the complete elimination of disagreement.", "Peace involves the ability to maintain relationships despite disagreement.", "Silence is harmful, while disagreement is beneficial."],
+                correct: 2,
+				explanation: "Correct answer is <b>Peace involves the ability to maintain relationships despite disagreement.</b>.<ul><li>The passage argues that peace is more than simply having no noise or conflict. People can disagree and still maintain healthy relationships. Therefore, C best captures the author's distinction.</li></ul>"
+            },
+			{
                 subject: "Filipino",
                 subtopic: "Wastong Gamit",
                 sidebarId: "side-fil-wast",
