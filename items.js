@@ -5006,6 +5006,16 @@ window.onload = function() {
             },
 			{
                 subject: "Filipino",
+                subtopic: "Kasingkahulugan",
+                sidebarId: "side-fil-kasin",
+                directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
+                question: "Siya ay may turing na <i>alimpapaw</i> kaya't marami ang naiinis sa kanyang asal.",
+                options: ["mababa ang loob", "mayabang", "matulungin", "mahiyain"],
+                correct: 1,
+				explanation: "Ang <b>alimpapaw</b> ay nangangahulugang <i>mataas ang lipad o tingin sa sarili</i>."
+            },
+			{
+                subject: "Filipino",
                 subtopic: "Wastong Gamit",
                 sidebarId: "side-fil-wast",
                 directions: "Mga Panuto: Piliin ang pinakawastong sagot para sa bawat patlang.",
