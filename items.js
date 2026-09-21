@@ -4575,6 +4575,86 @@ window.onload = function() {
 				explanation: "Correct answer is <b>He recognizes that choosing one path means giving up the opportunity to experience the other.</b>.<ul><li>The speaker is a traveler who must make a choice. Since he cannot experience both possibilities, he feels some regret about the opportunity he must leave behind.</li></ul>"
             },
 			{
+                subject: "English",
+                subtopic: "Reading Comprehension",
+                sidebarId: "side-eng-read",
+                directions: "Read each selection then answer the questions. Choose the letter that corresponds to the correct answer based on the given selections.",
+                question: "What is the significance of the statement “Had worn them really about the same”?<br><br><b>The Road Not Taken</b><br><br><i>Two roads diverged in a yellow wood,<br>And sorry I could not travel both<br>And be one traveler, long I stood<br>And looked down one as far as I could<br>To where it bent in the undergrowth;<br><br>Then took the other, as just as fair,<br>And having perhaps the better claim,<br>Because it was grassy and wanted wear;<br>Though as for that the passing there<br>Had worn them really about the same.<br><br>— excerpt from The Road Not Taken by Robert Frost</i>",
+                options: ["It proves that one road was objectively more dangerous.", "It reveals that the difference between the two choices may not have been as significant as the speaker initially believed.", "It shows that the speaker made the wrong choice.", "It suggests that neither road could be traveled."],
+                correct: 1,
+				explanation: "Correct answer is <b>It reveals that the difference between the two choices may not have been as significant as the speaker initially believed.</b>.<ul><li>Earlier, the speaker describes one road as having a “better claim” because it appeared less traveled. However, he then admits that both roads had actually been worn “really about the same.” This suggests that the choices were not clearly different.</li></ul>"
+            },
+			{
+                subject: "English",
+                subtopic: "Reading Comprehension",
+                sidebarId: "side-eng-read",
+                directions: "Read each selection then answer the questions. Choose the letter that corresponds to the correct answer based on the given selections.",
+                question: "Which statement BEST describes the speaker's attitude toward making his decision?<br><br><b>The Road Not Taken</b><br><br><i>Two roads diverged in a yellow wood,<br>And sorry I could not travel both<br>And be one traveler, long I stood<br>And looked down one as far as I could<br>To where it bent in the undergrowth;<br><br>Then took the other, as just as fair,<br>And having perhaps the better claim,<br>Because it was grassy and wanted wear;<br>Though as for that the passing there<br>Had worn them really about the same.<br><br>— excerpt from The Road Not Taken by Robert Frost</i>",
+                options: ["He is completely confident and experiences no uncertainty.", "He is angry because someone forced him to choose.", "He is thoughtful and uncertain because he understands that choosing one path means leaving another behind.", "He is indifferent because both choices have no consequences."],
+                correct: 2,
+				explanation: "Correct answer is <b>He is thoughtful and uncertain because he understands that choosing one path means leaving another behind.</b>.<ul><li>The speaker “long [stood]” and carefully examined the roads before choosing. This demonstrates hesitation and careful consideration. He understands that his decision involves giving up another possibility.</li></ul>"
+            },
+			{
+                subject: "English",
+                subtopic: "Reading Comprehension",
+                sidebarId: "side-eng-read",
+                directions: "Read each selection then answer the questions. Choose the letter that corresponds to the correct answer based on the given selections.",
+                question: "What can be inferred from the speaker's decision to “look down one as far as I could”?<br><br><b>The Road Not Taken</b><br><br><i>Two roads diverged in a yellow wood,<br>And sorry I could not travel both<br>And be one traveler, long I stood<br>And looked down one as far as I could<br>To where it bent in the undergrowth;<br><br>Then took the other, as just as fair,<br>And having perhaps the better claim,<br>Because it was grassy and wanted wear;<br>Though as for that the passing there<br>Had worn them really about the same.<br><br>— excerpt from The Road Not Taken by Robert Frost</i>",
+                options: ["He already knows exactly what will happen after making his choice.", "He attempts to understand the possible consequences of his choice before committing to it.", "He wants to find another traveler to ask for advice.", "He is trying to avoid making a decision altogether."],
+                correct: 1,
+				explanation: "Correct answer is <b>He attempts to understand the possible consequences of his choice before committing to it.</b>.<ul><li>The speaker looks as far down the road as possible before choosing. This suggests that he is trying to evaluate what lies ahead and consider the consequences before making his decision.</li></ul>"
+            },
+			{
+                subject: "English",
+                subtopic: "Reading Comprehension",
+                sidebarId: "side-eng-read",
+                directions: "Read each selection then answer the questions. Choose the letter that corresponds to the correct answer based on the given selections.",
+                question: "Which idea is MOST strongly developed by the passage?<br><br><b>The Road Not Taken</b><br><br><i>Two roads diverged in a yellow wood,<br>And sorry I could not travel both<br>And be one traveler, long I stood<br>And looked down one as far as I could<br>To where it bent in the undergrowth;<br><br>Then took the other, as just as fair,<br>And having perhaps the better claim,<br>Because it was grassy and wanted wear;<br>Though as for that the passing there<br>Had worn them really about the same.<br><br>— excerpt from The Road Not Taken by Robert Frost</i>",
+                options: ["Nature is more powerful than human beings.", "People should always choose the road that fewer people have traveled.", "Difficult journeys are more valuable than easy ones.", "Making choices often requires accepting uncertainty and giving up alternative possibilities."],
+                correct: 3,
+				explanation: "Correct answer is <b>Making choices often requires accepting uncertainty and giving up alternative possibilities.</b>.<ul><li>The speaker has two possible paths but can travel only one. He carefully considers them, realizes they are quite similar, and eventually chooses one. The passage therefore emphasizes the difficulty and uncertainty involved in making choices.</li></ul>"
+            },
+			{
+                subject: "English",
+                subtopic: "Reading Comprehension",
+                sidebarId: "side-eng-read",
+                directions: "Read each selection then answer the questions. Choose the letter that corresponds to the correct answer based on the given selections.",
+                question: "What figure of speech is most clearly used in the line, “A little star the darkness made”?<b>The Last Lantern</b><br><i>by Anonymous<br><br>At dusk, the village closed its doors,<br>While shadows climbed the silent floors.<br>One lantern burned beside the gate,<br>Though no one knew whom it would wait.<br><br>The road beyond was dark and long,<br>The wind had swallowed every song.<br>Yet through the night, the lantern stayed,<br>A little star the darkness made.<br><br>At dawn, a traveler reached the town,<br>His weary steps were dragging down.<br>He saw the light and understood:<br>Some hope remains where others would.</i>",
+                options: ["simile", "hyperbole", "metaphor", "irony"],
+                correct: 2,
+				explanation: "Correct answer is <b>metaphor</b>.<ul><li>The lantern is directly compared to a “little star” without using <i>like</i> or <i>as</i>. This makes the figure of speech a metaphor. The comparison emphasizes how the small light provides guidance and hope in the darkness.</li></ul>"
+            },
+			{
+                subject: "English",
+                subtopic: "Reading Comprehension",
+                sidebarId: "side-eng-read",
+                directions: "Read each selection then answer the questions. Choose the letter that corresponds to the correct answer based on the given selections.",
+                question: "What is the most reasonable inference about the person who left the lantern burning?<b>The Last Lantern</b><br><i>by Anonymous<br><br>At dusk, the village closed its doors,<br>While shadows climbed the silent floors.<br>One lantern burned beside the gate,<br>Though no one knew whom it would wait.<br><br>The road beyond was dark and long,<br>The wind had swallowed every song.<br>Yet through the night, the lantern stayed,<br>A little star the darkness made.<br><br>At dawn, a traveler reached the town,<br>His weary steps were dragging down.<br>He saw the light and understood:<br>Some hope remains where others would.</i>",
+                options: ["The person expected the village to be attacked during the night.", "The person deliberately preserved a sign of hope or guidance despite uncertainty.", "The person forgot to extinguish the lantern before leaving.", "The person wanted to make the village appear occupied."],
+                correct: 1,
+				explanation: "Correct answer is <b>The person deliberately preserved a sign of hope or guidance despite uncertainty.</b>.<ul><li>The poem never explicitly states why the lantern was left burning. However, its persistence through the night and the later traveler finding meaning in it suggest that the light symbolizes <b>hope and guidance despite uncertainty</b>. The other choices introduce details that the poem does not support.</li></ul>"
+            },
+			{
+                subject: "English",
+                subtopic: "Reading Comprehension",
+                sidebarId: "side-eng-read",
+                directions: "Read each selection then answer the questions. Choose the letter that corresponds to the correct answer based on the given selections.",
+                question: "What does the lantern most likely symbolize in the poem?<b>The Last Lantern</b><br><i>by Anonymous<br><br>At dusk, the village closed its doors,<br>While shadows climbed the silent floors.<br>One lantern burned beside the gate,<br>Though no one knew whom it would wait.<br><br>The road beyond was dark and long,<br>The wind had swallowed every song.<br>Yet through the night, the lantern stayed,<br>A little star the darkness made.<br><br>At dawn, a traveler reached the town,<br>His weary steps were dragging down.<br>He saw the light and understood:<br>Some hope remains where others would.</i>",
+                options: ["The wealth and prosperity of the village", "The danger associated with traveling at night", "The loneliness experienced by the traveler", "The persistence of hope even when circumstances appear discouraging"],
+                correct: 3,
+				explanation: "Correct answer is <b>The persistence of hope even when circumstances appear discouraging</b>.<ul><li>The lantern remains lit while the village is closed, the road is dark, and the wind has “swallowed every song.” Its continued light contrasts with these negative conditions. The final lines reinforce this interpretation by connecting the light with <b>hope that remains when others have given up.</b></li></ul>"
+            },
+			{
+                subject: "English",
+                subtopic: "Reading Comprehension",
+                sidebarId: "side-eng-read",
+                directions: "Read each selection then answer the questions. Choose the letter that corresponds to the correct answer based on the given selections.",
+                question: "Which statement is NOT a valid inference based on the poem?<b>The Last Lantern</b><br><i>by Anonymous<br><br>At dusk, the village closed its doors,<br>While shadows climbed the silent floors.<br>One lantern burned beside the gate,<br>Though no one knew whom it would wait.<br><br>The road beyond was dark and long,<br>The wind had swallowed every song.<br>Yet through the night, the lantern stayed,<br>A little star the darkness made.<br><br>At dawn, a traveler reached the town,<br>His weary steps were dragging down.<br>He saw the light and understood:<br>Some hope remains where others would.</i>",
+                options: ["A seemingly small act can have significance to someone who is struggling.", "Hope can exist even when there is little evidence that circumstances will improve.", "The traveler had previously visited the village and knew exactly who had lit the lantern.", "The meaning of an act may become clearer to another person later."],
+                correct: 2,
+				explanation: "Correct answer is <b>The traveler had previously visited the village and knew exactly who had lit the lantern.</b>.<ul><li>The poem does <b>not</b> state or imply that the traveler had previously visited the village or knew who lit the lantern. In fact, the identity of the person who left it burning is deliberately unknown. Therefore, this statement cannot reasonably be inferred from the poem.</li></ul>"
+            },
+			{
                 subject: "Filipino",
                 subtopic: "Wastong Gamit",
                 sidebarId: "side-fil-wast",
