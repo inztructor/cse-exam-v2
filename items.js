@@ -4509,10 +4509,20 @@ window.onload = function() {
                 subtopic: "Reading Comprehension",
                 sidebarId: "side-eng-read",
                 directions: "Read each selection then answer the questions. Choose the letter that corresponds to the correct answer based on the given selections.",
-                question: "What distinction does the author primarily make between silence and peace?<br><br><i>We often mistake the absence of noise for the presence of peace. A quiet room may conceal resentment, just as a crowded marketplace may contain people who are perfectly at ease. Peace is not simply the removal of conflict; it is the condition in which disagreements can exist without destroying the bonds between those who disagree. Thus, a society may appear peaceful while its people remain divided by fear, distrust, or injustice.<br>— Adapted philosophical passage</i>",
+                question: "What distinction does the author primarily make between silence and peace?<br><br><i>We often mistake the absence of noise for the presence of peace. A quiet room may conceal resentment, just as a crowded marketplace may contain people who are perfectly at ease. Peace is not simply the removal of conflict; it is the condition in which disagreements can exist without destroying the bonds between those who disagree. Thus, a society may appear peaceful while its people remain divided by fear, distrust, or injustice.<br><br>— Adapted philosophical passage</i>",
                 options: ["Silence is always temporary, while peace is permanent.", "Peace requires the complete elimination of disagreement.", "Peace involves the ability to maintain relationships despite disagreement.", "Silence is harmful, while disagreement is beneficial."],
                 correct: 2,
-				explanation: "Correct answer is <b>Peace involves the ability to maintain relationships despite disagreement.</b>.<ul><li>The passage argues that peace is more than simply having no noise or conflict. People can disagree and still maintain healthy relationships. Therefore, C best captures the author's distinction.</li></ul>"
+				explanation: "Correct answer is <b>Peace involves the ability to maintain relationships despite disagreement.</b>.<ul><li>The passage argues that peace is more than simply having no noise or conflict. People can disagree and still maintain healthy relationships. Therefore, it best captures the author's distinction.</li></ul>"
+            },
+			{
+                subject: "English",
+                subtopic: "Reading Comprehension",
+                sidebarId: "side-eng-read",
+                directions: "Read each selection then answer the questions. Choose the letter that corresponds to the correct answer based on the given selections.",
+                question: "Which situation would BEST illustrate the author's idea of a society that only appears peaceful?<br><br><i>We often mistake the absence of noise for the presence of peace. A quiet room may conceal resentment, just as a crowded marketplace may contain people who are perfectly at ease. Peace is not simply the removal of conflict; it is the condition in which disagreements can exist without destroying the bonds between those who disagree. Thus, a society may appear peaceful while its people remain divided by fear, distrust, or injustice.<br><br>— Adapted philosophical passage</i>",
+                options: ["Citizens openly debate a controversial law while respecting one another.", "Citizens avoid discussing injustice because they fear punishment.", "Citizens disagree about politics but freely express their opinions.", "Citizens resolve disagreements through discussion and compromise."],
+                correct: 1,
+				explanation: "Correct answer is <b>Citizens avoid discussing injustice because they fear punishment.</b>.<ul><li>The author says that a society may seem peaceful when people are actually divided by fear, distrust, or injustice. In the answer, people remain silent because they are afraid, creating an appearance of peace rather than genuine peace.</li></ul>"
             },
 			{
                 subject: "Filipino",
