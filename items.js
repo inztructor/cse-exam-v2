@@ -4010,7 +4010,7 @@ window.onload = function() {
                 question: "The committee must ______ the applicants that all submitted documents will be treated confidentially.",
                 options: ["advice", "advise", "advised", "advising"],
                 correct: 1,
-				explanation: "Correct answer is <b>B. advise</b>.<ul><li><b>Advise</b> is a verb meaning <u>to give information or recommendations</u>. <b>Advice</b> is the noun form. The sentence requires a verb after <b>must</b>.</li></ul>"
+				explanation: "Correct answer is <b>advise</b>.<ul><li><b>Advise</b> is a verb meaning <u>to give information or recommendations</u>. <b>Advice</b> is the noun form. The sentence requires a verb after <b>must</b>.</li></ul>"
             },
 			{
                 subject: "English",
@@ -4020,7 +4020,7 @@ window.onload = function() {
                 question: "The new policy may ______ the way government offices process applications.",
                 options: ["effect", "affect", "effects", "affected"],
                 correct: 1,
-				explanation: "Correct answer is <b>B. affect</b>.<ul><li><b>Affect</b> is generally used as a verb meaning <u>to influence</u>. <b>Effect</b> is usually a noun meaning <u>result</u>, although it can also be a verb in a different construction.</li></ul>"
+				explanation: "Correct answer is <b>affect</b>.<ul><li><b>Affect</b> is generally used as a verb meaning <u>to influence</u>. <b>Effect</b> is usually a noun meaning <u>result</u>, although it can also be a verb in a different construction.</li></ul>"
             },
 			{
                 subject: "English",
@@ -4030,7 +4030,7 @@ window.onload = function() {
                 question: "The division chief emphasized that punctuality is a fundamental ______ of public service.",
                 options: ["principal", "principally", "principled", "principle"],
                 correct: 3,
-				explanation: "Correct answer is <b>D. principle</b>.<ul><li><b>Principle</b> means a fundamental rule, belief, or standard. <b>Principal</b> means chief or most important, or it may refer to a person in charge.</li></ul>"
+				explanation: "Correct answer is <b>principle</b>.<ul><li><b>Principle</b> means a fundamental rule, belief, or standard. <b>Principal</b> means chief or most important, or it may refer to a person in charge.</li></ul>"
             },
 			{
                 subject: "English",
@@ -4040,7 +4040,7 @@ window.onload = function() {
                 question: "The speaker's remarks were intended to ______ the importance of ethical conduct among public servants.",
                 options: ["compliment", "compliments", "complement", "complementing"],
                 correct: 2,
-				explanation: "Correct answer is <b>C. complement</b>.<ul><li><b>Complement</b> means to complete, enhance, or emphasize something. <b>Compliment</b> means an expression of praise.</li></ul>"
+				explanation: "Correct answer is <b>complement</b>.<ul><li><b>Complement</b> means to complete, enhance, or emphasize something. <b>Compliment</b> means an expression of praise.</li></ul>"
             },
 			{
                 subject: "English",
@@ -4050,7 +4050,7 @@ window.onload = function() {
                 question: "Please use official ______ when preparing the memorandum for distribution.",
                 options: ["stationery", "stationary", "stationarity", "stationer"],
                 correct: 0,
-				explanation: "Correct answer is <b>A. stationery</b>.<ul><li><b>Stationery</b> refers to writing materials such as paper and envelopes. <b>Stationary</b> means not moving.</li></ul>"
+				explanation: "Correct answer is <b>stationery</b>.<ul><li><b>Stationery</b> refers to writing materials such as paper and envelopes. <b>Stationary</b> means not moving.</li></ul>"
             },
 			{
                 subject: "English",
@@ -4060,7 +4060,7 @@ window.onload = function() {
                 question: "The auditor remained ______ when discussing the irregularities discovered in the records.",
                 options: ["discreet", "discrete", "discreetly", "discretion"],
                 correct: 0,
-				explanation: "Correct answer is <b>A. discreet</b>.<ul><li><b>Discreet</b> means careful, tactful, or prudent, especially concerning confidential matters. <b>Discrete</b> means separate or distinct.</li></ul>"
+				explanation: "Correct answer is <b>discreet</b>.<ul><li><b>Discreet</b> means careful, tactful, or prudent, especially concerning confidential matters. <b>Discrete</b> means separate or distinct.</li></ul>"
             },
 			{
                 subject: "English",
@@ -4070,7 +4070,7 @@ window.onload = function() {
                 question: "The investigation seeks to ______ information from witnesses who may have observed the incident.",
                 options: ["illicit", "elicit", "allude", "elude"],
                 correct: 1,
-				explanation: "Correct answer is <b>B. illicit</b>.<ul><li><b>Elicit<b> means to draw out information or a response. <b>Illicit</b> means unlawful or prohibited.</li></ul>"
+				explanation: "Correct answer is <b>illicit</b>.<ul><li><b>Elicit<b> means to draw out information or a response. <b>Illicit</b> means unlawful or prohibited.</li></ul>"
             },
 			{
                 subject: "English",
@@ -4080,7 +4080,7 @@ window.onload = function() {
                 question: "The agency established additional procedures to ______ that public funds are properly accounted for.",
                 options: ["insure", "ensure", "assure", "insurance"],
                 correct: 1,
-				explanation: "Correct answer is <b>B. ensure</b>.<ul><li><b>Ensure</b> means to make certain. <b>Insure</b> generally refers to protection against financial loss, while assure is commonly used when giving confidence to a person.</li></ul>"
+				explanation: "Correct answer is <b>ensure</b>.<ul><li><b>Ensure</b> means to make certain. <b>Insure</b> generally refers to protection against financial loss, while assure is commonly used when giving confidence to a person.</li></ul>"
             },
 			{
                 subject: "English",
@@ -4090,7 +4090,7 @@ window.onload = function() {
                 question: "The committee will ______ the proposal during its next meeting.",
                 options: ["precede", "process", "precedent", "proceed"],
                 correct: 3,
-				explanation: "Correct answer is <b>D. proceed</b>.<ul><li><b>Proceed</b> means to continue or move forward. <b>Precede</b> means to come before something in time or order.</li></ul>"
+				explanation: "Correct answer is <b>proceed</b>.<ul><li><b>Proceed</b> means to continue or move forward. <b>Precede</b> means to come before something in time or order.</li></ul>"
             },
 			{
                 subject: "English",
