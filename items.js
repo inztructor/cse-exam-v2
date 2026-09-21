@@ -4070,7 +4070,7 @@ window.onload = function() {
                 question: "The investigation seeks to ______ information from witnesses who may have observed the incident.",
                 options: ["illicit", "elicit", "allude", "elude"],
                 correct: 1,
-				explanation: "Correct answer is <b>illicit</b>.<ul><li><b>Elicit<b> means to draw out information or a response. <b>Illicit</b> means unlawful or prohibited.</li></ul>"
+				explanation: "Correct answer is <b>elicit</b>.<ul><li><b>Elicit<b> means to draw out information or a response. <b>Illicit</b> means unlawful or prohibited.</li></ul>"
             },
 			{
                 subject: "English",
