@@ -6504,6 +6504,506 @@ window.onload = function() {
 			    correct: 1,
 			    explanation: "Ang pahayag ay nagpapahiwatig na nasa kritikal ngunit paborableng kalagayan pa ang isang panig at may mahalagang pagkakataon pa itong makamit ang layunin."
 			},
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "Hindi ko alam ______ dumating ang bagong guro kahapon.",
+		        options: ["kapag", "kong kailan", "kung kailan", "nang kailan"],
+		        correct: 2,
+		        explanation: "<b>Kung kailan</b> ang wastong gamit dahil nagpapahayag ito ng hindi tiyak na impormasyon o katanungang di-tuwiran ukol sa panahon."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ may pagkakataon kang makausap siya, sabihin mo ang buong katotohanan.",
+		        options: ["Kung", "Kapag", "Kong", "Nang"],
+		        correct: 1,
+		        explanation: "<b>Kapag</b> ang ginagamit kapag tumutukoy sa isang tiyak o inaasahang pangyayari na mangyayari sa hinaharap."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "Hindi niya sinabi ______ dadalo siya sa pagpupulong.",
+		        options: ["kapag", "kong", "kung", "nang"],
+		        correct: 2,
+		        explanation: "<b>Kung</b> ang wastong gamitin sa pagpapahayag ng alinlangan o di-tiyak na kalagayan (pagsusuri kung oo o hindi)."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "Sinabi ______ hindi na raw siya makadadalo sa pagpupulong.",
+		        options: ["niya", "kaniya", "niyang", "kanyang"],
+		        correct: 2,
+		        explanation: "<b>Niyang</b> (niya + -ng) ang wastong anyo dahil nag-uugnay ito sa sugnay na nagsasaad ng kaniyang sinabi."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "Nag-aral siya ______ mabuti upang makapasa sa pagsusulit.",
+		        options: ["ng", "na", "nang", "mga"],
+		        correct: 2,
+		        explanation: "<b>Nang</b> ang ginagamit bilang pang-abay na nagsasaad ng paraan ng pagkakagawa ng kilos (paano nag-aral? -> nang mabuti)."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "Bumili ang guro ______ bagong mga aklat para sa silid-aklatan.",
+		        options: ["nang", "na", "mga", "ng"],
+		        correct: 3,
+		        explanation: "<b>Ng</b> ang ginagamit bilang pananda ng tuwirang layon ng pandiwang bumili (bumili ng ano? -> ng mga aklat)."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ dumating ang punong-guro, agad na tumahimik ang mga mag-aaral.",
+		        options: ["Ng", "Nang", "Na", "Kung"],
+		        correct: 1,
+		        explanation: "<b>Nang</b> ang ginagamit bilang kasingkahulugan ng 'noong' o upang ipakita ang tiyak na sandali ng pagkakaganap ng kilos."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "Hindi ko matandaan ______ ko inilagay ang mahalagang dokumento.",
+		        options: ["kapag", "kong saan", "kung saan", "nang saan"],
+		        correct: 2,
+		        explanation: "<b>Kung saan</b> ang wastong parirala para sa di-tiyak na lugar o lokasyon."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "Sumama ______ ang kaniyang kapatid sa pagpunta sa palengke.",
+		        options: ["din", "daw", "rin", "raw"],
+		        correct: 2,
+		        explanation: "<b>Rin</b> ang ginagamit kapag ang sinusundang salita (sumama) ay nagtatapos sa patinig (a, e, i, o, u) o malapatinig (w, y)."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "Hindi ______ makadadalo ang ibang miyembro sa pagpupulong.",
+		        options: ["rin", "din", "raw", "daw"],
+		        correct: 0,
+		        explanation: "<b>Rin</b> ang gagamitin dahil ang sinusundang salita na hindi ay nagtatapos sa patinig na /i/."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "Hindi ako sasama ______ umuulan nang malakas.",
+		        options: ["kung", "kong", "nang", "upang"],
+		        correct: 0,
+		        explanation: "<b>Kung</b> ang ginagamit upang magpahayag ng kondisyon o pasubali."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ ayaw mong sumali, maaari kang manatili rito.",
+		        options: ["Kapag", "Kong", "Kung", "Nang"],
+		        correct: 2,
+		        explanation: "<b>Kung</b> ang gagamitin dahil ito ay nagpapahayag ng kondisyon sa simula ng pangungusap."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ sa ulat ng komite, natapos na ang imbestigasyon.",
+		        options: ["Ayon kay", "Ayon kina", "Ayon sa", "Ayun kay"],
+		        correct: 2,
+		        explanation: "<b>Ayon sa</b> ang ginagamit kapag ang kasunod ay pambalana (bagay, ulat, dokumento, batas)."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "Ibinigay niya ang sulat ______ Maria bago siya umalis.",
+		        options: ["sina", "kay", "kina", "sila"],
+		        correct: 1,
+		        explanation: "<b>Kay</b> ang ginagamit kapag tumutukoy sa iisang tanging pangalan ng tao."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "Ipinadala ang mga dokumento ______ Ana at Roberto.",
+		        options: ["kay", "sina", "sila", "kina"],
+		        correct: 3,
+		        explanation: "<b>Kina</b> ang ginagamit kapag tumutukoy sa dalawa o higit pang tanging pangalan ng tao."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ akong kailangang tapusin bago matapos ang araw.",
+		        options: ["Mayroon", "Magkaroon", "May", "Nagkaroon"],
+		        correct: 2,
+		        explanation: "<b>May</b> ang ginagamit kapag sinusundan ng pandiwa, pang-uri, pangngalan, o pang-abay (may kailangang...)."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ ba kayong tanong tungkol sa panuto?",
+		        options: ["May", "Mayroon", "Magkaroon", "Nagkaroon"],
+		        correct: 1,
+		        explanation: "<b>Mayroon</b> ang ginagamit kapag sinusundan ng panghalip na panao sa anyong atag (kayo)."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "Dalawang linggo ______ ang nakalipas mula nang isumite niya ang dokumento.",
+		        options: ["ng", "nang", "na", "din"],
+		        correct: 2,
+		        explanation: "<b>Na</b> ang pang-angkop/kataga na ginagamit sa pagsasaad ng naganap na panahon."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ niya ang kaniyang pagkakamali matapos suriin ang mga ebidensiya.",
+		        options: ["Umamin", "Inamin", "Umaminan", "Umaamin"],
+		        correct: 1,
+		        explanation: "<b>Inamin</b> (pokus sa layon) ang ginagamit dahil may tuwirang layon ang pangungusap (ang kaniyang pagkakamali)."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ siya sa kaniyang pagkakamali sa harap ng buong klase.",
+		        options: ["Umamin", "Inamin", "Inaminan", "Umaaminan"],
+		        correct: 0,
+		        explanation: "<b>Umamin</b> (pokus sa tagaganap) ang ginagamit dahil ang simuno/paksa (siya) ang mismong gumawa ng kilos."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "Huwag mong ______ ang mga tagubilin ng punong-guro.",
+		        options: ["sundan", "sinusundan", "sundin", "nasundan"],
+		        correct: 2,
+		        explanation: "<b>Sundin</b> (obey) ang ginagamit para sa payo, utos, tuntunin, o batas."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ mo ang taong may dalang pulang payong upang hindi ka maligaw.",
+		        options: ["Sundin", "Sundan", "Sinunod", "Sundinan"],
+		        correct: 1,
+		        explanation: "<b>Sundan</b> (follow/track) ang ginagamit kapag tutuntunin o susundan ang kinaroroonan o gawi ng isang tao o bagay."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ mo ang pawis sa kaniyang noo.",
+		        options: ["Punasan", "Punasin", "Pumunas", "Napunasan"],
+		        correct: 0,
+		        explanation: "<b>Punasan</b> ang ginagamit kapag inaalis ang isang bagay mula sa isang ibabaw o bahagi ng katawan (punasan ang pawis sa noo)."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ mo ang mesa bago ihain ang pagkain.",
+		        options: ["Punasan", "Punasin", "Pumunas", "Napunas"],
+		        correct: 0,
+		        explanation: "<b>Punasan</b> ang ginagamit kapag ang mismong lugar o ibabaw ang lilinisin (punasan ang mesa)."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ mo ang luha sa kaniyang mga mata.",
+		        options: ["Pahiran", "Pahirin", "Pahiranin", "Pumahid"],
+		        correct: 0,
+		        explanation: "<b>Pahiran</b> ang wastong gamit kapag nag-aalis ng bagay (luha/pawis) sa isang tao o bahagi ng katawan."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ mo ng gamot ang sugat bago ito bendahehin.",
+		        options: ["Pahirin", "Pahiran", "Pahid", "Pumahid"],
+		        correct: 1,
+		        explanation: "<b>Pahiran</b> din ang ginagamit kapag naglalagay ng isang bagay sa ibabaw ng iba (pahiran ng gamot)."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ mo ang buong dokumento bago mo ito lagdaan.",
+		        options: ["Basihan", "Bumasa", "Basahin", "Binasa"],
+		        correct: 2,
+		        explanation: "<b>Basahin</b> ang gagamitin dahil ang dokumento ang tuwirang layon na babasahin."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ mo muna ang proseso bago gumawa ng desisyon.",
+		        options: ["Unawain", "Umunawa", "Unawanan", "Nauunawaan"],
+		        correct: 0,
+		        explanation: "<b>Unawain</b> ang wastong anyo ng pandiwa sa pautos na pokus sa layon."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ mong mabuti ang mga dokumento bago isumite ang mga ito.",
+		        options: ["Suri", "Suriin", "Surihan", "Sinusuri"],
+		        correct: 1,
+		        explanation: "<b>Suriin</b> ang wastong pandiwa para sa pagsisiyasat ng isang bagay/dokumento."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "Kailangan mong ______ ang lahat ng tuntunin bago sumali sa paligsahan.",
+		        options: ["isaalang-alangan", "isaalang-alang", "isinasaalang", "mag-isip-alang"],
+		        correct: 1,
+		        explanation: "<b>Isaalang-alang</b> ang tamang pariralang pawatas na nangangahulugang isipin o bigyang-halaga."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ mo ang kaniyang mungkahi bago ito tuluyang tanggihan.",
+		        options: ["Pag-isipan", "Pag-isipin", "Mag-isip", "Pinag-isipan"],
+		        correct: 0,
+		        explanation: "<b>Pag-isipan</b> ang ginagamit kapag may partikular na paksa o mungkahi na tututuunan ng pag-iisip."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ sa batas ang ginawa nilang hakbang.",
+		        options: ["Sumunod", "Alinsunod", "Sinunod", "Pagsunod"],
+		        correct: 1,
+		        explanation: "<b>Alinsunod</b> ang ginagamit bilang pang-ugnay na nangangahulugang naaayon sa (Alinsunod sa batas...)."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ sa bagong patakaran, kailangang magsumite ng ulat bago Biyernes.",
+		        options: ["Ayon kay", "Alinsunod", "Dahil kay", "Tungkol kay"],
+		        correct: 1,
+		        explanation: "<b>Alinsunod</b> ang pampanitikang gamit para sa pagtalima sa patakaran o alituntunin."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "Hindi siya pumasok ______ siya ay may mataas na lagnat.",
+		        options: ["dahil", "upang", "ngunit", "kung"],
+		        correct: 0,
+		        explanation: "<b>Dahil</b> ang pangatnig na nag-uugnay sa sugnay na nagpapakita ng sanhi o dahilan."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "Hindi siya pumasok ______ kaniyang karamdaman.",
+		        options: ["dahil kay", "dahil", "dahil sa", "dahil kina"],
+		        correct: 2,
+		        explanation: "<b>Dahil sa</b> ang ginagamit kapag pambalana o pangngalang di-tao ang sanhi (karamdaman)."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "Hindi siya nakadalo ______ kaniyang ina.",
+		        options: ["dahil sa", "dahil kay", "dahil kina", "dahil"],
+		        correct: 1,
+		        explanation: "<b>Dahil kay</b> ang ginagamit kapag tanging tao ang dahilan."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "Ang seminar ay ginanap ______ kaligtasan sa paggawa.",
+		        options: ["tungkol kay", "tungkol kina", "tungkol sa", "ukol kay"],
+		        correct: 2,
+		        explanation: "<b>Tungkol sa</b> ang ginagamit kapag ang paksa ay pambalana o pangkalahatang paksa (kaligtasan)."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "Ang liham ay ______ bagong patakaran ng tanggapan.",
+		        options: ["tungkol kay", "tungkol sa", "tungkol kina", "ukol kay"],
+		        correct: 1,
+		        explanation: "<b>Tungkol sa</b> ang tamang pananda sa paksang hindi tao (patakaran)."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "Ang desisyon ay ginawa ______ kapakanan ng mga mag-aaral.",
+		        options: ["tungkol sa", "dahil sa", "para sa", "ayon kay"],
+		        correct: 2,
+		        explanation: "<b>Para sa</b> ang ginagamit sa pagsasaad ng pinag-uukulan o layunin."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "Ang liham ay ipinadala ______ punong-guro.",
+		        options: ["para sa", "para kay", "para kina", "tungkol sa"],
+		        correct: 1,
+		        explanation: "<b>Para kay</b> ang ginagamit kapag tiyak na iisang tao ang pinag-uukulan."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "Ang mga sertipiko ay inihanda ______ Ana at Ben.",
+		        options: ["para kay", "tungkol kina", "para kina", "ayon sa"],
+		        correct: 2,
+		        explanation: "<b>Para kina</b> ang ginagamit kapag higit sa isang tao ang pinag-uukulan."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ mga saksi, nagsimula ang insidente bandang alas-diyes.",
+		        options: ["Ayon sa", "Ayon kay", "Ayon kina", "Ayun sa"],
+		        correct: 0,
+		        explanation: "<b>Ayon sa</b> ang tamang gamit dahil ang 'mga saksi' ay isang pangngalang pambalana na may panandang mga."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ Ana at Ben, nagsimula ang insidente bandang alas-diyes.",
+		        options: ["Ayon sa", "Ayon kay", "Ayon kina", "Ayun kina"],
+		        correct: 2,
+		        explanation: "<b>Ayon kina</b> ang ginagamit kapag tinutukoy ang dalawa o higit pang tiyak na pangalan ng tao."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ Ana ang nawawalang dokumento.",
+		        options: ["Ayon sa", "Kay", "Kina", "Sina"],
+		        correct: 1,
+		        explanation: "<b>Kay</b> ang panandang nagpapakita ng pagmamay-ari o kinaroroonan ng iisang tao."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ Ana at Ben ang mga dokumentong ito.",
+		        options: ["Kay", "Sina", "Kina", "Sila"],
+		        correct: 2,
+		        explanation: "<b>Kina</b> ang nagpapakita ng pagmamay-ari para sa dalawa o higit pang tao."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ Ana at Ben ang mga nanguna sa proyekto.",
+		        options: ["Sina", "Sila", "Kina", "Kay"],
+		        correct: 0,
+		        explanation: "<b>Sina</b> ang pantukoy sa mga pangalan ng taong gumaganap bilang simuno."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ ang nanguna sa proyekto.",
+		        options: ["Sina Ana at Ben", "Kina Ana at Ben", "Sila", "Sina sila"],
+		        correct: 2,
+		        explanation: "<b>Sila</b> ang panghalip panao na pumapalit sa dalawa o higit pang tao na siyang simuno."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "Ito ang aklat ______ isinulat niya noong nakaraang taon.",
+		        options: ["na kaniyang", "na", "nang", "ng"],
+		        correct: 1,
+		        explanation: "<b>Na</b> ang pang-angkop na nag-uugnay sa salitang aklat at sa sugnay na pampalawak nito."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "Ito ang ______ gusaling itinayo ng pamahalaan.",
+		        options: ["mataas na", "mataas nang", "mataas ng", "mataas pa"],
+		        correct: 0,
+		        explanation: "<b>Mataas na</b> ang tamang parirala gamit ang pang-angkop na na na nag-uugnay sa pang-uri (mataas) at pangngalan (gusali)."
+		    },
+		    {
+		        subject: "Filipino",
+		        subtopic: "Wastong Gamit",
+		        sidebarId: "side-fil-wast",
+		        directions: "Piliin ang titik ng salitang angkop sa patlang.",
+		        question: "______ magsisikap kang mabuti, malaki ang posibilidad na makamit mo ang iyong layunin.",
+		        options: ["Dahil", "Nang", "Kung", "Sapagkat"],
+		        correct: 2,
+		        explanation: "<b>Kung</b> ang pangatnig na ginagamit sa pagpapahayag ng kondisyon o syarat."
+		    },
 			{
                 subject: "Filipino",
                 subtopic: "Wastong Gamit",
