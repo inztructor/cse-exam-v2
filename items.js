@@ -5505,6 +5505,506 @@ window.onload = function() {
 		explanation: "Ang <b>tampalasan</b> ay tumutukoy sa isang taong masama, bastos, walang galang, o gumagawa ng masasamang krimen sa kapwa."
             },
 			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Ang kaniyang puso ay napuno ng <i>pighati</i> nang mawala ang kaniyang minamahal.",
+			    options: ["dalamhati", "lumbay", "hinagpis", "galak"],
+			    correct: 3,
+			    explanation: "Ang <b>pighati</b> ay matinding kalungkutan o dalamhati. Ang <b>galak</b> ay matinding kagalakan, kaya ito ang kasalungat."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Hindi siya natinag sa kabila ng matinding <i>siphayo</i>.",
+			    options: ["pag-asa", "kabiguan", "dalamhati", "pangamba"],
+			    correct: 0,
+			    explanation: "Ang <b>siphayo</b> ay pagkabigo o kawalan ng pag-asa. Ang <b>pag-asa</b> ay paniniwalang may mabuting maaaring mangyari."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Ang binata ay <i>bantulot</i> na tanggapin ang alok.",
+			    options: ["nag-aatubili", "nag-aalinlangan", "malugod", "nag-uurong-sulong"],
+			    correct: 2,
+			    explanation: "Ang <b>bantulot</b> ay nag-aatubili o nag-aalinlangan. Ang <b>malugod</b> ay kusang-loob at masayang pagtanggap."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "<i>Tahas</i> ang kaniyang pagsasalita at wala siyang itinatago.",
+			    options: ["tuwiran", "maligoy", "lantad", "hayag"],
+			    correct: 1,
+			    explanation: "Ang <b>tahas</b> ay tuwiran at walang pagkukunwari. Ang <b>maligoy</b> ay paikot-ikot at hindi tuwiran."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Sa gitna ng kaguluhan ay nanatili siyang <i>matiwasay</i>.",
+			    options: ["payapa", "panatag", "tahimik", "balisa"],
+			    correct: 3,
+			    explanation: "Ang <b>matiwasay</b> ay payapa at walang pagkabalisa. Ang <b>balisa</b> ay hindi mapalagay at puno ng pag-aalala."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "<i>Marubdob</i> ang kaniyang pagmamahal sa kaniyang bayan.",
+			    options: ["taimtim", "masidhi", "matamlay", "maalab"],
+			    correct: 2,
+			    explanation: "Ang <b>marubdob</b> ay matindi o masidhi. Ang <b>matamlay</b> ay walang sigla o sigasig."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Ang kaniyang hangarin ay <i>wagas</i> at walang halong pansariling interes.",
+			    options: ["dalisay", "taimtim", "marumi", "tapat"],
+			    correct: 2,
+			    explanation: "Ang <b>wagas</b> ay dalisay, malinis, at walang halo. Ang <b>marumi</b> ay salungat sa diwa ng kalinisan o kadalisayan."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "<i>Salat</i> sa pagkain ang pamilya bago sila natulungan.",
+			    options: ["kapos", "masagana", "dukha", "salat"],
+			    correct: 1,
+			    explanation: "Ang <b>salat</b> ay kulang o kapos. Ang <b>masagana</b> ay sagana o higit sa sapat."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Ang dating <i>dukha</i> ay naging matagumpay na mangangalakal.",
+			    options: ["kapos", "salat", "maralita", "mayaman"],
+			    correct: 3,
+			    explanation: "Ang <b>dukha</b> ay mahirap o salat sa materyal na yaman. Ang <b>mayaman</b> ay kabaligtaran nito."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Siya ay isang <i>pantas</i> na kinikilala sa buong lalawigan.",
+			    options: ["mangmang", "marunong", "maalam", "dalubhasa"],
+			    correct: 0,
+			    explanation: "Ang <b>pantas</b> ay taong may malawak na kaalaman at karunungan. Ang <b>mangmang</b> ay taong salat sa kaalaman."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Itinuturing siyang <i>uliran</i> ng mga kabataan.",
+			    options: ["huwaran", "halimbawa", "masamang halimbawa", "modelo"],
+			    correct: 2,
+			    explanation: "Ang <b>uliran</b> ay huwaran o taong karapat-dapat tularan. Ang <b>masamang halimbawa</b> ay kabaligtaran ng huwaran."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "<i>Buktot</i> ang kaniyang pagkatao kaya marami ang umiiwas sa kaniya.",
+			    options: ["masama", "mabuti", "salbahe", "balakyot"],
+			    correct: 1,
+			    explanation: "Ang <b>buktot</b> ay masama ang asal o pagkatao. Ang <b>mabuti</b> ay kabaligtaran nito."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Kilala ang pinuno bilang isang <i>lilo</i> na mapagkunwari.",
+			    options: ["tuso", "mapanlinlang", "tapat", "taksil"],
+			    correct: 2,
+			    explanation: "Ang <b>lilo</b> ay tuso o mapanlinlang. Ang <b>tapat</b> ay hindi nanlilinlang."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Tinawag siyang <i>tampalasan</i> dahil wala siyang galang sa matatanda.",
+			    options: ["walang-hiya", "bastos", "walang-pakundangan", "magalang"],
+			    correct: 3,
+			    explanation: "Ang <b>tampalasan</b> ay taong walang galang o pakundangan. Ang <b>magalang</b> ay nagpapakita ng paggalang."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Ang <i>salanggapang</i> ay nahuli matapos paulit-ulit na manlinlang.",
+			    options: ["matapat", "manlilinlang", "tuso", "mandaraya"],
+			    correct: 0,
+			    explanation: "Ang <b>salanggapang</b> ay taong mapanlinlang o gumagawa ng masama. Ang <b>matapat</b> ay tapat at hindi nanlilinlang."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Hindi niya matiis ang <i>poot</i> na kaniyang nararamdaman.",
+			    options: ["muhi", "galit", "pagkamuhi", "pagmamahal"],
+			    correct: 3,
+			    explanation: "Ang <b>poot</b> ay matinding galit o pagkamuhi. Ang <b>pagmamahal</b> ay kabaligtaran ng matinding pagkamuhi."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Ang kaniyang <i>muhi</i> sa kapwa ay unti-unting napalitan ng awa.",
+			    options: ["galit", "pagkamuhi", "pag-ibig", "poot"],
+			    correct: 2,
+			    explanation: "Ang <b>muhi</b> ay matinding pagkamuhi o galit. Ang <b>pag-ibig</b> ay matinding pagmamahal."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Narinig ang kaniyang <i>panaghoy</i> mula sa kabilang silid.",
+			    options: ["daing", "halakhak", "pag-iyak", "paghihinagpis"],
+			    correct: 1,
+			    explanation: "Ang <b>panaghoy</b> ay malungkot na pag-iyak o pagdaing. Ang <b>halakhak</b> ay malakas at masayang pagtawa."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Hindi maipaliwanag ang kaniyang <i>hinagpis</i> matapos ang trahedya.",
+			    options: ["dalamhati", "pighati", "lumbay", "kagalakan"],
+			    correct: 3,
+			    explanation: "Ang <b>hinagpis</b> ay matinding lungkot o dalamhati. Ang <b>kagalakan</b> ay matinding saya."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Bumigat ang kaniyang <i>lumbay</i> habang lumilipas ang mga araw.",
+			    options: ["ligaya", "kalungkutan", "pighati", "dalamhati"],
+			    correct: 0,
+			    explanation: "Ang <b>lumbay</b> ay kalungkutan o dalamhati. Ang <b>ligaya</b> ay malaking saya o kagalakan."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Ang mga kawal ay nakaranas ng matinding <i>dusa</i> sa digmaan.",
+			    options: ["hirap", "pagdurusa", "ginhawa", "sakit"],
+			    correct: 2,
+			    explanation: "Ang <b>dusa</b> ay matinding paghihirap. Ang <b>ginhawa</b> ay kaginhawahan o kawalan ng hirap."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Ang balita ay nagdulot ng <i>hilakbot</i> sa mga tagaroon.",
+			    options: ["takot", "sindak", "pangamba", "kapanatagan"],
+			    correct: 3,
+			    explanation: "Ang <b>hilakbot</b> ay matinding takot o sindak. Ang <b>kapanatagan</b> ay kalagayan ng pagiging panatag at walang takot."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Hindi niya maalis ang <i>pangamba</i> sa kaniyang kalooban.",
+			    options: ["takot", "kapanatagan", "pag-aalala", "pagkabalisa"],
+			    correct: 1,
+			    explanation: "Ang <b>pangamba</b> ay takot o pag-aalala tungkol sa maaaring mangyari. Ang <b>kapanatagan</b> ay kawalan ng pangamba."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Nakaramdam siya ng <i>dagok</i> nang biglang mawalan ng trabaho.",
+			    options: ["pagsubok", "kabiguan", "biyaya", "suliranin"],
+			    correct: 2,
+			    explanation: "Ang <b>dagok</b> ay mabigat na pagsubok o masamang pangyayaring tumatama sa isang tao. Ang <b>biyaya</b> ay pagpapala o mabuting natatanggap."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "<i>Salimuot</i> ang naging usapin dahil sa magkakasalungat na pahayag.",
+			    options: ["kasimplehan", "kaguluhan", "komplikasyon", "kalituhan"],
+			    correct: 0,
+			    explanation: "Ang <b>salimuot</b> ay pagiging masalimuot, magulo, o mahirap unawain. Ang <b>kasimplehan</b> ay kawalan ng komplikasyon."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Matagal siyang nagkaroon ng <i>gunam-gunam</i> tungkol sa kaniyang naging pasya.",
+			    options: ["pagbubulay-bulay", "pagninilay", "malalim na pag-iisip", "pagwawalang-bahala"],
+			    correct: 3,
+			    explanation: "Ang <b>gunam-gunam</b> ay malalim na pag-iisip o pagbubulay-bulay. Ang <b>pagwawalang-bahala</b> ay hindi pagbibigay-pansin."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Ang kaniyang <i>adhika</i> ay makapaglingkod sa mga mahihirap.",
+			    options: ["hangarin", "pag-ayaw", "mithiin", "layunin"],
+			    correct: 1,
+			    explanation: "Ang <b>adhika</b> ay hangarin o mithiin. Ang <b>pag-ayaw</b> ay kawalan ng hangaring gawin o tanggapin ang isang bagay."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Ang kaniyang <i>bighani</i> ay hindi maikubli sa harap ng maraming tao.",
+			    options: ["pagkamuhi", "pang-akit", "gayuma", "pagkaakit"],
+			    correct: 0,
+			    explanation: "Ang <b>bighani</b> ay matinding pang-akit o kagandahang nakaaakit. Ang <b>pagkamuhi</b> ay matinding pag-ayaw o galit."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Ang kaniyang tinig ay may <i>balani</i> na pumukaw sa damdamin ng mga nakikinig.",
+			    options: ["pang-akit", "gayuma", "pagtaboy", "halina"],
+			    correct: 2,
+			    explanation: "Ang <b>balani</b> ay kaakit-akit na puwersa o bagay na humihikayat. Ang <b>pagtaboy</b> ay pagpapalayo o pagtulak palayo."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Si Maria ang <i>mutya</i> ng kaniyang mga magulang.",
+			    options: ["minamahal", "pinakamamahal", "iniingatan", "kinamumuhian"],
+			    correct: 3,
+			    explanation: "Ang <b>mutya</b> ay taong pinakamamahal o itinuturing na napakahalaga. Ang <b>kinamumuhian</b> ay taong kinasusuklaman."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Ang ina ay <i>mapagkandili</i> sa kaniyang mga anak.",
+			    options: ["maalaga", "mapag-aruga", "mapagpabaya", "mapagmahal"],
+			    correct: 2,
+			    explanation: "Ang <b>mapagkandili</b> ay maalaga at mapag-aruga. Ang <b>mapagpabaya</b> ay hindi nagbibigay ng sapat na pangangalaga."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Ang kaniyang ina ay <i>mapagpala</i> sa mga nangangailangan.",
+			    options: ["maawain", "mapagbigay", "maramot", "matulungin"],
+			    correct: 2,
+			    explanation: "Ang <b>mapagpala</b> ay nagbibigay ng biyaya o kabutihan. Ang <b>maramot</b> ay ayaw magbigay o magbahagi."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Bagaman tanyag siya, nanatili siyang <i>mapagkumbaba</i>.",
+			    options: ["mapagmataas", "mahinahon", "magalang", "mapagbigay"],
+			    correct: 0,
+			    explanation: "Ang <b>mapagkumbaba</b> ay hindi nagmamataas. Ang <b>mapagmataas</b> ay mataas ang tingin sa sarili at maaaring magmalaki sa harap ng iba."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "<i>Masintahin</i> ang binata sa kaniyang mga magulang.",
+			    options: ["mapagbigay", "mapagwalang-bahala", "maalaga", "mapagmahal"],
+			    correct: 1,
+			    explanation: "Ang <b>masintahin</b> ay mapagmahal at maalaga. Ang <b>mapagwalang-bahala</b> ay hindi nagbibigay ng sapat na pansin o malasakit."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "<i>Masaklap</i> ang sinapit ng kaniyang pamilya.",
+			    options: ["malungkot", "mapait", "masakit", "maligaya"],
+			    correct: 3,
+			    explanation: "Ang <b>masaklap</b> ay tumutukoy sa napakasakit, mapait, o kalunos-lunos na karanasan. Ang <b>maligaya</b> ay masaya at kabaligtaran ng ganitong kalagayan."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "<i>Marikit</i> ang dalagang inilalarawan sa tula.",
+			    options: ["maganda", "kaakit-akit", "karima-rimarim", "marilag"],
+			    correct: 2,
+			    explanation: "Ang <b>marikit</b> ay maganda at kaaya-aya. Ang <b>karima-rimarim</b> ay lubhang pangit o nakasusuklam."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Ang tanawin mula sa tuktok ay <i>marilag</i>.",
+			    options: ["kahanga-hanga", "karima-rimarim", "marikit", "dakila"],
+			    correct: 1,
+			    explanation: "Ang <b>marilag</b> ay kahanga-hanga, maringal, o napakaganda. Ang <b>karima-rimarim</b> ay lubhang hindi kaaya-aya."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "<i>Maringal</i> ang seremonya para sa mga pinarangalan.",
+			    options: ["engrande", "marilag", "dakila", "payak"],
+			    correct: 3,
+			    explanation: "Ang <b>maringal</b> ay engrande, marilag, o may malaking karangyaan. Ang <b>payak</b> ay simple at walang karangyaan."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "<i>Maramot</i> ang mayamang mangangalakal sa kaniyang mga manggagawa.",
+			    options: ["bukas-palad", "sakim", "ganid", "mapagdamot"],
+			    correct: 0,
+			    explanation: "Ang <b>maramot</b> ay ayaw magbigay o magbahagi. Ang <b>bukas-palad</b> ay mapagbigay at handang tumulong."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Ang <i>ganid</i> na pinuno ay inangkin pati ang hindi naman kaniya.",
+			    options: ["sakim", "mapag-angkin", "mapagbigay", "maramot"],
+			    correct: 2,
+			    explanation: "Ang <b>ganid</b> ay labis na sakim o mapag-angkin. Ang <b>mapagbigay</b> ay handang magbahagi sa iba."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Ang kaniyang <i>salawahan</i> na ugali ay naging dahilan upang hindi siya pagkatiwalaan.",
+			    options: ["pabagu-bago", "di-mapagkakatiwalaan", "matapat", "hindi palagian"],
+			    correct: 2,
+			    explanation: "Ang <b>salawahan</b> ay pabago-bago at hindi maaasahan o mapagkakatiwalaan. Ang <b>matapat</b> ay nananatiling tapat at maaasahan."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "<i>Mapang-aping</i> pinuno ang naghari sa kanilang bayan.",
+			    options: ["malupit", "mapaniil", "makatarungan", "mapag-abuso"],
+			    correct: 2,
+			    explanation: "Ang <b>mapang-api</b> ay umaapi o gumagamit ng kapangyarihan upang pahirapan ang iba. Ang <b>makatarungan</b> ay patas at nagbibigay ng nararapat sa bawat isa."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "<i>Paham</i> ang matandang guro sa kasaysayan ng kanilang bayan.",
+			    options: ["mangmang", "pantas", "marunong", "dalubhasa"],
+			    correct: 0,
+			    explanation: "Ang <b>paham</b> ay taong marunong o bihasa sa isang larangan. Ang <b>mangmang</b> ay salat sa kaalaman."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Ang kaniyang paliwanag ay <i>lantad</i> at walang pagtatago.",
+			    options: ["hayag", "tahas", "malinaw", "lihim"],
+			    correct: 3,
+			    explanation: "Ang <b>lantad</b> ay hayag o nakikita at hindi itinatago. Ang <b>lihim</b> ay itinatago at hindi ipinababatid sa iba."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "<i>Lantad</i> ang kaniyang pagkamuhi sa kaniyang karibal.",
+			    options: ["hayag", "lingid", "malinaw", "tahas"],
+			    correct: 1,
+			    explanation: "Ang <b>lantad</b> ay hayag o lantad na ipinakikita. Ang <b>lingid</b> ay nakatago o hindi ipinakikita."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Ang kaniyang tunay na pagkatao ay <i>lingid</i> sa karamihan.",
+			    options: ["lihim", "nakatago", "hayag", "di-nakikita"],
+			    correct: 2,
+			    explanation: "Ang <b>lingid</b> ay nakatago o hindi nalalaman ng iba. Ang <b>hayag</b> ay lantad at malinaw na nakikita o nalalaman."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "<i>Maamo</i> ang kaniyang mukha ngunit matapang pala ang kaniyang kalooban.",
+			    options: ["banayad", "mahinahon", "mabangis", "banayad ang asal"],
+			    correct: 2,
+			    explanation: "Ang <b>maamo</b> ay banayad at hindi mabagsik. Ang <b>mabangis</b> ay mabagsik o mapanganib ang kilos o asal."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "<i>Mabagsik</i> ang mandirigmang humarap sa kalaban.",
+			    options: ["maamo", "malupit", "marahas", "mabangis"],
+			    correct: 0,
+			    explanation: "Ang <b>mabagsik</b> ay marahas, malupit, o mabangis. Ang <b>maamo</b> ay banayad at hindi mabagsik."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Ang kaniyang kilos ay <i>marahan</i> upang hindi makalikha ng ingay.",
+			    options: ["banayad", "dahan-dahan", "mahinahon", "mabigla"],
+			    correct: 3,
+			    explanation: "Ang <b>marahan</b> ay mabagal o dahan-dahan. Ang <b>mabigla</b> ay mabilis o biglaan ang kilos."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Kasalungat",
+			    sidebarId: "side-fil-kasal",
+			    directions: "Piliin ang salitang kasalungat ng salitang nakapahilig.",
+			    question: "Sa kabila ng mga pagsubok, nanatiling <i>matatag</i> ang kaniyang paninindigan.",
+			    options: ["matibay", "marupok", "matatag", "di-natitinag"],
+			    correct: 1,
+			    explanation: "Ang <b>matatag</b> ay hindi madaling matinag, mabuwag, o sumuko. Ang <b>marupok</b> ay madaling masira o matinag."
+			},
+			{
                 subject: "Filipino",
                 subtopic: "Wastong Gamit",
                 sidebarId: "side-fil-wast",
