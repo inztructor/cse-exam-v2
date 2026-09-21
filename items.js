@@ -4555,6 +4555,26 @@ window.onload = function() {
 				explanation: "Correct answer is <b>To demonstrate that physical noise does not necessarily indicate conflict.</b>.<ul><li>The marketplace is used as a contrast to the quiet room. Even though a marketplace is noisy and crowded, the people there may be perfectly at ease. This supports the author's argument that peace cannot be measured simply by the amount of noise or activity.</li></ul>"
             },
 			{
+                subject: "English",
+                subtopic: "Reading Comprehension",
+                sidebarId: "side-eng-read",
+                directions: "Read each selection then answer the questions. Choose the letter that corresponds to the correct answer based on the given selections.",
+                question: "What does the “two roads” most likely symbolize in the poem?<br><br><b>The Road Not Taken</b><br><br><i>Two roads diverged in a yellow wood,<br>And sorry I could not travel both<br>And be one traveler, long I stood<br>And looked down one as far as I could<br>To where it bent in the undergrowth;<br><br>Then took the other, as just as fair,<br>And having perhaps the better claim,<br>Because it was grassy and wanted wear;<br>Though as for that the passing there<br>Had worn them really about the same.<br><br>— excerpt from The Road Not Taken by Robert Frost</i>",
+                options: ["Two physical destinations the speaker wants to visit.", "Different choices or directions available in life.", "The difference between nature and civilization.", "The conflict between two people."],
+                correct: 1,
+				explanation: "Correct answer is <b>Different choices or directions available in life.</b>.<ul><li>The roads are presented as alternatives, and the speaker must choose only one. This represents choices or paths in life, making the answer the best interpretation.</li></ul>"
+            },
+			{
+                subject: "English",
+                subtopic: "Reading Comprehension",
+                sidebarId: "side-eng-read",
+                directions: "Read each selection then answer the questions. Choose the letter that corresponds to the correct answer based on the given selections.",
+                question: "Why does the speaker say, “sorry I could not travel both”?<br><br><b>The Road Not Taken</b><br><br><i>Two roads diverged in a yellow wood,<br>And sorry I could not travel both<br>And be one traveler, long I stood<br>And looked down one as far as I could<br>To where it bent in the undergrowth;<br><br>Then took the other, as just as fair,<br>And having perhaps the better claim,<br>Because it was grassy and wanted wear;<br>Though as for that the passing there<br>Had worn them really about the same.<br><br>— excerpt from The Road Not Taken by Robert Frost</i>",
+                options: ["He regrets entering the forest.", "He believes both roads are dangerous.", "He is physically unable to walk on both roads.", "He recognizes that choosing one path means giving up the opportunity to experience the other."],
+                correct: 3,
+				explanation: "Correct answer is <b>He recognizes that choosing one path means giving up the opportunity to experience the other.</b>.<ul><li>The speaker is a traveler who must make a choice. Since he cannot experience both possibilities, he feels some regret about the opportunity he must leave behind.</li></ul>"
+            },
+			{
                 subject: "Filipino",
                 subtopic: "Wastong Gamit",
                 sidebarId: "side-fil-wast",
