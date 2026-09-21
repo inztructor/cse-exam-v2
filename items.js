@@ -25,6 +25,7 @@ const fixedOptionSubtopics = [
     "Data Sufficiency",
     "Identifying Errors",
     "Paragraph Development",
+	"Reading Comprehension",
     "Pagkilala sa Mali",
     "Pag-unawa sa Binasa",
     "Pagtatalata"
