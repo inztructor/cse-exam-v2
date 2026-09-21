@@ -4525,6 +4525,36 @@ window.onload = function() {
 				explanation: "Correct answer is <b>Citizens avoid discussing injustice because they fear punishment.</b>.<ul><li>The author says that a society may seem peaceful when people are actually divided by fear, distrust, or injustice. In the answer, people remain silent because they are afraid, creating an appearance of peace rather than genuine peace.</li></ul>"
             },
 			{
+                subject: "English",
+                subtopic: "Reading Comprehension",
+                sidebarId: "side-eng-read",
+                directions: "Read each selection then answer the questions. Choose the letter that corresponds to the correct answer based on the given selections.",
+                question: "What can be reasonably inferred about the author's view of disagreement?<br><br><i>We often mistake the absence of noise for the presence of peace. A quiet room may conceal resentment, just as a crowded marketplace may contain people who are perfectly at ease. Peace is not simply the removal of conflict; it is the condition in which disagreements can exist without destroying the bonds between those who disagree. Thus, a society may appear peaceful while its people remain divided by fear, distrust, or injustice.<br><br>— Adapted philosophical passage</i>",
+                options: ["Disagreement is evidence that peace has completely failed.", "Disagreement should be eliminated whenever possible.", "Disagreement can coexist with peace under certain conditions.", "Disagreement is more valuable than agreement."],
+                correct: 2,
+				explanation: "Correct answer is <b>Disagreement can coexist with peace under certain conditions.</b>.<ul><li>The author explicitly states that peace is a condition where “disagreements can exist without destroying the bonds” between people. Thus, disagreement itself does not necessarily mean the absence of peace. The answer is the best inference.</li></ul>"
+            },
+			{
+                subject: "English",
+                subtopic: "Reading Comprehension",
+                sidebarId: "side-eng-read",
+                directions: "Read each selection then answer the questions. Choose the letter that corresponds to the correct answer based on the given selections.",
+                question: "Which statement BEST expresses the central idea of the passage?<br><br><i>We often mistake the absence of noise for the presence of peace. A quiet room may conceal resentment, just as a crowded marketplace may contain people who are perfectly at ease. Peace is not simply the removal of conflict; it is the condition in which disagreements can exist without destroying the bonds between those who disagree. Thus, a society may appear peaceful while its people remain divided by fear, distrust, or injustice.<br><br>— Adapted philosophical passage</i>",
+                options: ["Silence is usually more dangerous than open conflict.", "A peaceful society must prevent people from disagreeing.", "Genuine peace depends on how people handle conflict, not merely on the absence of conflict.", "Societies with many disagreements are generally unstable."],
+                correct: 2,
+				explanation: "Correct answer is <b>Genuine peace depends on how people handle conflict, not merely on the absence of conflict.</b>.<ul><li>The entire passage contrasts superficial peace with genuine peace. The author's main point is that the way disagreements are managed is more important than simply eliminating visible conflict.</li></ul>"
+            },
+			{
+                subject: "English",
+                subtopic: "Reading Comprehension",
+                sidebarId: "side-eng-read",
+                directions: "Read each selection then answer the questions. Choose the letter that corresponds to the correct answer based on the given selections.",
+                question: "Why does the author mention a crowded marketplace?<br><br><i>We often mistake the absence of noise for the presence of peace. A quiet room may conceal resentment, just as a crowded marketplace may contain people who are perfectly at ease. Peace is not simply the removal of conflict; it is the condition in which disagreements can exist without destroying the bonds between those who disagree. Thus, a society may appear peaceful while its people remain divided by fear, distrust, or injustice.<br><br>— Adapted philosophical passage</i>",
+                options: ["To demonstrate that crowded places are usually more peaceful than quiet places.", "To show that public places naturally produce disagreement.", "To demonstrate that physical noise does not necessarily indicate conflict.", "To prove that people behave differently in public than in private."],
+                correct: 2,
+				explanation: "Correct answer is <b>To demonstrate that physical noise does not necessarily indicate conflict.</b>.<ul><li>The marketplace is used as a contrast to the quiet room. Even though a marketplace is noisy and crowded, the people there may be perfectly at ease. This supports the author's argument that peace cannot be measured simply by the amount of noise or activity.</li></ul>"
+            },
+			{
                 subject: "Filipino",
                 subtopic: "Wastong Gamit",
                 sidebarId: "side-fil-wast",
