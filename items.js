@@ -4003,6 +4003,26 @@ window.onload = function() {
                 correct: 2
             },
 			{
+                subject: "English",
+                subtopic: "Correct Usage",
+                sidebarId: "side-eng-cor",
+                directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
+                question: "The committee must ______ the applicants that all submitted documents will be treated confidentially.",
+                options: ["advice", "advise", "advised", "advising"],
+                correct: 1,
+				explanation: "Correct answer is <b>advise</b>.<ul><li>Advise is a verb meaning <u>to give information or recommendations</u>. Advice is the noun form. The sentence requires a verb after <b>must</b>.</li></ul>"
+            },
+			{
+                subject: "English",
+                subtopic: "Correct Usage",
+                sidebarId: "side-eng-cor",
+                directions: "Choose the letter that corresponds to the word or phrase that will correctly complete each sentence.",
+                question: "The new policy may ______ the way government offices process applications.",
+                options: ["effect", "affect", "effects", "affected"],
+                correct: 1,
+				explanation: "Correct answer is <b>affect</b>.Affect is generally used as a verb meaning <u>to influence</u>. <u>Effect</u> is usually a noun meaning <u>result</u>, although it can also be a verb in a different construction."
+            },
+			{
                 subject: "Filipino",
                 subtopic: "Wastong Gamit",
                 sidebarId: "side-fil-wast",
