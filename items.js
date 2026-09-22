@@ -7011,9 +7011,769 @@ window.onload = function() {
 		        directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
 		        question: "<u>Labis na</u> <u>nangangamba</u> ang mga <u>manggagawa</u> <u>ukol sa</u> bagong patakaran ng kompanya. <u>Walang mali</u>.",
 		        options: ["Labis na", "nangangamba", "manggagawa", "ukol sa", "Walang mali"],
-		        correct: 2,
+		        correct: 3,
 		        explanation: "May kamalian sa paggamit ng pang-ukol. Ang tamang gamit sa kontekstong ito ay <b>hinggil sa</b> o <b>tungkol sa</b> sa halip na <i>ukol sa</i>."
-		    }
+		    },
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Dahil <u>sa biglang pagtaas ng tubig</u>, <u>agad na inilikas</u> ng mga awtoridad ang mga residente <u>mula sa mabababang lugar</u> upang <u>maiwasan ang anumang sakuna</u>. <u>Walang mali</u>.",
+			    options: ["sa biglang pagtaas ng tubig", "agad na inilikas", "mula sa mabababang lugar", "maiwasan ang anumang sakuna", "Walang mali"],
+			    correct: 0,
+			    explanation: "Mali ang paggamit ng <b>dahil sa</b> bago ang isang sugnay na may pandiwa. Dapat ay <b>dahil biglang tumaas ang tubig</b> o <b>dahil sa biglang pagtaas ng tubig</b>."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga sinaunang pamayanan sa Luzon ay <u>nakipagpalitan ng produkto</u> sa mga mangangalakal na <u>naglalayag mula sa iba't ibang lupain</u>, kaya <u>lumawak ang kanilang ugnayan</u> at <u>nakilala nila ang iba't ibang kultura</u>. <u>Walang mali</u>.",
+			    options: ["nakipagpalitan ng produkto", "naglalayag mula sa iba't ibang lupain", "lumawak ang kanilang ugnayan", "nakilala nila ang iba't ibang kultura", "Walang mali"],
+			    correct: 3,
+			    explanation: "Mali ang <b>nakilala nila ang iba't ibang kultura</b> dahil mas angkop dito ang <b>nakilala nila ang iba't ibang kultura</b>? Sa pangungusap na ito, mas wastong anyo ang <b>nakilala nila ang iba't ibang kultura</b>; kaya walang mali. Ngunit dahil ang tanong ay dapat may isang mali, ang wastong pagpipilian ay <b>Walang mali</b>."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang isang mahusay na mananaliksik ay kailangang <u>magsuri nang mabuti</u> ng mga datos bago <u>bumuo ng konklusyon</u>, sapagkat maaaring <u>magbago ang resulta</u> kapag <u>hindi wasto ang pagkakasuri</u>. <u>Walang mali</u>.",
+			    options: ["magsuri nang mabuti", "bumuo ng konklusyon", "magbago ang resulta", "hindi wasto ang pagkakasuri", "Walang mali"],
+			    correct: 1,
+			    explanation: "Mali ang <b>magsuri nang mabuti</b>. Bilang pandiwang nangangailangan ng layon, mas angkop ang <b>magsuri nang mabuti sa mga datos</b> o <b>suriing mabuti ang mga datos</b>."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Hindi <u>lamang sa mga lungsod</u> matatagpuan ang mga pamilihang bayan, <u>kundi maging sa mga malalayong lalawigan</u> na <u>umaasa sa lokal na kalakalan</u> para sa <u>pang-araw-araw na pangangailangan</u>. <u>Walang mali</u>.",
+			    options: ["lamang sa mga lungsod", "kundi maging sa mga malalayong lalawigan", "umaasa sa lokal na kalakalan", "pang-araw-araw na pangangailangan", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Wasto ang magkatimbang na gamit ng <b>hindi lamang...kundi maging...</b> at ang iba pang parirala."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga kalahok ay pinayuhang <u>magdala ng kani-kanilang kagamitan</u> at <u>panatilihing malinis ang kanilang lugar</u> upang <u>maiwasan ang hindi kinakailangang kalat</u> pagkatapos <u>ng programa</u>. <u>Walang mali</u>.",
+			    options: ["magdala ng kani-kanilang kagamitan", "panatilihing malinis ang kanilang lugar", "maiwasan ang hindi kinakailangang kalat", "ng programa", "Walang mali"],
+			    correct: 2,
+			    explanation: "Mali ang <b>maiwasan ang hindi kinakailangang kalat</b>. Mas wasto ang <b>maiwasan ang pagkalat ng hindi kinakailangang basura</b> o <b>maiwasan ang hindi kinakailangang pagkalat</b>."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ayon sa mga eksperto, <u>mahalagang mapangalagaan</u> ang mga bakawan sapagkat <u>nagsisilbi itong kanlungan</u> ng maraming organismo at <u>nakababawas sa epekto</u> ng malalakas na alon <u>sa mga pamayanang baybayin</u>. <u>Walang mali</u>.",
+			    options: ["mahalagang mapangalagaan", "nagsisilbi itong kanlungan", "nakababawas sa epekto", "sa mga pamayanang baybayin", "Walang mali"],
+			    correct: 0,
+			    explanation: "Mali ang <b>mahalagang mapangalagaan</b> sa estruktura ng pangungusap dahil dapat ay <b>mahalagang pangalagaan</b> o <b>mahalaga na mapangalagaan</b>."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Sa halip na <u>ipagwalang-bahala ang babala</u>, pinili ng mga residente na <u>makinig sa mga tagubilin</u> at <u>lumikas nang maaga</u> upang <u>hindi sila malagay sa kapahamakan</u>. <u>Walang mali</u>.",
+			    options: ["ipagwalang-bahala ang babala", "makinig sa mga tagubilin", "lumikas nang maaga", "hindi sila malagay sa kapahamakan", "Walang mali"],
+			    correct: 3,
+			    explanation: "Mali ang <b>hindi sila malagay sa kapahamakan</b> sa ganitong estruktura. Mas natural at wasto ang <b>upang hindi sila malagay sa kapahamakan</b> kung layunin ang ipinahahayag."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang pag-aaral sa kasaysayan ay hindi lamang <u>pag-alala ng mga pangalan at petsa</u> kundi <u>pag-unawa sa mga pangyayaring</u> humubog sa lipunan at <u>pagkilala sa mga aral</u> na maaaring <u>gamitin sa kasalukuyan</u>. <u>Walang mali</u>.",
+			    options: ["pag-alala ng mga pangalan at petsa", "pag-unawa sa mga pangyayaring", "pagkilala sa mga aral", "gamitin sa kasalukuyan", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Wasto ang pagkakabuo at parallel na gamit ng mga parirala sa pangungusap."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga manlalaro ay <u>nagsanay nang puspusan</u> bago ang paligsahan upang <u>mapabuti ang kanilang koordinasyon</u> at <u>maiwasan ang mga pagkakamali</u> na maaaring <u>makaapekto sa kanilang pagganap</u>. <u>Walang mali</u>.",
+			    options: ["nagsanay nang puspusan", "mapabuti ang kanilang koordinasyon", "maiwasan ang mga pagkakamali", "makaapekto sa kanilang pagganap", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Ang lahat ng parirala ay wasto sa gamit at pagkakaugnay."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga opisyal ay <u>nagsagawa ng konsultasyon</u> sa mga residente upang <u>malaman ang kanilang mga pangangailangan</u> at <u>matukoy kung alin sa mga mungkahi</u> ang maaaring <u>maisakatuparan kaagad-agad</u>. <u>Walang mali</u>.",
+			    options: ["nagsagawa ng konsultasyon", "malaman ang kanilang mga pangangailangan", "matukoy kung alin sa mga mungkahi", "maisakatuparan kaagad-agad", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Bagama't maaaring paikliin ang <b>kaagad-agad</b> bilang <b>kaagad</b>, hindi mali ang ekspresyong ginamit."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang Bulkang Mayon ay <u>kilala dahil sa halos perpektong hugis nito</u>, ngunit <u>hindi nangangahulugang ligtas itong akyatin</u> kapag <u>may ipinaiiral na pagbabawal</u> dahil <u>sa aktibidad ng bulkan</u>. <u>Walang mali</u>.",
+			    options: ["kilala dahil sa halos perpektong hugis nito", "hindi nangangahulugang ligtas itong akyatin", "may ipinaiiral na pagbabawal", "sa aktibidad ng bulkan", "Walang mali"],
+			    correct: 0,
+			    explanation: "Mali ang <b>kilala dahil sa halos perpektong hugis nito</b>. Mas wasto ang <b>kilala sa halos perpektong hugis nito</b> dahil ang <b>dahil sa</b> ay nagpapahayag ng sanhi."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Hindi <u>maikakaila na malaki ang papel</u> ng mga magsasaka sa suplay ng pagkain, lalo na kung <u>isasaalang-alang ang dami ng produktong</u> kanilang <u>naipagbibili sa mga pamilihan</u> sa buong bansa. <u>Walang mali</u>.",
+			    options: ["maikakaila na malaki ang papel", "isasaalang-alang ang dami ng produktong", "naipagbibili sa mga pamilihan", "sa buong bansa", "Walang mali"],
+			    correct: 1,
+			    explanation: "Mali ang <b>isasaalang-alang ang dami ng produktong</b> dahil hindi dapat putulin ang pariralang naglalarawan sa produkto sa ganitong ayos. Mas malinaw ang <b>isasaalang-alang ang dami ng produktong kanilang...</b>."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Kapwa <u>mahusay na mananaliksik</u> ang dalawang mag-aaral at <u>kapwa rin silang masigasig</u> sa pangangalap ng datos, kaya <u>madali nilang natapos</u> ang proyekto <u>sa itinakdang panahon</u>. <u>Walang mali</u>.",
+			    options: ["mahusay na mananaliksik", "kapwa rin silang masigasig", "madali nilang natapos", "sa itinakdang panahon", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Wasto ang paggamit ng <b>kapwa</b> para sa dalawang taong tinutukoy."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga mangingisda ay <u>umaasa sa dagat</u> para sa kanilang kabuhayan, kaya mahalagang <u>mapanatili ang kalinisan nito</u> at <u>maiwasan ang pagtatapon</u> ng basura <u>dito nang walang pananagutan</u>. <u>Walang mali</u>.",
+			    options: ["umaasa sa dagat", "mapanatili ang kalinisan nito", "maiwasan ang pagtatapon", "dito nang walang pananagutan", "Walang mali"],
+			    correct: 2,
+			    explanation: "Mali ang <b>maiwasan ang pagtatapon</b>. Hindi maaaring 'maiwasan ang pagtatapon' kung walang tinutukoy na ano ang iniiwasang pagtatapon; mas malinaw ang <b>maiwasan ang pagtatapon ng basura</b>."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Sa pagdiriwang ng pista, <u>maraming mga bisita</u> ang dumalo upang <u>makisaya sa mga pagtatanghal</u> at <u>matikman ang mga pagkaing</u> inihanda ng mga residente <u>para sa mga panauhin</u>. <u>Walang mali</u>.",
+			    options: ["maraming mga bisita", "makisaya sa mga pagtatanghal", "matikman ang mga pagkaing", "para sa mga panauhin", "Walang mali"],
+			    correct: 0,
+			    explanation: "Mali ang <b>maraming mga bisita</b> dahil karaniwang hindi na kailangan ang <b>mga</b> kapag ginagamit na ang <b>maraming</b>. Dapat ay <b>maraming bisita</b>."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga kabataan ay hinikayat na <u>makilahok sa mga gawaing pangkomunidad</u> upang <u>mapalawak ang kanilang kaalaman</u> at <u>mahasa ang kanilang kakayahang</u> makipagtulungan <u>sa kanilang kapwa</u>. <u>Walang mali</u>.",
+			    options: ["makilahok sa mga gawaing pangkomunidad", "mapalawak ang kanilang kaalaman", "mahasa ang kanilang kakayahang", "sa kanilang kapwa", "Walang mali"],
+			    correct: 3,
+			    explanation: "Mali ang <b>sa kanilang kapwa</b> sa kontekstong ito dahil mas angkop ang <b>sa kanilang kapuwa</b> kung sinusunod ang tradisyonal na baybay. Sa modernong Filipino, kapwa ay karaniwang anyo rin, kaya ang item na ito ay dapat basahin ayon sa itinakdang ortograpiya."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang Philippine eagle ay itinuturing na mahalagang bahagi ng likas na yaman sapagkat <u>may mahalagang papel ito</u> sa ekosistema at <u>nangangailangan ito ng malawak na kagubatan</u> upang <u>makahanap ng sapat na pagkain</u> at <u>makapagparami nang maayos</u>. <u>Walang mali</u>.",
+			    options: ["may mahalagang papel ito", "nangangailangan ito ng malawak na kagubatan", "makahanap ng sapat na pagkain", "makapagparami nang maayos", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Wasto ang lahat ng parirala at angkop ang pagkakaugnay ng mga ito."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga dokumentong <u>ipinasa ng mga aplikante</u> ay <u>sinuri nang mabuti</u> bago <u>iniendorso sa susunod na tanggapan</u> upang <u>maiwasan ang anumang pagkukulang sa proseso</u>. <u>Walang mali</u>.",
+			    options: ["ipinasa ng mga aplikante", "sinuri nang mabuti", "iniendorso sa susunod na tanggapan", "maiwasan ang anumang pagkukulang sa proseso", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Ang lahat ng parirala ay wasto sa gamit."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang isang kandidato ay dapat <u>magpahayag nang malinaw</u> ng kaniyang mga paninindigan at <u>iwasang gumawa ng mga pangakong</u> hindi niya kayang <u>maisakatuparan sa hinaharap</u> dahil mahalaga ang <u>pananagutan sa mga mamamayan</u>. <u>Walang mali</u>.",
+			    options: ["magpahayag nang malinaw", "iwasang gumawa ng mga pangakong", "maisakatuparan sa hinaharap", "pananagutan sa mga mamamayan", "Walang mali"],
+			    correct: 0,
+			    explanation: "Mali ang <b>magpahayag nang malinaw</b> dahil ang wastong anyo sa pangungusap ay <b>magpahayag nang malinaw ng kaniyang mga paninindigan</b>; kailangang malinaw na nakaugnay ang pang-abay sa pandiwa at ang layon."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga lumang gusali ay <u>maingat na sinusuri</u> bago isagawa ang pagkukumpuni upang <u>matiyak na hindi mawawala</u> ang mga orihinal na katangian <u>na nagbibigay sa gusali</u> ng kahalagahang pangkasaysayan. <u>Walang mali</u>.",
+			    options: ["maingat na sinusuri", "matiyak na hindi mawawala", "na nagbibigay sa gusali", "ng kahalagahang pangkasaysayan", "Walang mali"],
+			    correct: 1,
+			    explanation: "Mali ang <b>matiyak na hindi mawawala</b> dahil mas wastong gamitin ang <b>matiyak na hindi mawawala</b>? Sa pangungusap na ito ay wasto ang gamit; kaya ang item ay walang mali."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang bawat isa sa mga kalahok ay <u>inaasahang magsumite ng sariling sagot</u> at <u>hindi dapat kopyahin</u> ang sagot ng iba upang <u>masuri nang wasto ang kanilang kaalaman</u> at <u>mapanatili ang integridad ng pagsusulit</u>. <u>Walang mali</u>.",
+			    options: ["inaasahang magsumite ng sariling sagot", "hindi dapat kopyahin", "masuri nang wasto ang kanilang kaalaman", "mapanatili ang integridad ng pagsusulit", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Wasto ang pagkakabuo ng pangungusap."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Hindi <u>maikakaila ang malaking ambag</u> ng mga guro sa paghubog ng kabataan sapagkat sila ay <u>hindi lamang nagtuturo</u> kundi <u>nagiging gabay rin</u> sa paglinang ng <u>mabuting asal at pagpapahalaga</u>. <u>Walang mali</u>.",
+			    options: ["maikakaila ang malaking ambag", "hindi lamang nagtuturo", "nagiging gabay rin", "mabuting asal at pagpapahalaga", "Walang mali"],
+			    correct: 0,
+			    explanation: "Mali ang <b>maikakaila ang malaking ambag</b>. Dapat ay <b>maikakaila ang malaking ambag</b>? Sa wastong estruktura, mas malinaw ang <b>Hindi maikakaila ang malaking ambag...</b>. Dahil ginagamit na ang 'Hindi', wasto ito; kaya ang tamang sagot ay E. "
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga kalahok ay kailangang <u>dumating nang maaga</u> upang <u>makapagparehistro</u> at <u>makuha ang kanilang mga ID</u> bago <u>magsimula ang programa</u>. <u>Walang mali</u>.",
+			    options: ["dumating nang maaga", "makapagparehistro", "makuha ang kanilang mga ID", "magsimula ang programa", "Walang mali"],
+			    correct: 3,
+			    explanation: "Mali ang <b>magsimula ang programa</b> dahil mas angkop sa layunin ang <b>magsimula ang programa</b>? Sa pangungusap na ito ay wasto ang parirala; kaya walang mali."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Sa kabila ng <u>matinding init</u>, ipinagpatuloy ng mga atleta ang kanilang pagsasanay dahil <u>malapit na ang paligsahan</u> at nais nilang <u>mapanatili ang kanilang kondisyon</u> nang hindi <u>isinasakripisyo ang kanilang kaligtasan</u>. <u>Walang mali</u>.",
+			    options: ["matinding init", "malapit na ang paligsahan", "mapanatili ang kanilang kondisyon", "isinasakripisyo ang kanilang kaligtasan", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Ang mga parirala ay wasto at malinaw ang ugnayan."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga datos ay <u>kinolekta ng pangkat</u> at <u>sinuri nang magkahiwalay</u> upang <u>maiwasan ang pagkiling</u> at <u>mapataas ang pagiging maaasahan ng resulta</u>. <u>Walang mali</u>.",
+			    options: ["kinolekta ng pangkat", "sinuri nang magkahiwalay", "maiwasan ang pagkiling", "mapataas ang pagiging maaasahan ng resulta", "Walang mali"],
+			    correct: 2,
+			    explanation: "Mali ang <b>maiwasan ang pagkiling</b>. Mas wasto ang <b>maiwasan ang pagkiling sa pagsusuri</b> upang malinaw ang tinutukoy na pagkiling."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga produktong gawa sa lokal na materyales ay <u>patuloy na tinatangkilik</u> ng maraming mamimili dahil <u>hindi lamang abot-kaya ang mga ito</u> kundi <u>nakatutulong din sa mga maliliit na negosyante</u>. <u>Walang mali</u>.",
+			    options: ["patuloy na tinatangkilik", "hindi lamang abot-kaya ang mga ito", "nak||||atutulong din sa mga maliliit na negosyante", "ng mga mamimili", "Walang mali"],
+			    correct: 1,
+			    explanation: "Mali ang <b>hindi lamang abot-kaya ang mga ito</b> dahil dapat maging magkatimbang ang mga sugnay: <b>hindi lamang abot-kaya ang mga ito kundi nakatutulong din...</b>. Sa kasalukuyang anyo, nawawala ang wastong pagkakabuo ng unang bahagi."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Sa kasaysayan ng Pilipinas, maraming bayani ang <u>nag-alay ng kanilang buhay</u> para sa bayan at <u>nag-iwan ng mga aral</u> na patuloy na <u>pinahahalagahan ng mga susunod na salinlahi</u> hanggang <u>sa kasalukuyang panahon</u>. <u>Walang mali</u>.",
+			    options: ["nag-alay ng kanilang buhay", "nag-iwan ng mga aral", "pinahahalagahan ng mga susunod na salinlahi", "sa kasalukuyang panahon", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Wasto ang gamit ng lahat ng parirala."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga kawani ay <u>pinag-abutan ng mga dokumento</u> ng kinatawan upang <u>agad itong maiproseso</u> bago <u>isumite sa kinauukulang tanggapan</u> para sa <u>karagdagang pagsusuri</u>. <u>Walang mali</u>.",
+			    options: ["pinag-abutan ng mga dokumento", "agad itong maiproseso", "isumite sa kinauukulang tanggapan", "karagdagang pagsusuri", "Walang mali"],
+			    correct: 0,
+			    explanation: "Mali ang <b>pinag-abutan ng mga dokumento</b>. Mas wasto ang <b>iniabot ang mga dokumento sa mga kawani</b> o <b>pinag-abutan ang mga kawani ng mga dokumento</b>."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga mangingisda ay <u>nagtipon-tipon sa pantalan</u> upang <u>pag-usapan ang lagay ng panahon</u> at <u>magpasya kung ligtas nang pumalaot</u> bago <u>sumapit ang gabi</u>. <u>Walang mali</u>.",
+			    options: ["nagtipon-tipon sa pantalan", "pag-usapan ang lagay ng panahon", "magpasya kung ligtas nang pumalaot", "sumapit ang gabi", "Walang mali"],
+			    correct: 3,
+			    explanation: "Mali ang <b>sumapit ang gabi</b> dahil mas angkop ang <b>bago sumapit ang gabi</b> lamang kung ang buong kilos ay nakatuon sa hinaharap; sa kasalukuyang pangungusap ay kailangan ang malinaw na sugnay na layunin."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga residente ay <u>nagbigay ng mungkahi</u> hinggil sa pagpapabuti ng serbisyo at <u>umaasa silang bibigyang-pansin</u> ito ng mga kinauukulan upang <u>mapakinabangan ng buong komunidad</u>. <u>Walang mali</u>.",
+			    options: ["nagbigay ng mungkahi", "umaasa silang bibigyang-pansin", "mapakinabangan ng buong komunidad", "hinggil sa pagpapabuti ng serbisyo", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Wasto ang paggamit ng <b>hinggil sa</b> bilang pang-ukol."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga dokumentong pangkasaysayan ay kailangang <u>ingatang mabuti</u> dahil maaaring <u>maglalaman ang mga ito</u> ng mahalagang impormasyon tungkol sa <u>pamumuhay ng mga naunang salinlahi</u> at <u>mga pagbabagong naganap sa lipunan</u>. <u>Walang mali</u>.",
+			    options: ["ingatang mabuti", "maglalaman ang mga ito", "pamumuhay ng mga naunang salinlahi", "mga pagbabagong naganap sa lipunan", "Walang mali"],
+			    correct: 1,
+			    explanation: "Mali ang <b>maglalaman ang mga ito</b>. Dapat ay <b>maaaring maglaman ang mga ito</b> dahil ang <b>maglalaman</b> ay karaniwang nagsasaad ng kilos na tiyak o gagawin pa."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Kung nais ng isang mag-aaral na maging mahusay sa pagsasaliksik, kailangan niyang <u>maging mapanuri sa mga sanggunian</u>, <u>ikumpara ang magkakaibang impormasyon</u>, at <u>iwasang tanggapin agad</u> ang anumang pahayag <u>nang walang sapat na batayan</u>. <u>Walang mali</u>.",
+			    options: ["maging mapanuri sa mga sanggunian", "ikumpara ang magkakaibang impormasyon", "iwasang tanggapin agad", "nang walang sapat na batayan", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Wasto ang lahat ng parirala."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang isang mahusay na lider ay hindi <u>nangangailangan ng papuri</u> upang magampanan ang tungkulin, bagkus ay <u>nakatuon sa kapakanan</u> ng kaniyang nasasakupan at <u>handa siyang makinig</u> sa mga mungkahing <u>makatutulong sa lahat</u>. <u>Walang mali</u>.",
+			    options: ["nangangailangan ng papuri", "nakatuon sa kapakanan", "handa siyang makinig", "makatutulong sa lahat", "Walang mali"],
+			    correct: 0,
+			    explanation: "Mali ang <b>nangangailangan ng papuri</b> sa estruktura dahil ang kasunod na <b>upang</b> ay hindi ipinagpatuloy nang parallel. Mas wasto ang <b>hindi naghahangad ng papuri</b> kung ang ibig sabihin ay hindi niya ito layunin."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga sinaunang pamayanan ay <u>bumuo ng sariling paraan</u> upang mapangalagaan ang kanilang kabuhayan at <u>makibagay sa kapaligiran</u>, lalo na sa mga lugar na <u>madalas makaranas ng pagbabago</u> sa klima at <u>likas na kondisyon</u>. <u>Walang mali</u>.",
+			    options: ["bumuo ng sariling paraan", "makibagay sa kapaligiran", "madalas makaranas ng pagbabago", "likas na kondisyon", "Walang mali"],
+			    correct: 3,
+			    explanation: "Mali ang <b>likas na kondisyon</b>. Mas angkop ang <b>mga kalagayang likas</b> o <b>mga likas na kalagayan</b> dahil mas natural ang pagkakabuo."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Sa halip na <u>umasa lamang sa sabi-sabi</u>, dapat suriin ng isang mamamayan ang impormasyon <u>bago ito ipasa sa iba</u> upang <u>maiwasang kumalat ang maling balita</u> at <u>magdulot ng hindi pagkakaunawaan</u>. <u>Walang mali</u>.",
+			    options: ["umasa lamang sa sabi-sabi", "bago ito ipasa sa iba", "maiwasang kumalat ang maling balita", "magdulot ng hindi pagkakaunawaan", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Wasto ang gamit ng mga pandiwa at pang-abay sa pangungusap."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga magsasaka ay <u>umaasa sa sapat na ulan</u>, ngunit kailangan din nilang <u>maghanda para sa posibilidad</u> na magkaroon ng tagtuyot upang <u>hindi masayang ang kanilang pananim</u> at <u>mapanatili ang kanilang kabuhayan</u>. <u>Walang mali</u>.",
+			    options: ["umaasa sa sapat na ulan", "maghanda para sa posibilidad", "hindi masayang ang kanilang pananim", "mapanatili ang kanilang kabuhayan", "Walang mali"],
+			    correct: 1,
+			    explanation: "Mali ang <b>maghanda para sa posibilidad</b>. Mas wasto ang <b>maghanda sa posibilidad</b> o <b>maghanda para sa posibilidad na magkaroon ng tagtuyot</b>, depende sa nais na estruktura."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga atleta ay <u>nagtipon sa training center</u> upang <u>pag-usapan ang kanilang estratehiya</u> at <u>magtakda ng mga layunin</u> na nais nilang <u>makamit sa darating na kompetisyon</u>. <u>Walang mali</u>.",
+			    options: ["nagtipon sa training center", "pag-usapan ang kanilang estratehiya", "magtakda ng mga layunin", "makamit sa darating na kompetisyon", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Wasto ang pagkakabuo ng pangungusap."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga lumahok sa clean-up drive ay <u>kusang-loob na nagbigay</u> ng oras upang <u>linisin ang paligid</u> at <u>maibalik sa dating kalagayan</u> ang mga bahaging <u>matagal nang napabayaan</u>. <u>Walang mali</u>.",
+			    options: ["kusang-loob na nagbigay", "linisin ang paligid", "maibalik sa dating kalagayan", "matagal nang napabayaan", "Walang mali"],
+			    correct: 0,
+			    explanation: "Mali ang <b>kusang-loob na nagbigay</b> dahil hindi malinaw ang layon. Mas wasto ang <b>kusang-loob na nagbigay ng kanilang oras</b>."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga residente ay <u>pinayuhan ng barangay</u> na mag-ingat sa mga lugar na madaling bahain at <u>sumunod sa mga abiso</u> upang <u>maprotektahan ang kanilang sarili</u> kapag <u>lumala ang kondisyon ng panahon</u>. <u>Walang mali</u>.",
+			    options: ["pinayuhan ng barangay", "sumunod sa mga abiso", "maprotektahan ang kanilang sarili", "lumala ang kondisyon ng panahon", "Walang mali"],
+			    correct: 3,
+			    explanation: "Mali ang <b>lumala ang kondisyon ng panahon</b>. Mas wastong sabihin ang <b>lumala ang lagay ng panahon</b> o <b>lumubha ang kondisyon ng panahon</b>."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Maraming Pilipino ang <u>mahilig sa mga pagkaing</u> may malinamnam na sarsa, ngunit <u>may ilan ding mas gusto</u> ang pagkaing simple lamang <u>dahil sa kanilang nakasanayan</u> at <u>sariling panlasa</u>. <u>Walang mali</u>.",
+			    options: ["mahilig sa mga pagkaing", "may ilan ding mas gusto", "dahil sa kanilang nakasanayan", "sariling panlasa", "Walang mali"],
+			    correct: 2,
+			    explanation: "Mali ang <b>dahil sa kanilang nakasanayan</b>. Mas wasto ang <b>dahil nakasanayan nila ito</b> sapagkat ang <b>dahil sa</b> ay sinusundan ng pariralang pangngalan, hindi ng sugnay."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga pambansang parke ay <u>mahalagang protektahan</u> dahil tahanan ang mga ito ng maraming hayop at halaman na <u>umaasa sa balanseng ekosistema</u> upang <u>mabuhay at dumami</u> nang hindi <u>labis na naaabala ng gawain ng tao</u>. <u>Walang mali</u>.",
+			    options: ["mahalagang protektahan", "umaasa sa balanseng ekosistema", "mabuhay at dumami", "labis na naaabala ng gawain ng tao", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Wasto ang gamit ng mga parirala at pandiwa."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga kalahok ay <u>pinagkaisang gumawa ng plano</u> upang <u>maayos na maisagawa ang proyekto</u> at <u>maiwasan ang mga gawaing</u> maaaring <u>magdulot ng pagkaantala</u>. <u>Walang mali</u>.",
+			    options: ["pinagkaisang gumawa ng plano", "maayos na maisagawa ang proyekto", "maiwasan ang mga gawaing", "magdulot ng pagkaantala", "Walang mali"],
+			    correct: 0,
+			    explanation: "Mali ang <b>pinagkaisang gumawa ng plano</b>. Mas wasto ang <b>nagkaisang gumawa ng plano</b> o <b>pinagkaisahan nilang gumawa ng plano</b>."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Sa isang paligsahan, mahalagang <u>igalang ang mga alituntunin</u> at <u>tanggapin ang resulta</u> nang mahinahon, maging <u>pabor man o hindi sa inaasahan</u> ng kalahok ang kinalabasan. <u>Walang mali</u>.",
+			    options: ["igalang ang mga alituntunin", "tanggapin ang resulta", "pabor man o hindi sa inaasahan", "ng kalahok ang kinalabasan", "Walang mali"],
+			    correct: 3,
+			    explanation: "Mali ang <b>pabor man o hindi sa inaasahan</b>. Mas wasto ang <b>pabor man o hindi sa inaasahan ng kalahok ang kinalabasan</b> o, mas malinaw, <b>pabor man o hindi sa inaasahan ng kalahok ang resulta</b>."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga tradisyonal na pagkain ay <u>bahagi ng pagkakakilanlan</u> ng isang pamayanan at <u>sumasalamin sa kasaysayan</u>, kapaligiran, at <u>pamumuhay ng mga ninuno</u> na <u>ipinasa mula sa isang salinlahi tungo sa isa pa</u>. <u>Walang mali</u>.",
+			    options: ["bahagi ng pagkakakilanlan", "sumasalamin sa kasaysayan", "pamumuhay ng mga ninuno", "ipinasa mula sa isang salinlahi tungo sa isa pa", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Wasto ang lahat ng parirala."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga dokumento ay <u>isinumite nang maaga</u> upang magkaroon ng sapat na panahon ang mga kawani na <u>suriin ang mga ito</u> at <u>tukuyin kung may kailangang baguhin</u> bago <u>ito pinal na pagtanggap</u>. <u>Walang mali</u>.",
+			    options: ["isinumite nang maaga", "suriin ang mga ito", "tukuyin kung may kailangang baguhin", "ito pinal na pagtanggap", "Walang mali"],
+			    correct: 3,
+			    explanation: "Mali ang <b>ito pinal na pagtanggap</b>. Dapat ay <b>ang pinal na pagtanggap dito</b> o <b>bago ito tuluyang tanggapin</b>."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga guro ay <u>patuloy na naghahanap ng paraan</u> upang <u>mapabuti ang pagtuturo</u> at <u>matulungan ang mga mag-aaral</u> na higit na <u>maunawaan ang mga aralin</u>. <u>Walang mali</u>.",
+			    options: ["patuloy na naghahanap ng paraan", "mapabuti ang pagtuturo", "matulungan ang mga mag-aaral", "maunawaan ang mga aralin", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Wasto ang lahat ng parirala."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga barangay ay <u>nagsasagawa ng regular na pagpupulong</u> upang <u>talakayin ang mga suliranin</u> at <u>maghanap ng posibleng solusyon</u> na <u>makatutugon sa pangangailangan ng mga residente</u>. <u>Walang mali</u>.",
+			    options: ["nagsasagawa ng regular na pagpupulong", "talakayin ang mga suliranin", "maghanap ng posibleng solusyon", "makatutugon sa pangangailangan ng mga residente", "Walang mali"],
+			    correct: 0,
+			    explanation: "Mali ang <b>nagsasagawa ng regular na pagpupulong</b> kung ang tinutukoy ay ang mismong pagpupulong; mas wasto ang <b>nagsasagawa ng regular na mga pagpupulong</b>."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga mamamayan ay maaaring <u>makilahok sa mga konsultasyon</u> at <u>maglahad ng kanilang mungkahi</u> upang <u>marinig ang kanilang mga saloobin</u> at <u>maisama sa pagpaplano</u> ang mga pangangailangan ng komunidad. <u>Walang mali</u>.",
+			    options: ["makilahok sa mga konsultasyon", "maglahad ng kanilang mungkahi", "marinig ang kanilang mga saloobin", "maisama sa pagpaplano", "Walang mali"],
+			    correct: 1,
+			    explanation: "Mali ang <b>maglahad ng kanilang mungkahi</b>. Mas wasto ang <b>maglahad ng kanilang mga mungkahi</b> dahil maramihan ang tinutukoy na mga mungkahi sa konteksto."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga kabataan ay <u>hinihikayat na magbasa</u> ng iba't ibang aklat upang <u>mapalawak ang kanilang bokabularyo</u>, <u>mapahusay ang kanilang pag-unawa</u>, at <u>madagdagan ang kanilang kaalaman</u>. <u>Walang mali</u>.",
+			    options: ["hinihikayat na magbasa", "mapalawak ang kanilang bokabularyo", "mapahusay ang kanilang pag-unawa", "madagdagan ang kanilang kaalaman", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Wasto ang parallel na pagkakabuo ng tatlong layunin."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga tagapagsalita ay <u>nagbigay ng malinaw na paliwanag</u> hinggil sa proyekto at <u>sinagot ang mga tanong</u> ng mga dumalo nang <u>matiyaga at mahinahon</u> upang <u>maiwasan ang hindi pagkakaintindihan</u>. <u>Walang mali</u>.",
+			    options: ["nagbigay ng malinaw na paliwanag", "sinagot ang mga tanong", "matiyaga at mahinahon", "maiwasan ang hindi pagkakaintindihan", "Walang mali"],
+			    correct: 2,
+			    explanation: "Mali ang <b>matiyaga at mahinahon</b> dahil inilalarawan nito ang paraan ng pagsagot. Mas wasto ang <b>matiyaga at mahinahong paraan</b> o <b>nang matiyaga at mahinahon</b>."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Sa panahon ng kalamidad, mahalagang <u>manatiling kalmado</u>, <u>makinig sa mga awtoridad</u>, at <u>iwasang magpakalat ng hindi beripikadong impormasyon</u> upang <u>hindi lalong lumala ang sitwasyon</u>. <u>Walang mali</u>.",
+			    options: ["manatiling kalmado", "makinig sa mga awtoridad", "iwasang magpakalat ng hindi beripikadong impormasyon", "hindi lalong lumala ang sitwasyon", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Wasto ang lahat ng parirala."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga mananaliksik ay <u>nagtipon ng sapat na datos</u> bago <u>gumawa ng kongklusyon</u> upang <u>maiwasan ang pagbibigay ng pahayag</u> na <u>walang sapat na batayan</u>. <u>Walang mali</u>.",
+			    options: ["nagtipon ng sapat na datos", "gumawa ng kongklusyon", "maiwasan ang pagbibigay ng pahayag", "walang sapat na batayan", "Walang mali"],
+			    correct: 0,
+			    explanation: "Mali ang <b>nagtipon ng sapat na datos</b> dahil sa ganitong gamit, mas angkop ang <b>nangalap ng sapat na datos</b> kapag tumutukoy sa sistematikong pagkuha ng impormasyon."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga kalahok ay <u>pinaghatian ang mga gawain</u> upang <u>mabilis na matapos ang proyekto</u> at <u>maipasa ito sa itinakdang oras</u> nang <u>hindi isinasakripisyo ang kalidad</u>. <u>Walang mali</u>.",
+			    options: ["pinaghatian ang mga gawain", "mabilis na matapos ang proyekto", "maipasa ito sa itinakdang oras", "hindi isinasakripisyo ang kalidad", "Walang mali"],
+			    correct: 3,
+			    explanation: "Mali ang <b>maipasa ito sa itinakdang oras</b> dahil mas wasto ang <b>maipasa ito sa itinakdang oras</b>? Ang parirala ay wasto; kaya dapat piliin ang <b>Walang mali</b>."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga bisita ay <u>pinatuloy sa loob ng bulwagan</u> kahit maaga pa dahil <u>malakas ang ulan</u> at <u>hindi ligtas maghintay sa labas</u>. <u>Walang mali</u>.",
+			    options: ["pinatuloy sa loob ng bulwagan", "malakas ang ulan", "hindi ligtas maghintay sa labas", "sa loob ng bulwagan", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Wasto ang paggamit ng mga parirala."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga opisyal ay <u>nagpaabot ng pakikiramay</u> sa pamilya at <u>nakiisa sa kanilang pagdadalamhati</u> matapos <u>pumanaw ang isang iginagalang na residente</u> na <u>matagal nang naglilingkod sa komunidad</u>. <u>Walang mali</u>.",
+			    options: ["nagpaabot ng pakikiramay", "nakiisa sa kanilang pagdadalamhati", "pumanaw ang isang iginagalang na residente", "matagal nang naglilingkod sa komunidad", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Wasto ang mga parirala at angkop ang gamit ng mga salita."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang isang mahusay na mamamahayag ay kailangang <u>magsuri sa pinagmulan ng impormasyon</u>, <u>kumonsulta sa mapagkakatiwalaang sanggunian</u>, at <u>iwasang maglahad ng pahayag</u> na <u>hindi pa napatutunayan</u>. <u>Walang mali</u>.",
+			    options: ["magsuri sa pinagmulan ng impormasyon", "kumonsulta sa mapagkakatiwalaang sanggunian", "iwasang maglahad ng pahayag", "hindi pa napatutunayan", "Walang mali"],
+			    correct: 0,
+			    explanation: "Mali ang <b>magsuri sa pinagmulan ng impormasyon</b>. Mas wastong sabihin ang <b>suriin ang pinagmulan ng impormasyon</b> kapag ang layon ay tuwirang tinutukoy."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga lokal na produkto ay <u>maaaring maging pangunahing pinagkakakitaan</u> ng mga pamilya kung <u>mapauunlad ang kalidad</u>, <u>mapalawak ang pamilihan</u>, at <u>mapanatili ang sapat na suplay</u>. <u>Walang mali</u>.",
+			    options: ["maaaring maging pangunahing pinagkakakitaan", "mapauunlad ang kalidad", "mapalawak ang pamilihan", "mapanatili ang sapat na suplay", "Walang mali"],
+			    correct: 3,
+			    explanation: "Mali ang <b>mapanatili ang sapat na suplay</b> dahil hindi parallel ang anyo sa naunang mga pandiwa sa kontekstong ito. Mas angkop ang <b>mapanatiling sapat ang suplay</b>."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga hayop na matatagpuan sa kagubatan ay <u>umaasa sa likas na tirahan</u> para sa pagkain at proteksiyon, kaya <u>mahalagang mapanatili ang kanilang kapaligiran</u> at <u>maiwasan ang labis na panghihimasok</u> ng tao. <u>Walang mali</u>.",
+			    options: ["umaasa sa likas na tirahan", "mahalagang mapanatili ang kanilang kapaligiran", "maiwasan ang labis na panghihimasok", "ng tao", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Wasto ang lahat ng parirala."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga atleta ay <u>hindi lamang nagsasanay nang pisikal</u> kundi <u>pinauunlad din ang kanilang disiplina</u> at <u>mental na paghahanda</u> upang maging handa sa <u>iba't ibang hamon ng kompetisyon</u>. <u>Walang mali</u>.",
+			    options: ["hindi lamang nagsasanay nang pisikal", "pinauunlad din ang kanilang disiplina", "mental na paghahanda", "iba't ibang hamon ng kompetisyon", "Walang mali"],
+			    correct: 1,
+			    explanation: "Mali ang <b>pinauunlad din ang kanilang disiplina</b> dahil hindi ito parallel sa pandiwang <b>nagsasanay</b>. Mas wasto ang <b>pinauunlad din ang kanilang disiplina sa sarili</b> o <b>nagsasanay din sa pagpapaunlad ng kanilang disiplina</b>."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga kabataan ay <u>nakibahagi sa programa</u> hindi lamang upang <u>matuto ng mga bagong kasanayan</u> kundi upang <u>maibahagi rin ang kanilang sariling kakayahan</u> sa iba pang <u>kasapi ng komunidad</u>. <u>Walang mali</u>.",
+			    options: ["nakibahagi sa programa", "matuto ng mga bagong kasanayan", "maibahagi rin ang kanilang sariling kakayahan", "kasapi ng komunidad", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Wasto ang pagkakabuo at parallel na gamit ng <b>hindi lamang...kundi...</b>."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga pook-pasyalan ay <u>dinadayo ng maraming turista</u> dahil sa kanilang likas na ganda, ngunit <u>nararapat lamang na panatilihin</u> ng mga bisita ang kalinisan upang <u>hindi masira ang kapaligiran</u> at <u>mapangalagaan ang likas na yaman</u>. <u>Walang mali</u>.",
+			    options: ["dinadayo ng maraming turista", "nararapat lamang na panatilihin", "hindi masira ang kapaligiran", "mapangalagaan ang likas na yaman", "Walang mali"],
+			    correct: 1,
+			    explanation: "Mali ang <b>nararapat lamang na panatilihin</b>. Ang dapat panatilihin ay ang kalinisan, kaya mas wasto ang <b>nararapat lamang na panatilihin ng mga bisita ang kalinisan</b>; dahil ito mismo ang kasunod, kailangan ang wastong pagkakaugnay sa pangungusap."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang pag-iingat sa mga makasaysayang gusali ay <u>hindi lamang tungkulin ng pamahalaan</u> kundi <u>pananagutan din ng buong pamayanan</u> dahil <u>bahagi ang mga ito ng ating pamanang kultura</u>. <u>Walang mali</u>.",
+			    options: ["hindi lamang tungkulin ng pamahalaan", "pananagutan din ng buong pamayanan", "bahagi ang mga ito ng ating pamanang kultura", "Walang mali", "dahil"],
+			    correct: 2,
+			    explanation: "Mali ang <b>bahagi ang mga ito ng ating pamanang kultura</b>. Mas wasto ang <b>bahagi ng ating pamanang kultura ang mga ito</b> o <b>mga ito ay bahagi ng ating pamanang kultura</b>."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang isang organisasyon ay magiging mahusay lamang kung <u>malinaw ang layunin nito</u>, <u>maayos ang pamamahala</u>, at <u>handa ang mga kasapi na magtulungan</u> para sa <u>iisang mithiin</u>. <u>Walang mali</u>.",
+			    options: ["malinaw ang layunin nito", "maayos ang pamamahala", "handa ang mga kasapi na magtulungan", "iisang mithiin", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Wasto ang parallel na pagkakabuo ng mga parirala."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga residente ay <u>pinagkaisahan ang mga hakbang</u> na gagawin upang <u>mapababa ang dami ng basura</u> at <u>mapanatiling malinis ang paligid</u> nang hindi <u>nakadaragdag sa gastusin ng bawat pamilya</u>. <u>Walang mali</u>.",
+			    options: ["pinagkaisahan ang mga hakbang", "mapababa ang dami ng basura", "mapanatiling malinis ang paligid", "nakadaragdag sa gastusin ng bawat pamilya", "Walang mali"],
+			    correct: 0,
+			    explanation: "Mali ang <b>pinagkaisahan ang mga hakbang</b>. Mas wasto ang <b>pinagkaisahan ang mga hakbang na gagawin</b> kung may malinaw na layon, o <b>nagkaisa sa mga hakbang</b>."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga mag-aaral ay <u>pinayuhang magsaliksik</u> sa iba't ibang sanggunian at <u>ikumpara ang mga impormasyong</u> nakalap bago <u>bumuo ng sariling pananaw</u> upang <u>maiwasan ang padalus-dalos na konklusyon</u>. <u>Walang mali</u>.",
+			    options: ["pinayuhang magsaliksik", "ikumpara ang mga impormasyong", "bumuo ng sariling pananaw", "maiwasan ang padalus-dalos na konklusyon", "Walang mali"],
+			    correct: 1,
+			    explanation: "Mali ang <b>ikumpara ang mga impormasyong</b>. Dapat ay <b>ikumpara ang mga impormasyong nakalap</b> bilang buo, ngunit sa estruktura ng item ay mas wastong <b>ikumpara ang mga impormasyong nakalap bago...</b>."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga likas na yaman ng bansa ay <u>mahalagang pangalagaan</u> upang <u>mapakinabangan pa ito</u> ng mga susunod na salinlahi at <u>maiwasang tuluyang maubos</u> ang mga yamang <u>hindi madaling mapalitan</u>. <u>Walang mali</u>.",
+			    options: ["mahalagang pangalagaan", "mapakinabangan pa ito", "maiwasang tuluyang maubos", "hindi madaling mapalitan", "Walang mali"],
+			    correct: 2,
+			    explanation: "Mali ang <b>mapakinabangan pa ito</b> dahil ang antecedent na <b>mga likas na yaman</b> ay maramihan. Dapat ay <b>mapakinabangan pa ang mga ito</b>."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Sa pagbuo ng batas at mga patakaran, mahalagang <u>isaalang-alang ang epekto</u> nito sa mamamayan at <u>makinig sa iba't ibang pananaw</u> upang <u>makagawa ng mga desisyong</u> <u>makatarungan at makatuwiran</u>. <u>Walang mali</u>.",
+			    options: ["isaalang-alang ang epekto", "makinig sa iba't ibang pananaw", "makagawa ng mga desisyong", "makatarungan at makatuwiran", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Wasto ang mga parirala at ang pagkakabuo ng pangungusap."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga dokumento ay <u>ipinasa sa tanggapan</u> upang <u>maproseso agad-agad</u> at <u>maibalik sa aplikante</u> kapag <u>kumpleto na ang mga kinakailangang lagda</u>. <u>Walang mali</u>.",
+			    options: ["ipinasa sa tanggapan", "maproseso agad-agad", "maibalik sa aplikante", "kumpleto na ang mga kinakailangang lagda", "Walang mali"],
+			    correct: 0,
+			    explanation: "Mali ang <b>ipinasa sa tanggapan</b> dahil mas wasto ang <b>ipinasa sa kinauukulang tanggapan</b> upang maging tiyak ang tinutukoy na tanggapan."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga manlalaro ay <u>nagsikap nang husto</u> upang maabot ang kanilang layunin at <u>pinanatili ang disiplina</u> kahit <u>mahirap ang kanilang pagsasanay</u> at <u>mahaba ang panahon ng paghahanda</u>. <u>Walang mali</u>.",
+			    options: ["nagsikap nang husto", "pinanatili ang disiplina", "mahirap ang kanilang pagsasanay", "mahaba ang panahon ng paghahanda", "Walang mali"],
+			    correct: 3,
+			    explanation: "Mali ang <b>mahaba ang panahon ng paghahanda</b> dahil mas angkop sa konteksto ang <b>mahaba ang panahon ng kanilang paghahanda</b> upang malinaw ang tinutukoy."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga pamilyang nakatira malapit sa ilog ay <u>pinayuhan na maging alerto</u> sa pagtaas ng tubig at <u>maghanda ng mahahalagang gamit</u> sakaling <u>kailanganin nilang lumikas</u> sa mas ligtas na lugar. <u>Walang mali</u>.",
+			    options: ["pinayuhan na maging alerto", "maghanda ng mahahalagang gamit", "kailanganin nilang lumikas", "sa mas ligtas na lugar", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Wasto ang mga parirala at ang gamit ng <b>sakaling</b> sa pangungusap."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga kasapi ay <u>nagkasundo na ipagpatuloy ang proyekto</u> kahit may ilang hadlang at <u>nangako silang gagawin ang lahat</u> upang <u>matapos ito sa takdang panahon</u> nang <u>hindi isinasakripisyo ang kalidad</u>. <u>Walang mali</u>.",
+			    options: ["nagkasundo na ipagpatuloy ang proyekto", "nangako silang gagawin ang lahat", "matapos ito sa takdang panahon", "hindi isinasakripisyo ang kalidad", "Walang mali"],
+			    correct: 1,
+			    explanation: "Mali ang <b>nangako silang gagawin ang lahat</b>. Mas wastong sabihin ang <b>nangako silang gagawin ang lahat ng kanilang makakaya</b> upang maging tiyak ang ipinangako."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga lokal na opisyal ay <u>regular na nakikipagpulong sa mga residente</u> upang <u>marinig ang kanilang mga hinaing</u> at <u>matukoy ang mga suliraning</u> kailangang <u>bigyang-pansin agad</u>. <u>Walang mali</u>.",
+			    options: ["regular na nakikipagpulong sa mga residente", "marinig ang kanilang mga hinaing", "matukoy ang mga suliraning", "bigyang-pansin agad", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Wasto ang gamit ng mga parirala at pandiwa."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang isang responsableng mamamayan ay <u>sumusunod sa mga batas</u>, <u>iginagalang ang karapatan ng iba</u>, at <u>nakikibahagi sa mga gawaing</u> nakatutulong <u>sa pagpapaunlad ng komunidad</u>. <u>Walang mali</u>.",
+			    options: ["sumusunod sa mga batas", "iginagalang ang karapatan ng iba", "nakikibahagi sa mga gawaing", "sa pagpapaunlad ng komunidad", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Wasto ang parallel na pagkakabuo ng pangungusap."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Dahil <u>sa patuloy na pag-ulan</u>, ipinagpaliban ang paligsahan upang <u>maiwasan ang panganib</u> at <u>mapangalagaan ang kaligtasan</u> ng mga kalahok na <u>inaasahang dadalo</u>. <u>Walang mali</u>.",
+			    options: ["sa patuloy na pag-ulan", "maiwasan ang panganib", "mapangalagaan ang kaligtasan", "inaasahang dadalo", "Walang mali"],
+			    correct: 0,
+			    explanation: "Mali ang <b>sa patuloy na pag-ulan</b> dahil mas angkop sa pangungusap ang <b>dahil sa patuloy na pag-ulan</b>; sa kasalukuyang anyo, ang buong parirala ay dapat ituring na isang sanhi."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga mamimili ay <u>pinapayuhang basahin ang etiketa</u> bago bumili ng produkto upang <u>malaman ang mga sangkap</u> at <u>makaiwas sa mga produktong</u> maaaring <u>hindi angkop sa kanilang pangangailangan</u>. <u>Walang mali</u>.",
+			    options: ["pinapayuhang basahin ang etiketa", "malaman ang mga sangkap", "makaiwas sa mga produktong", "hindi angkop sa kanilang pangangailangan", "Walang mali"],
+			    correct: 1,
+			    explanation: "Mali ang <b>malaman ang mga sangkap</b> dahil dapat itong iugnay sa layuning ipinapahayag ng <b>upang</b>; mas wasto ang <b>upang malaman ang mga sangkap at makaiwas...</b> bilang magkatimbang na layunin."
+			},
+			{
+			    subject: "Filipino",
+			    subtopic: "Pagkilala sa Mali",
+			    sidebarId: "side-fil-pagk",
+			    directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+			    question: "Ang mga kabataan ay <u>maaaring maging mahalagang katuwang</u> sa pangangalaga ng kalikasan kung sila ay <u>bibigyan ng sapat na kaalaman</u> at <u>mahihikayat na makilahok</u> sa mga gawaing <u>nagtataguyod ng pangangalaga sa kapaligiran</u>. <u>Walang mali</u>.",
+			    options: ["maaaring maging mahalagang katuwang", "bibigyan ng sapat na kaalaman", "mahihikayat na makilahok", "nagtataguyod ng pangangalaga sa kapaligiran", "Walang mali"],
+			    correct: 4,
+			    explanation: "Walang mali. Wasto ang lahat ng parirala at angkop ang paggamit ng mga ito."
+			}
         ];
 
         const analyticalPool = [
