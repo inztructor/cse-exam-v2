@@ -7003,6 +7003,16 @@ window.onload = function() {
 		        options: ["Dahil", "Kong", "Kung", "Sapagkat"],
 		        correct: 2,
 		        explanation: "<b>Kung</b> ang pangatnig na ginagamit sa pagpapahayag ng kondisyon o syarat."
+		    },
+			{
+		        subject: "Filipino",
+		        subtopic: "Pagkilala sa Mali",
+		        sidebarId: "side-fil-pagk",
+		        directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+		        question: "<u>Labis na</u> <u>nangangamba</u> ang mga <u>manggagawa</u> <u>ukol sa</u> bagong patakaran ng kompanya. <u>Walang mali</u>.",
+		        options: ["Labis na", "nangangamba", "manggagawa", "ukol sa", "Walang mali"],
+		        correct: 2,
+		        explanation: "May kamalian sa paggamit ng pang-ukol. Ang tamang gamit sa kontekstong ito ay <b>hinggil sa</b> o <b>tungkol sa</b> sa halip na <i>ukol sa</i>."
 		    }
         ];
 
