@@ -7015,7 +7015,17 @@ window.onload = function() {
                 question: "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
                 options: ["(1/3)", "(1/8)", "(1/10)", "(1/16)"],
                 correct: 1
-            }
+            },
+			{
+		        subject: "Filipino",
+		        subtopic: "Pagkilala sa Mali",
+		        sidebarId: "side-fil-pagk",
+		        directions: "Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik E.",
+		        question: "<u>Isinulat</u> ni Dr. Jose Rizal <u>ang nobelang</u> <u>Noli Me Tangere</u> sa <u>Fort Santiago</u>. <u>Walang mali</u>.",
+		        options: ["Isinulat", "ang nobelang", "Noli Me Tangere", "Fort Santiago", "Walang mali"],
+		        correct: 3,
+		        explanation: "Mali ang <b>Fort Santiago</b>. Isinulat at tinapos ni Dr. Jose Rizal ang nobelang Noli Me Tangere sa iba't ibang bansa sa Europa, partikular sa Madrid, Espanya at Berlin, Alemanya."
+		    }
         ];
 
         const generalInfoPool = [
