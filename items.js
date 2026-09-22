@@ -5010,7 +5010,7 @@ window.onload = function() {
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
                 question: "Naluha ang lahat nang basahin ang <i>pahimakas</i> na liham ng pumanaw na sundalo.",
-                options: ["huling kautusan", "huling paalam", "huling mensahe", "huling hiling"],
+                options: ["huling kautusan", "huling paalam", "huling awit", "huling hiling"],
                 correct: 1,
 				explanation: "P<b>ahimakas</b> means <i>huling paalam</i> (last farewell or valedictory address)."
             },
