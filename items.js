@@ -5009,10 +5009,10 @@ window.onload = function() {
                 subtopic: "Kasingkahulugan",
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
-                question: "Siya ay may turing na <i>alimpapaw</i> kaya't marami ang naiinis sa kanyang asal.",
-                options: ["mababa ang loob", "mayabang", "matulungin", "mahiyain"],
+                question: "Naluha ang lahat nang basahin ang <i>pahimakas</i> na liham ng pumanaw na sundalo.",
+                options: ["huling kautusan", "huling paalam", "huling mensahe", "huling hiling"],
                 correct: 1,
-				explanation: "Ang <b>alimpapaw</b> ay nangangahulugang <i>mataas ang lipad o tingin sa sarili</i>."
+				explanation: "P<b>ahimakas</b> means <i>huling paalam</i> (last farewell or valedictory address)."
             },
 			{
                 subject: "Filipino",
@@ -5020,29 +5020,29 @@ window.onload = function() {
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
                 question: "Ang aming lumang bahay ay muling inayos ng isang mahusay na <i>anluwagi</i>.",
-                options: ["guro", "bumbero", "karpintero", "magsasaka"],
+                options: ["taga-disenyo", "inhinyero", "karpintero", "pintor"],
                 correct: 2,
-		explanation: "Ang <b>anluwagi</b> ay ang katutubong salita para sa mga nagpapatayo at nagkukumpuni ng mga estrukturang kahoy."
+		explanation: "Ang <b>anluwagi</b> (o anluwage) ay isang lumang salitang Tagalog na ang ibig sabihin ay <b>karpintero</b>."
             },
 			{
                 subject: "Filipino",
                 subtopic: "Kasingkahulugan",
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
-                question: "Isang magandang <i>binibini</i> ang dumating sa pagtitipon kagabi.",
-                options: ["matandang lalaki", "dalaga", "sanggol", "binata"],
+                question: "<i>Masikhay</i> siyang nagtatrabaho upang matustusan ang pangangailangan ng pamilya.",
+                options: ["Marangal", "Masipag", "Maaga", "Matagal"],
                 correct: 1,
-		explanation: "Ang <b>binibini</b> ay tradisyunal na tawag sa isang babaeng wala pang asawa."
+		explanation: "<b>Masikhay</b> – Ito ay isang pang-uri (adjective) sa Tagalog na nangangahulugang masipag, matiyaga, marubdob, o masigasig."
             },
 			{
                 subject: "Filipino",
                 subtopic: "Kasingkahulugan",
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
-                question: "Nagbigay-pugay ang magiting na <i>ginoo</i> sa mga panauhin.",
-                options: ["lalaki", "magnanakaw", "katulong", "bata"],
+                question: "Ang kanyang mga paratang ay hango lamang sa sarili niyang <i>sapantaha</i> at walang matibay na ebidensya.",
+                options: ["hula", "alam", "sulat", "libro"],
                 correct: 0,
-		explanation: "Ang <i>ginoo</i> ay isang magalang na katawagan na ginagamit para sa isang lalaki."
+		explanation: "Ang <b>sapantaha</b> ay nangangahulugan ng hinala, akala, o hula."
             },
 			{
                 subject: "Filipino",
@@ -5050,7 +5050,7 @@ window.onload = function() {
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
                 question: "Ang <i>katalonan</i> ay nanalangin para sa masaganang ani ng tribo.",
-                options: ["sundalo", "pariwang babae o babaylan", "mangangalakal", "alipin"],
+                options: ["sinaunang sundalo", "sinaunang pari", "sinaunang mangangalakal", "sinaunang pastor"],
                 correct: 1,
 		explanation: "Ang <i>katalonan</i> ay sinaunang katawagan sa pinunong espirituwal, manggagamot, o pari ng tribo sa katagalugan bago dumating ang mga Espanyol."
             },
@@ -5060,7 +5060,7 @@ window.onload = function() {
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
                 question: "Matagal nang naghihintay ang kanyang <i>katipan</i> sa tabing-dagat.",
-                options: ["kaaway", "kasintahan", "kapatid", "guro"],
+                options: ["kaaway", "kasintahan", "kapatid", "kahati"],
                 correct: 1,
 		explanation: "Ang <b>katipan</b> ay tumutukoy sa taong pinangakuang pakasalan o seryosong kabiyak ng puso."
             },
@@ -5070,7 +5070,7 @@ window.onload = function() {
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
                 question: "Si Maria Clara ang itinuturing na <i>lakambini</i> ng kanilang bayan.",
-                options: ["mutya o diwata", "katulong", "pinsan", "manggagamot"],
+                options: ["diwata", "katulong", "pinsan", "manggagamot"],
                 correct: 0,
 		explanation: "Ang <b>lakambini</i> ay ang reyna, pangunahing babae, muse, o natatanging mutya ng isang pangkat."
             },
@@ -5080,7 +5080,7 @@ window.onload = function() {
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
                 question: "Pinamunuan ng isang matapang na <i>lakan</i> ang sinaunang barangay.",
-                options: ["mamamayan", "pinuno or maharlika", "banyaga", "alipin"],
+                options: ["mamamayan", "maharlika", "banyaga", "alipin"],
                 correct: 1,
 		explanation: "Ang <b>lakan</b> ay isang pamagat o titulo na ibinibigay sa mga sinaunang pinuno o dugong-bughaw na lalaki."
             },
@@ -5099,30 +5099,30 @@ window.onload = function() {
                 subtopic: "Kasingkahulugan",
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
-                question: "Ipinangako niya ang walang wakas na pag-ibig sa kanyang <i>sinta</i>.",
-                options: ["kaibigan", "minamahal", "kaaway", "kaklase"],
+                question: "Nakakabingi ang <i>batingaw</i> sa templo.",
+                options: ["tsismosa", "kampana", "kantahan", "ingay"],
                 correct: 1,
-		explanation: "Ang <b>sinta</b> ay isang malambing at lumang katawagan para sa kasintahan o giliw."
+		explanation: "Ang salitang <b>batingaw</b> ay isang katutubong salitang Tagalog na nangangahulugang kampana (bell) o gong."
             },
 			{
                 subject: "Filipino",
                 subtopic: "Kasingkahulugan",
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
-                question: "Nadama niya ang <i>alon-alon</i> sa dibdib habang naghihintay ng resulta.",
-                options: ["kaligayahan", "kaba o balisa", "katapangan", "antok"],
-                correct: 1,
-		explanation: "Ang <b>alon-alon</i> ay talinghaga na naglalarawan sa pabago-bago at mabilis na pintig ng dibdib dahil sa labis na pag-aalala."
-            },
-			{
-                subject: "Filipino",
-                subtopic: "Kasingkahulugan",
-                sidebarId: "side-fil-kasin",
-                directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
-                question: "Tila nakita ko ang iyong mukha sa aking <i>balintataw</i>.",
-                options: ["guniguni o paningin", "panaginip", "salamin", "pangarap"],
+                question: "Naramdaman niya ang <i>panibugho</i> nang makitang may kasamang iba ang kanyang kasintahan.",
+                options: ["selos", "takot", "tuwa", "gulat"],
                 correct: 0,
-		explanation: "Ang <b>balintataw</b> ay pisikal na tumutukoy sa pupil ng mata, ngunit sa panitikan ay ginagamit ito para sa imahinasyon o sa <i>isip</i>."
+		explanation: "Ang <b>panibugho</b> ay nagpapakita ng katangian ng pagseselos o matinding pag-aalala na maagaw ang isang bagay o taong mahalaga sa iyo."
+            },
+			{
+                subject: "Filipino",
+                subtopic: "Kasingkahulugan",
+                sidebarId: "side-fil-kasin",
+                directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
+                question: "Sa paningin ng makata, si Ana ang kanyang <i>paraluman</i> na nagbibigay ng inspirasyon sa kanyang mga tula.",
+                options: ["mutya", "lola", "kapatid", "ina"],
+                correct: 0,
+		explanation: "Ang <b>paraluman</b> ay isang matalinghaga at lumang salitang Tagalog na nangangahulugang mutya, diwata, musa, o isang babaeng napakaganda at pinapangarap o pinipintuho."
             },
 			{
                 subject: "Filipino",
@@ -5130,7 +5130,7 @@ window.onload = function() {
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
                 question: "May nakita siyang kaunting <i>banaag</i> ng pag-asa sa kabila ng hirap.",
-                options: ["dilim", "aninag o sinag", "ulap", "tunog"],
+                options: ["dilim", "sinag", "ulap", "tunog"],
                 correct: 1,
 		explanation: "Ang <b>banaag</b> ay bahagyang liwanag, sinag, o kaunting bakas na nagbibigay ng pahiwatig."
             },
@@ -5160,7 +5160,7 @@ window.onload = function() {
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
                 question: "Ang kanyang <i>hinuha</i> ay napatunayang tama pagkatapos ng imbestigasyon.",
-                options: ["konklusyon o palagay", "tanong", "laro", "tula"],
+                options: ["palagay", "sagot", "habilin", "mensahe"],
                 correct: 0,
 		explanation: "Ang <b>hinuha</b> ay isang matalinong hula o palagay batay sa mga nakakalap na ebidensya o senyales."
             },
@@ -5180,7 +5180,7 @@ window.onload = function() {
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
                 question: "Isang <i>marilag</i> na tanawin ang sumalubong sa amin sa tuktok ng bundok.",
-                options: ["pangit", "maganda", "madilim", "maingay"],
+                options: ["malawak", "maganda", "madilim", "matahimik"],
                 correct: 1,
 		explanation: "Ang <b>marilag</b> ay ginagamit upang ilarawan ang isang tao o bagay na may angking labis na kagandahan o kaningningan."
             },
@@ -5190,7 +5190,7 @@ window.onload = function() {
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
                 question: "Puno ng <i>pighati</i> ang puso ng ina sa pagkawala ng kanyang anak.",
-                options: ["kagalakan", "dalamhati o dusa", "galit", "pag-asa"],
+                options: ["pagka-dismaya", "dusa", "galit", "pag-asa"],
                 correct: 1,
 		explanation: "Ang <b>pighati</b> ay matinding sakit ng kalooban, pagdurusa, o mabigat na pampunong emosyon dahil sa trahedya."
             },
@@ -5200,7 +5200,7 @@ window.onload = function() {
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
                 question: "Bago pa mangyari ang sakuna, may <i>salagimsim</i> na siyang nararamdaman.",
-                options: ["masamang kutob", "magandang balita", "panaginip", "lagnat"],
+                options: ["masamang kutob", "hangin", "solusyon", "lagnat"],
                 correct: 0,
 		explanation: "Ang <b>salagimsim</b> ay isang uri ng kutob kung saan nararamdaman ng isang tao na may mangyayaring hindi maganda."
             },
@@ -5210,7 +5210,7 @@ window.onload = function() {
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
                 question: "Ang labis na <i>siphayo</i> ay nagdulot sa kanya ng kawalan ng pag-asa.",
-                options: ["kabiguan o pagkadusta", "tagumpay", "yaman", "dunong"],
+                options: ["pagkadusta", "galit", "sakit", "tulong"],
                 correct: 0,
 		explanation: "Ang <b>siphayo</b> ay ang estado ng pagiging api, bigo, o matinding nadaya sa mga pangarap sa buhay."
             },
@@ -5259,10 +5259,10 @@ window.onload = function() {
                 subtopic: "Kasingkahulugan",
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
-                question: "Isang matalim na <i>dagiti</i> ang gumuhit sa madilim na langit.",
-                options: ["kidlat o baha ng liwanag", "ulan", "hangin", "kulog"],
+                question: "Ang mga <i>paham</i> sa kasaysayan ay nagtipon-tipon upang talakayin ang pinagmulan ng ating lahi.",
+                options: ["eksperto", "grupo", "samahan", "bayani"],
                 correct: 0,
-		explanation: "Ang <b>dagiti</b> ay tumutukoy sa biglang talsik, talim, o matinding guhit ng liwanag tulad ng kidlat."
+		explanation: "Ang <b>paham</b> ay isang malalim o matandang salitang Tagalog na nangangahulugang taong may mataas na karunungan, matalino, o dalubhasa (pantas o scholar/wise man sa Ingles)."
             },
 			{
                 subject: "Filipino",
@@ -5270,7 +5270,7 @@ window.onload = function() {
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
                 question: "Narinig ng buong bayan ang malakas na <i>dagundong</i> ng bulkan.",
-                options: ["bulong", "humihiyaw na tunog o ugong", "iyak", "awit"],
+                options: ["bulong", "ugong", "iyak", "awit"],
                 correct: 1,
 		explanation: "Ang <b>dagundong</b> ay malalim, mababa, ngunit nakatutulig na ugong na nagmumula sa malayo o sa ilalim ng lupa."
             },
@@ -5289,8 +5289,8 @@ window.onload = function() {
                 subtopic: "Kasingkahulugan",
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
-                question: "Nagliwanag ang paligid dahil sa ganda ng <i>kabuwanan</i>.",
-                options: ["kabilugan ng buwan", "sikat ng araw", "bituin", "ambon"],
+                question: "Si Juan ang aking matapat na <i>katoto</i>.",
+                options: ["kaibigan", "kasintahan", "kapitbahay", "kalaro"],
                 correct: 0,
 		explanation: "Ang <b>kabuwanan</b> ay ginagamit upang ilarawan ang gabi kung kailan buo, bilog, at maliwanag ang mukha ng buwan."
             },
@@ -5299,10 +5299,10 @@ window.onload = function() {
                 subtopic: "Kasingkahulugan",
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
-                question: "Ang pagsikat ng <i>sikatuna</i> ang hudyat ng bagong umaga.",
-                options: ["madaling-araw o pagsikat ng araw", "gabi", "ulan", "bagyo"],
-                correct: 0,
-		explanation: "Ang <b>sikatuna</b> ay tumutukoy sa unang sikat ng araw o ang liwanag ng bukang-liwayway."
+                question: "Ang kanyang pagmamahal sa pamilya ay <i>matimyas</i> at walang kapantay.",
+                options: ["huwad", "wagas", "pansamantala", "mabagal"],
+                correct: 1,
+		explanation: "Ang <b>matimyas</b> ay nagpapakita ng katangian ng pagiging tapat, dalisay, at wagas, na kadalasang ginagamit sa paglalarawan ng malalim na damdamin o pag-ibig."
             },
 			{
                 subject: "Filipino",
@@ -5310,7 +5310,7 @@ window.onload = function() {
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
                 question: "Hindi niya napigilan ang <i>silakbo</i> ng kanyang damdamin.",
-                options: ["biglang buhos o pagsabog", "pananahimik", "pagtulog", "paglimot"],
+                options: ["pagsabog", "galit", "pagtulog", "paglimot"],
                 correct: 0,
 		explanation: "Ang <b>silakbo</b> ay ang pabigla-bigla at matinding pagbuhos ng emosyon, galit, o lakas ng kalikasan."
             },
@@ -5320,7 +5320,7 @@ window.onload = function() {
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
                 question: "Ang lumilipad na <i>alipato</i> mula sa siga ay delikado sa mga tuyong dahon.",
-                options: ["talsik ng apoy", "abo", "usok", "uling"],
+                options: ["talsik ng apoy", "talsik ng abo", "usok", "uling"],
                 correct: 0,
 		explanation: "Ang <b>alipato</b> ay ang maliliit at nagniningas na baga o talsik ng apoy na lumilipad mula sa isang malaking sunog."
             },
@@ -5329,10 +5329,10 @@ window.onload = function() {
                 subtopic: "Kasingkahulugan",
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
-                question: "Gumamit siya ng gamot para mawala ang <i>alipunga</i> sa kanyang paa.",
-                options: ["sugat", "hadhad o alipunga (fungal infection)", "pigsa", "pasa"],
+                question: "Bumili si Maria ng limang <i>salumpuwit</i> para sa mga bisita.",
+                options: ["damit na panloob", "upuan", "kutson", "salawal"],
                 correct: 1,
-		explanation: "Ang <b>alipunga</b> ay isang uri ng makating sakit sa balat, partikular sa pagitan ng mga daliri sa paa, na sanhi ng mikrobyo o fungi (athlete's foot)."
+		explanation: "Ang <b>salumpuwit</b> ay nangangahulugang upuan o silya."
             },
 			{
                 subject: "Filipino",
@@ -5349,10 +5349,10 @@ window.onload = function() {
                 subtopic: "Kasingkahulugan",
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
-                question: "Naghugas ng mga kamay ang lola sa lumang <i>batalan</i>.",
-                options: ["kusina", "paminggalan o balkonahe sa likod ng bahay", "sala", "silid"],
+                question: "Nagtungo ang lola sa lumang <i>batalan</i>.",
+                options: ["kusina", "likod-bahay", "sala", "silid"],
                 correct: 1,
-		explanation: "Ang <b>batalan</b> ay ang bahagi ng lumang bahay-kubo na matatagpuan sa likod, kadalasang walang bubong, at nagsisilbing ligawan o hugasan."
+		explanation: "Ang <b>batalan</b> ay ang bahagi ng lumang bahay-kubo na matatagpuan sa likod, kadalasang walang bubong, at nagsisilbing hugasan."
             },
 			{
                 subject: "Filipino",
@@ -5360,7 +5360,7 @@ window.onload = function() {
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
                 question: "Nakatira ang matanda sa isang simpleng <i>dampa</i> sa gitna ng bukid.",
-                options: ["mansiyon", "kubo", "gusali", "apartment"],
+                options: ["maliit na bahay", "kubo", "gusali", "apartment"],
                 correct: 1,
 		explanation: "Ang <b>dampa</b> ay tumutukoy sa isang maliit, payak, at mababang uri ng bahay o kubo."
             },
@@ -5369,8 +5369,8 @@ window.onload = function() {
                 subtopic: "Kasingkahulugan",
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
-                question: "Sumunod ka sa index ko at lumingon sa <i>durungawan</i>.",
-                options: ["pintuan", "bintana", "bubong", "sahig"],
+                question: "Dahan-dahang binuksan ni Maria ang <i>durungawan</i> upang damhin ang malamig na simoy ng hangin.",
+                options: ["pintuan", "bintana", "takip", "kurtina"],
                 correct: 1,
 		explanation: "Ang <b>durungawan</b> ay nagmula sa salitang <i>dungaw</i> at nangangahulugang bintana."
             },
@@ -5379,10 +5379,10 @@ window.onload = function() {
                 subtopic: "Kasingkahulugan",
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
-                question: "Huwag mong <i>ipuring</i> ang maruming kamay mo sa malinis na pader.",
-                options: ["iwanan", "meron o pahiran ng uling", "linisin", "pinturahan"],
-                correct: 1,
-		explanation: "Ang <b>ipuring</b> ay ang kilos ng pagpápahid o pagpapadungis gamit ang uling, agiw, o ulong."
+                question: "Huwag kang tularan ng iba dahil sa iyong pagiging <i>mapag-imbot</i> sa kapwa.",
+                options: ["makasarili", "mapagbigay", "matulungin", "maunawain"],
+                correct: 0,
+		explanation: "Ang <b>mapag-imbot</b> ay nagpapakita ng katangian ng isang taong makasarili, masiba, o laging naghahangad na makuha ang pag-aari ng iba nang walang pakialam sa nararamdaman nila."
             },
 			{
                 subject: "Filipino",
@@ -5390,7 +5390,7 @@ window.onload = function() {
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
                 question: "Nagtago ang mga bata sa isang <i>kubli</i> na lugar.",
-                options: ["bukas", "tago o ligtas", "maingay", "mataas"],
+                options: ["simple", "tago", "maingay", "mataas"],
                 correct: 1,
 		explanation: "Ang <b>kubli</b> ay naglalarawan sa isang lugar o bagay na nakatago at protektado sa paningin o panganib."
             },
@@ -5400,7 +5400,7 @@ window.onload = function() {
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
                 question: "Itinabi ni nanay ang mga platong malinis sa loob ng <i>paminggalan</i>.",
-                options: ["kabinet", "higaan", "banyo", "baul"],
+                options: ["kabinet", "kahon", "bag", "baul"],
                 correct: 0,
 		explanation: "Ang <b>paminggalan</b> ay ang tradisyunal na kabinet, estante, o aparador sa kusina kung saan pinatutuyo at itinatago ang mga pinggan at baso."
             },
@@ -5410,7 +5410,7 @@ window.onload = function() {
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
                 question: "Ang mabilis na <i>salipawpaw</i> ay dumaan sa ibabaw ng aming bahay.",
-                options: ["bapor", "eroplano", "tren", "kotse"],
+                options: ["ibon", "eroplano", "helicopter", "aswang"],
                 correct: 1,
 		explanation: "Ang <b>salipawpaw</b> ay isang lumang likhang-salita noong unang panahon na nangangahulugang eroplano."
             },
@@ -5430,7 +5430,7 @@ window.onload = function() {
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
                 question: "May nakasukbit na matalim na <i>balaraw</i> sa kanyang baywang.",
-                options: ["baril", "kutsilyo", "pana", "espada"],
+                options: ["gulok", "kutsilyo", "pako", "espada"],
                 correct: 1,
 		explanation: "Ang <b>balaraw</b> ay isang uri ng sinaunang maikling patalim o kutsilyo na may matalas na dulo (dagger)."
             },
@@ -5439,10 +5439,10 @@ window.onload = function() {
                 subtopic: "Kasingkahulugan",
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
-                question: "Itinuturing na isang <i>banyaga</i> ang turistang kapapasok pa lamang sa nayon.",
-                options: ["kamag-anak", "dayuhan", "kaibigan", "pinuno"],
+                question: "<i>Salat</i> sa pangunahing pangangailangan ang ilang pamilya sa lugar.",
+                options: ["Sagana", "Kapos", "Masagana", "Mayaman"],
                 correct: 1,
-		explanation: "Ang <b>banyaga</i> ay isang tao o kulturang nagmula sa ibang lupain o bansa."
+		explanation: "<b>Salát</b> (pang-uri - kulang o mahirap), ito ay naglalarawan sa kalagayan ng pagiging kapos, kulang, o may kakulangan sa mga pangangailangan sa buhay tulad ng pera, pagkain, o yaman."
             },
 			{
                 subject: "Filipino",
@@ -5459,10 +5459,10 @@ window.onload = function() {
                 subtopic: "Kasingkahulugan",
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
-                question: "Ang matinding <i>panibugho</i> ay sumira sa kanilang relasyon.",
-                options: ["pagseselos", "pagtitiwala", "paggalang", "kagalakan"],
+                question: "Maagang pumunta si Aling Rosa sa talipapa upang bumili ng sariwang isda at gulay.",
+                options: ["maliit na palengke", "tiangge", "groseri", "bagsakan"],
                 correct: 0,
-		explanation: "Ang <b>panibugho</b> ay ang malalim at masakit na damdamin ng pagseselos sa mahal sa buhay."
+		explanation: "Ang <i>talipapa</i> ay isang maliit na palengke sa komunidad o kapitbahayan na karaniwang nagtitinda ng mga sariwang pagkain tulad ng isda, karne, gulay, at prutas."
             },
 			{
                 subject: "Filipino",
@@ -5479,10 +5479,10 @@ window.onload = function() {
                 subtopic: "Kasingkahulugan",
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
-                question: "Ang kanyang <i>sikhay</i> sa pag-aaral ang nagdala sa kanya sa tagumpay.",
-                options: ["katamaran", "sigasig", "swerte", "yaman"],
+                question: "Huwag mong tularan ang kanyang asal dahil siya ay isang <i>tampalasan</i>.",
+                options: ["magagalitin", "bastos", "mainipin", "antukin"],
                 correct: 1,
-		explanation: "Ang <b>sikhay</b> ay tumutukoy sa puspusang paggugol ng lakas, tiyaga, at masigasig na pagsisikap sa isang layunin."
+		explanation: "Ang salitang <b>tampalasan</b> ay isang malalim na salitang Tagalog na nangangahulugang bastos, walang-galang, kontrabida, o masamang tao na gumagawa ng kapinsalaan sa kapwa."
             },
 			{
                 subject: "Filipino",
@@ -5490,7 +5490,7 @@ window.onload = function() {
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
                 question: "Huwag kang magtitiwala sa isang taong <i>sukab</i>.",
-                options: ["tapat", "taksil", "mabait", "matulungin"],
+                options: ["tahimik", "taksil", "tsismosa", "mayabang"],
                 correct: 1,
 		explanation: "Ang <b>sukab</b> ay naglalarawan sa isang taong mapanlinlang, taksil, at hindi marunong tumanaw ng katapatan."
             },
