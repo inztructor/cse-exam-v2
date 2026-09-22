@@ -5220,7 +5220,7 @@ window.onload = function() {
                 sidebarId: "side-fil-kasin",
                 directions: "Piliin ang salitang kasingkahulugan ng salitang nakapahilig.",
                 question: "Tumingala siya sa malawak na <i>alapaap</i> upang magdasal.",
-                options: ["lupa", "dagat", "himpapawid o ulap", "gubat"],
+                options: ["simbahan", "templo", "himpapawid", "kawalan"],
                 correct: 2,
 		explanation: "Ang <b>alapaap</b> ay tumutukoy sa malawak na kalangitan o kumpol ng mga ulap sa himpapawid."
             },
